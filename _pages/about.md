@@ -19,7 +19,7 @@ redirect_from:
 Hi, I'm Kehan Guo, a Ph.D student in Computer Science and Engineering at the <a href="https://www.nd.edu/">University of Notre Dame</a>, supervised by <a href="https://sites.nd.edu/xiangliang-zhang/">Professor Xiangliang Zhang</a>. I am also glad to be a member of the <a href="https://ccas.nd.edu/">NSF Center for Computer Assisted Synthesis (C-CAS)</a>, where we collaborate with chemists and data scientists to develop data-driven approaches that make synthetic chemistry more predictable and efficient. 
 Previously, I completed my Master's at <a href="https://www.bu.edu/">Boston University</a>, where I worked with <a href="https://www.bu.edu/eng/profile/lei-tian/">Professor Lei Tian</a>.
 
-<blockquote>
+<blockquote style="font-size: 18px; line-height: 1.6;">
     I am seeking potential research collaborations and the position of industry research intern. If you are interested, please <a href="mailto:kguo2@nd.edu">contact me</a>.
 </blockquote>
 
@@ -27,8 +27,8 @@ Previously, I completed my Master's at <a href="https://www.bu.edu/">Boston Univ
 
 &#128214; Research
 ------
-<p>My research is centered on three pivotal topics:</p>
-<ul>
+<p style="font-size: 18px; line-height: 1.6;">My research is centered on three pivotal topics:</p>
+<ul style="font-size: 18px; line-height: 1.6;">
     <li>
         <strong>Enhancing Reasoning of Generative Models:</strong> Developing robust frameworks to evaluate and improve the reasoning and planning ability of foundational generative models within specific application domains.
     </li>
