@@ -16,13 +16,18 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <span class='anchor' id='about-me' style="font-size: 18px;">
+Hi, I'm Kehan Guo, a Ph.D student in Computer Science and Engineering at the  
+<a href="https://www.nd.edu/">University of Notre Dame</a>, supervised by <a href="https://sites.nd.edu/xiangliang-zhang/">Professor Xiangliang Zhang</a>. 
+I am also glad to be a member of the <a href="https://ccas.nd.edu/">NSF Center for Computer Assisted Synthesis (C-CAS)</a>, 
+where we collaborate with chemists and data scientists to develop data-driven approaches that make synthetic chemistry more predictable and efficient. 
+Previously, I completed my Master's at <a href="https://www.bu.edu/">Boston University</a>, where I worked with 
+<a href="https://www.bu.edu/eng/profile/lei-tian/">Professor Lei Tian</a>.
 
-Hi, I'm Kehan Guo, a Ph.D student in Computer Science and Engineering at the  [University of Notre Dame](https://www.nd.edu/), supervisesd by [Professor.Xiangliang Zhang](https://sites.nd.edu/xiangliang-zhang/). I am also glad to be a member of [NSF Center for Computer Assisted Synthesis (C-CAS)](https://ccas.nd.edu/), where we collaborate with chemists and data scientists to develop data-driven approaches that make synthetic chemistry more predictable and efficient.
-Prevously, I was a doing my Master at [Boston University](https://www.bu.edu/), where I worked with [Professor.Lei Tian](https://www.bu.edu/eng/profile/lei-tian/).
-
-> I am seeking potential research collaborations and the position of industry research intern. If you are interested, please [contact me](mailto:kguo2@nd.edu). 
-
+<blockquote>
+    I am seeking potential research collaborations and the position of industry research intern. If you are interested, please <a href="mailto:kguo2@nd.edu">contact me</a>.
+</blockquote>
 </span>
+
 
 &#128214; Research
 ------
