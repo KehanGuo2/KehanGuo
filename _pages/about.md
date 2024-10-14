@@ -85,9 +85,10 @@ See more publications in my [Google Scholar](https://scholar.google.com/citation
 </div>
 </div>
 
-- [EMNLP 2024](https://img.shields.io/badge/EMNLP-2024-e87213) [Defending Jailbreak Prompts via In-Context Adversarial Game](https://arxiv.org/abs/2402.13148), Yujun Zhou, Yufei Han, Haomin Zhuang, Taicheng Guo, **Kehan Guo**, Zhenwen Liang, Hongyan Bao, and Xiangliang Zhang **EMNLP 2024**
+- ![EMNLP 2024](https://img.shields.io/badge/EMNLP-2024-e87213) [Defending Jailbreak Prompts via In-Context Adversarial Game](https://arxiv.org/abs/2402.13148), Yujun Zhou, Yufei Han, Haomin Zhuang, Taicheng Guo, **Kehan Guo**, Zhenwen Liang, Hongyan Bao, and Xiangliang Zhang **EMNLP 2024**
 
-- [ACL 2024](https://img.shields.io/badge/ACL-2024-e87213) [SceMQA: A Scientific College Entrance Level Multimodal Question Answering Benchmark]! (https://scemqa.github.io/), Zhenwen Liang, **Kehan Guo**, Gang Liu, Taicheng Guo, Yujun Zhou, Tianyu Yang, Jiajun Jiao, Renjie Pi,Jipeng Zhang, Xiangliang Zhang 
+- ![ACL 2024](https://img.shields.io/badge/ACL-2024-e87213) [SceMQA: A Scientific College Entrance Level Multimodal Question Answering Benchmark](https://scemqa.github.io/), Zhenwen Liang, **Kehan Guo**, Gang Liu, Taicheng Guo, Yujun Zhou, Tianyu Yang, Jiajun Jiao, Renjie Pi,Jipeng Zhang, Xiangliang Zhang 
+
 
 
 
