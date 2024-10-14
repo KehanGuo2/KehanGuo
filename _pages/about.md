@@ -73,7 +73,7 @@ See more publications in my [Google Scholar](https://scholar.google.com/citation
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2023</div><img src='images/llmchem.png' alt="sym" width="80%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2023</div><img src='images/llmchem.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 ![NeurIPS 2023](https://img.shields.io/badge/NeurIPS-2023-2023) [What can Large Language Models do in chemistry? A comprehensive benchmark on eight tasks](https://github.com/ChemFoundationModels/ChemLLMBench)
