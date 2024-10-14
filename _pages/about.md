@@ -17,8 +17,8 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi, I'm Kehan Guo, a Ph.D student in Computer Science and Engineering at the  [University of Notre Dame](https://www.nd.edu/), supervisesd by [Professor.Xiangliang Zhang](https://sites.nd.edu/xiangliang-zhang/). I am also glad to be a member of [NSF Center for Computer Assisted Synthesis (C-CAS)](https://ccas.nd.edu/). 
-Prevously, I was a doing my Master [Boston University](https://www.bu.edu/), where I worked with [Professor.Lei Tian](https://www.bu.edu/eng/profile/lei-tian/).
+Hi, I'm Kehan Guo, a Ph.D student in Computer Science and Engineering at the  [University of Notre Dame](https://www.nd.edu/), supervisesd by [Professor.Xiangliang Zhang](https://sites.nd.edu/xiangliang-zhang/). I am also glad to be a member of [NSF Center for Computer Assisted Synthesis (C-CAS)](https://ccas.nd.edu/), where we collaborate with chemists and data scientists to develop data-driven approaches that make synthetic chemistry more predictable and efficient.
+Prevously, I was a doing my Master at [Boston University](https://www.bu.edu/), where I worked with [Professor.Lei Tian](https://www.bu.edu/eng/profile/lei-tian/).
 
 > I am seeking potential research collaborations and the position of industry research intern. If you are interested, please [contact me](mailto:kguo2@nd.edu).
 
