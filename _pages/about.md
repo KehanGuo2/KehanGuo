@@ -85,7 +85,7 @@ See more publications in my [Google Scholar](https://scholar.google.com/citation
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+- [Defending Jailbreak Prompts via In-Context Adversarial Game](https://arxiv.org/abs/2402.13148), Yujun Zhou, Yufei Han, Haomin Zhuang, Taicheng Guo, **Kehan Guo**, Zhenwen Liang, Hongyan Bao, and Xiangliang Zhang **EMNLP 2024**
 
 
 
