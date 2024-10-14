@@ -22,7 +22,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Kehan Guo"
-  avatar           : "images/kean.jpg"
+  avatar           : "images/kehan.png"
   bio              : "University of Notre Dame"
   location         : "South Bend, IN, USA"
   employer         :
@@ -37,7 +37,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "https://github.com/KehanGuo2"
+  github           : "KehanGuo2"
   google_plus      :
   keybase          :
   instagram        :
