@@ -42,13 +42,13 @@ Prevously, I was a doing my Master at [Boston University](https://www.bu.edu/), 
 
 &#128293; News 
 ------
-* 2024.09: &#127881;&#127881;[MolPuzzle](https://github.com/KehanGuo2/MolPuzzle) has been accepted by *NeurIPS 2024 Dataset and Benchmark Track* as a spotlight! 
-* 2024.09: &#127881;&#127881;One paper has been accepted by main conference of EMNLP 2024!
+* 2024.09: &#127881;&#127881; [MolPuzzle](https://github.com/KehanGuo2/MolPuzzle) has been accepted by *NeurIPS 2024 Dataset and Benchmark Track* as a spotlight! 
+* 2024.09: &#127881;&#127881; One paper has been accepted by main conference of EMNLP 2024!
 * 2024.06: &#127881;&#127881; I passed my Ph.D. Qualification exam!
-* 2024.05: &#127881;&#127881;One paper has been accepted by *ACL 2025*
-* 2023.12: &#127881;&#127881;One paper has been accepted by *AAAI 2024*.
-* 2023.09: &#127881;&#127881;One first-author paper  has been accepted by *NeurIPS 2023* 
-* 2023.04: &#127881;&#127881;One paper has been accepted by *IJCAI 2023*
+* 2024.05: &#127881;&#127881; One paper has been accepted by *ACL 2025*
+* 2023.12: &#127881;&#127881; One paper has been accepted by *AAAI 2024*.
+* 2023.09: &#127881;&#127881; One first-author paper  has been accepted by *NeurIPS 2023* 
+* 2023.04: &#127881;&#127881; One paper has been accepted by *IJCAI 2023*
 
 
 &#128206;Selected Publications
