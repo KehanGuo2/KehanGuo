@@ -22,7 +22,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Kehan Guo"
-  avatar           : "images/profile.jpg"
+  avatar           : "images/kean.jpg"
   bio              : "University of Notre Dame"
   location         : "South Bend, IN, USA"
   employer         :
@@ -37,13 +37,13 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "KehanGuo2/KehanGuo2.github.io"
+  github           : "https://github.com/KehanGuo2"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/kehan98/"
+  linkedin         : "kehan98"
   dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
   orcid            : # e.g., "https://orcid.org/xxxx"
   pinterest        :
@@ -51,7 +51,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "HowieH36226"
+  twitter          : "guo_kehan"
   vine             :
   weibo            :
   xing             :
