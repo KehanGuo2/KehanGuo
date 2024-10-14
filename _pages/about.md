@@ -85,9 +85,20 @@ See more publications in my [Google Scholar](https://scholar.google.com/citation
 </div>
 </div>
 
-- ![EMNLP 2024](https://img.shields.io/badge/EMNLP-2024-e87213) [Defending Jailbreak Prompts via In-Context Adversarial Game](https://arxiv.org/abs/2402.13148), Yujun Zhou, Yufei Han, Haomin Zhuang, Taicheng Guo, **Kehan Guo**, Zhenwen Liang, Hongyan Bao, and Xiangliang Zhang **EMNLP 2024**
+- ![EMNLP 2024](https://img.shields.io/badge/EMNLP-2024-%2387CEFA?style=plastic&logoColor=%2387CEFA) [Defending Jailbreak Prompts via In-Context Adversarial Game](https://arxiv.org/abs/2402.13148), Yujun Zhou, Yufei Han, Haomin Zhuang, Taicheng Guo, **Kehan Guo**, Zhenwen Liang, Hongyan Bao, and Xiangliang Zhang 
+- ![ACL 2024](https://img.shields.io/badge/ACL-2024-%23800000?style=plastic&logoColor=%2387CEFA) [SceMQA: A Scientific College Entrance Level Multimodal Question Answering Benchmark](https://scemqa.github.io/), Zhenwen Liang, **Kehan Guo**, Gang Liu, Taicheng Guo, Yujun Zhou, Tianyu Yang, Jiajun Jiao, Renjie Pi,Jipeng Zhang, Xiangliang Zhang 
 
-- ![ACL 2024](https://img.shields.io/badge/ACL-2024-e87213) [SceMQA: A Scientific College Entrance Level Multimodal Question Answering Benchmark](https://scemqa.github.io/), Zhenwen Liang, **Kehan Guo**, Gang Liu, Taicheng Guo, Yujun Zhou, Tianyu Yang, Jiajun Jiao, Renjie Pi,Jipeng Zhang, Xiangliang Zhang 
+- ![AAAI 2024](https://img.shields.io/badge/AAAI-2024-%23FFA07A?style=plastic&logoColor=%23FFA07A) [Uncertainty-aware Yield Prediction with Multi-modal Molecular Features](https://ojs.aaai.org/index.php/AAAI/article/view/28668) Jiayuan Chen, **Kehan Guo**, Zhen Liu, Olexandr Isayev, Xiangliang Zhang
+
+- ![IJCAI 2023](https://img.shields.io/badge/IJCAI-2023-%232F4F4F?style=plastic&logoColor=%2387CEFA
+) [Graph-based Molecular Representation Learning](https://arxiv.org/abs/2207.04869) Zhichun Guo, **Kehan Guo**, Bozhao Nan, Yijun Tian, Roshni G. Iyer, Yihong Ma, Olaf Wiest, Xiangliang Zhang, Wei Wang, Chuxu Zhang, Nitesh V. Chawla
+
+
+
+
+
+
+
 
 
 
