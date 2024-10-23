@@ -85,6 +85,8 @@ See more publications in my [Google Scholar](https://scholar.google.com/citation
 </div>
 </div>
 
+- ![Arxiv Preprint](https://img.shields.io/badge/Arxiv-Preprint-b4d723) [LabSafety Bench: Benchmarking LLMs on Safety Issues in Scientific Labs](https://yujunzhou.github.io/LabSafetyBench.github.io/), Yujun Zhou, Jingdong Yang, **Kehan Guo**, Pin-Yu Chen, Tian Gao, Werner Geyer, Nuno Moniz, Nitesh V Chawla, Xiangliang Zhang
+
 - ![EMNLP 2024](https://img.shields.io/badge/EMNLP-2024-%2387CEFA?style=plastic&logoColor=%2387CEFA) [Defending Jailbreak Prompts via In-Context Adversarial Game](https://arxiv.org/abs/2402.13148), Yujun Zhou, Yufei Han, Haomin Zhuang, Taicheng Guo, **Kehan Guo**, Zhenwen Liang, Hongyan Bao, and Xiangliang Zhang 
 - ![ACL 2024](https://img.shields.io/badge/ACL-2024-%23800000?style=plastic&logoColor=%2387CEFA) [SceMQA: A Scientific College Entrance Level Multimodal Question Answering Benchmark](https://scemqa.github.io/), Zhenwen Liang, **Kehan Guo**, Gang Liu, Taicheng Guo, Yujun Zhou, Tianyu Yang, Jiajun Jiao, Renjie Pi,Jipeng Zhang, Xiangliang Zhang 
 
