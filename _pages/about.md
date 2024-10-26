@@ -55,7 +55,7 @@ Previously, I completed my Master's at <a href="https://www.bu.edu/">Boston Univ
 * 2023.04: &#127881;&#127881; One paper has been accepted by *IJCAI 2023*
 
 
-&#128206;Selected Publications
+&#128206; Selected Publications
 ------
 See more publications in my [Google Scholar](https://scholar.google.com/citations?user=t8iRCLUAAAAJ&hl=en)
 
