@@ -121,7 +121,7 @@ See more publications in my [Google Scholar](https://scholar.google.com/citation
 - *2022.09 - Present*, Ph.D, <img src='images/Notre_Dame.png' style='width: 1.2em;'> [University of Notre Dame](https://www.nd.edu/)  
 - *2020.09 - 2022.05*, M.S,  <img src='images/bu.png' style='width: 1.2em;'> [Boston University](https://www.nd.edu/) 
 
-- *2016.09 - 2020.05*, B.S,  <img src='images/UNI' style='width: 1.2em;'> [Boston University](https://uni.edu/) 
+- *2016.09 - 2020.05*, B.S,  <img src='images/UNI.png' style='width: 1.2em;'> [University of Nothern Iowa](https://uni.edu/) 
 
 <!-- # 💬 Invited Talks
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
