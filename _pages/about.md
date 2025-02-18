@@ -20,8 +20,10 @@ Hi, I'm Kehan Guo, a Ph.D student in Computer Science and Engineering at the <a 
 
 Previously, I completed my Master's at <a href="https://www.bu.edu/">Boston University</a>, where I worked with <a href="https://www.bu.edu/eng/profile/lei-tian/">Professor Lei Tian</a>.
 
+
 <blockquote style="font-size: 16px; line-height: 1.6;">
-    I am seeking potential research collaborations and the position of industry research intern. If you are interested, please <a href="mailto:kguo2@nd.edu">contact me</a>.
+I am always open to connecting with colleagues in my field and across interdisciplinary domains, as I strongly believe in the value of collaboration. If my research interests you, please feel free to reach out via email 
+<a href="mailto:kguo2@nd.edu">kguo2@nd.edu</a>.
 </blockquote>
 
 
@@ -31,10 +33,10 @@ Previously, I completed my Master's at <a href="https://www.bu.edu/">Boston Univ
 <p style="font-size: 16px; line-height: 1.6;">My research is centered on three pivotal topics:</p>
 <ul style="font-size: 16px; line-height: 1.6;">
     <li>
-        <strong>Enhancing Reasoning of Generative Models:</strong> Developing robust frameworks to evaluate and improve the reasoning and planning ability of foundational generative models within specific application domains.
+        <strong>Enhancing Reasoning of Generative Models:</strong> Developing robust frameworks to evaluate and improve the reasoning and planning ability of foundational generative models through LLM agent and reinforcement learning.
     </li>
     <li>
-        <strong>Superior Approaches to Achieving AGI:</strong> Exploring data-centric methods for scalable model alignment and evolution to achieve Artificial General Intelligence that adheres to human values and ethical standards.
+   <strong>Exploring data-centric approaches for scalable model alignment and adaptation</strong> , aiming to push LLMs toward greater robustness, efficiency, and generalization across diverse tasks and domains
     </li>
     <li>
         <strong>Effectiveness in Downstream Applications:</strong> Critically assessing the practical impact of current AI technologies on downstream applications, particularly their transformative potential in fields like AI4Science, agentic models, and social sciences.
@@ -46,6 +48,9 @@ Previously, I completed my Master's at <a href="https://www.bu.edu/">Boston Univ
 
 &#128293; News 
 ------
+* 2025.02: <i class="fa fa-book"></i><i class="fa fa-book"></i>Check out latest preprint: [AI in Spectroscopy](https://arxiv.org/abs/2502.09897),[3H principle](https://arxiv.org/pdf/2502.06059)
+* 2025.02: &#127881;&#127881; I will join Amazon AWS as an Applied Scientist Intern in 2025 Summer. See you in NYC!
+* 2024.12: &#127881;&#127881; Thrilled to receive OpenAI’s Researcher Access Program is Awarded.
 * 2024.09: &#127881;&#127881; [MolPuzzle](https://github.com/KehanGuo2/MolPuzzle) has been accepted by *NeurIPS 2024 Dataset and Benchmark Track* as a spotlight! 
 * 2024.09: &#127881;&#127881; One paper has been accepted by main conference of EMNLP 2024!
 * 2024.06: &#127881;&#127881; I passed my Ph.D. Qualification exam!
