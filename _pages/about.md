@@ -22,8 +22,8 @@ Previously, I completed my Master's at <a href="https://www.bu.edu/">Boston Univ
 
 
 <blockquote style="font-size: 16px; line-height: 1.6;">
-I am always open to connecting with colleagues in my field and across interdisciplinary domains, as I strongly believe in the value of collaboration. If my research interests you, please feel free to reach out via email 
-<a href="mailto:kguo2@nd.edu">kguo2@nd.edu</a>.
+I am always open to connecting with colleagues in my field and across interdisciplinary domains, as I strongly believe in the value of collaboration. If my research interests you, please feel free to reach out via 
+<a href="mailto:kguo2@nd.edu">email</a>.
 </blockquote>
 
 
@@ -48,9 +48,9 @@ I am always open to connecting with colleagues in my field and across interdisci
 
 &#128293; News 
 ------
-* 2025.02: <i class="fa fa-book"></i><i class="fa fa-book"></i>Check out latest preprint: [AI in Spectroscopy](https://arxiv.org/abs/2502.09897),[3H principle](https://arxiv.org/pdf/2502.06059)
+* 2025.02: <i class="fa fa-book"></i><i class="fa fa-book"></i> Check out latest preprint: [AI in Spectroscopy](https://arxiv.org/pdf/2502.09897),[HHH principle](https://arxiv.org/pdf/2502.06059)
 * 2025.02: &#127881;&#127881; I will join Amazon AWS as an Applied Scientist Intern in 2025 Summer. See you in NYC!
-* 2024.12: &#127881;&#127881; Thrilled to receive OpenAI’s Researcher Access Program is Awarded.
+* 2024.12: &#127881;&#127881; Thrilled to be awarded OpenAI’s Researcher Access Program.
 * 2024.09: &#127881;&#127881; [MolPuzzle](https://github.com/KehanGuo2/MolPuzzle) has been accepted by *NeurIPS 2024 Dataset and Benchmark Track* as a spotlight! 
 * 2024.09: &#127881;&#127881; One paper has been accepted by main conference of EMNLP 2024!
 * 2024.06: &#127881;&#127881; I passed my Ph.D. Qualification exam!
