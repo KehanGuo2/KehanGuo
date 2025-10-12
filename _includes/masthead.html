@@ -4,9 +4,9 @@
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item"><a href="/#about" target="_self">About</a></li>
+          <li class="masthead__menu-item"><a href="{{ '/#about' | relative_url }}" target="_self">About</a></li>
           <li class="masthead__menu-item masthead__menu-sep" aria-hidden="true">|</li>
-          <li class="masthead__menu-item"><a href="/publications/" target="_self">Publications</a></li>
+          <li class="masthead__menu-item"><a href="{{ '/publications/' | relative_url }}" target="_self">Publications</a></li>
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>

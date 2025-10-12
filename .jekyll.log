@@ -780,3 +780,18 @@ LiveReload address: http://0.0.0.0:35729
 [2025-10-12 08:49:25] ERROR '/publications/assets/js/main.min.js' not found.
 [2025-10-12 08:49:25] ERROR '/publications/assets/css/academicons.css' not found.
 [2025-10-12 08:49:25] ERROR '/publications/images/site.webmanifest' not found.
+      Regenerating: 1 file(s) changed at 2025-10-12 08:55:27
+                    _includes/head.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 1.587353 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2025-10-12 08:55:37
+                    .jekyll.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 1.465588 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2025-10-12 08:55:48
+                    _includes/masthead.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 1.51841 seconds.
+                    

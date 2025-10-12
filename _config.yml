@@ -8,7 +8,7 @@
 # Site Settings
 title                    : "Kehan Guo's Website"
 description              : ""
-repository               : ""
+repository               : "KehanGuo2/KehanGuo"
 google_scholar_stats_use_cdn : true
 
 # google analytics
@@ -137,6 +137,8 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
+baseurl: "/KehanGuo" # repo-name for project pages
+url: "https://kehanguo2.github.io"
 timezone: Asia/Shanghai # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
