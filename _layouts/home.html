@@ -22,7 +22,7 @@ layout: compress
             <section class="hero" id="about">
               <div class="hero__inner">
                 <div class="hero__avatar hero__avatar--center">
-                  <img src="/{{ site.author.avatar }}" alt="{{ site.author.name }}" onmouseover="this.dataset.src||(this.dataset.src=this.src);this.src='{{ site.author.avatar_hover | default: site.author.avatar }}'" onmouseout="this.src=this.dataset.src">
+                  <img src="{{ site.author.avatar | relative_url }}" alt="{{ site.author.name }}" onmouseover="this.dataset.src||(this.dataset.src=this.src);this.src='{{ site.author.avatar_hover | default: site.author.avatar | relative_url }}'" onmouseout="this.src=this.dataset.src">
                 </div>
                 <div class="hero__text hero__text--center">
                   <p class="hero__bio"><strong>Hi, I'm Kehan Guo.</strong></p>
