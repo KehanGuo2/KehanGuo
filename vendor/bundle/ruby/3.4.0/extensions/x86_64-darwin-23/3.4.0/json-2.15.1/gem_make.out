@@ -1,0 +1,28 @@
+current directory: /Users/kehanguo/PycharmProjects/KehanGuo/vendor/bundle/ruby/3.4.0/gems/json-2.15.1/ext/json/ext/parser
+/usr/local/opt/ruby/bin/ruby extconf.rb
+checking for rb_enc_interned_str() in ruby/encoding.h... yes
+checking for rb_hash_new_capa() in ruby.h... yes
+checking for rb_hash_bulk_insert() in ruby.h... yes
+checking for strnlen() in string.h... yes
+checking for whether -std=c99 is accepted as CFLAGS... no
+checking for x86intrin.h... yes
+checking for cpuid.h... yes
+creating Makefile
+
+current directory: /Users/kehanguo/PycharmProjects/KehanGuo/vendor/bundle/ruby/3.4.0/gems/json-2.15.1/ext/json/ext/parser
+make DESTDIR\= sitearchdir\=./.gem.20251010-40974-kziuvi sitelibdir\=./.gem.20251010-40974-kziuvi clean
+
+current directory: /Users/kehanguo/PycharmProjects/KehanGuo/vendor/bundle/ruby/3.4.0/gems/json-2.15.1/ext/json/ext/parser
+make DESTDIR\= sitearchdir\=./.gem.20251010-40974-kziuvi sitelibdir\=./.gem.20251010-40974-kziuvi
+compiling parser.c
+warning: unknown warning option '-Wno-cast-function-type'; did you mean '-Wno-bad-function-cast'? [-Wunknown-warning-option]
+warning: unknown warning option '-Wmisleading-indentation'; did you mean '-Wbinding-in-condition'? [-Wunknown-warning-option]
+2 warnings generated.
+linking shared-object json/ext/parser.bundle
+
+current directory: /Users/kehanguo/PycharmProjects/KehanGuo/vendor/bundle/ruby/3.4.0/gems/json-2.15.1/ext/json/ext/parser
+make DESTDIR\= sitearchdir\=./.gem.20251010-40974-kziuvi sitelibdir\=./.gem.20251010-40974-kziuvi install
+/usr/bin/install -c -m 0755 parser.bundle ./.gem.20251010-40974-kziuvi/json/ext
+
+current directory: /Users/kehanguo/PycharmProjects/KehanGuo/vendor/bundle/ruby/3.4.0/gems/json-2.15.1/ext/json/ext/parser
+make DESTDIR\= sitearchdir\=./.gem.20251010-40974-kziuvi sitelibdir\=./.gem.20251010-40974-kziuvi clean

@@ -1,0 +1,25 @@
+current directory: /Users/kehanguo/PycharmProjects/KehanGuo/vendor/bundle/ruby/3.1.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+/usr/local/opt/ruby@3.1/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/kehanguo/PycharmProjects/KehanGuo/vendor/bundle/ruby/3.1.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make DESTDIR\= sitearchdir\=./.gem.20251010-46115-os7ew3 sitelibdir\=./.gem.20251010-46115-os7ew3 clean
+
+current directory: /Users/kehanguo/PycharmProjects/KehanGuo/vendor/bundle/ruby/3.1.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make DESTDIR\= sitearchdir\=./.gem.20251010-46115-os7ew3 sitelibdir\=./.gem.20251010-46115-os7ew3
+compiling ruby_http_parser.c
+warning: unknown warning option '-Wmisleading-indentation'; did you mean '-Wbinding-in-condition'? [-Wunknown-warning-option]
+warning: unknown warning option '-Wno-cast-function-type'; did you mean '-Wno-bad-function-cast'? [-Wunknown-warning-option]
+2 warnings generated.
+compiling ryah_http_parser.c
+warning: unknown warning option '-Wmisleading-indentation'; did you mean '-Wbinding-in-condition'? [-Wunknown-warning-option]
+warning: unknown warning option '-Wno-cast-function-type'; did you mean '-Wno-bad-function-cast'? [-Wunknown-warning-option]
+2 warnings generated.
+linking shared-object ruby_http_parser.bundle
+
+current directory: /Users/kehanguo/PycharmProjects/KehanGuo/vendor/bundle/ruby/3.1.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make DESTDIR\= sitearchdir\=./.gem.20251010-46115-os7ew3 sitelibdir\=./.gem.20251010-46115-os7ew3 install
+/usr/bin/install -c -m 0755 ruby_http_parser.bundle ./.gem.20251010-46115-os7ew3
+
+current directory: /Users/kehanguo/PycharmProjects/KehanGuo/vendor/bundle/ruby/3.1.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make DESTDIR\= sitearchdir\=./.gem.20251010-46115-os7ew3 sitelibdir\=./.gem.20251010-46115-os7ew3 clean

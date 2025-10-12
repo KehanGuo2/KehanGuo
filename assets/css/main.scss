@@ -107,3 +107,110 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
+
+/* Home layout enhancements */
+.hero {
+  background: linear-gradient(180deg, #fafafa, #ffffff);
+  border-radius: 12px;
+}
+.hero__inner { max-width: 900px; margin: 0 auto; }
+.hero .btn {
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  padding: .5rem .9rem;
+}
+.hero__text--center { text-align: left; flex: 1 1 100%; }
+.hero__avatar--center { width: 100%; display: flex; justify-content: center; margin-bottom: 1rem; }
+.hero__avatar--center img { max-width: 160px; border-radius: 50%; box-shadow: 0 8px 20px rgba(0,0,0,.08); }
+.hero__links--icons { display: flex; justify-content: flex-start; gap: .8rem; margin-top: .25rem; }
+.hero__contact-label { font-weight: 700; color: #8A6B00; margin-right: .25rem; display: inline-flex; align-items: center; }
+.icon-btn { display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; border: 2px solid #C99700; border-radius: 50%; color: #C99700; background: #fff8d9; transition: all .2s ease; }
+.icon-btn:hover { color: #8A6B00; border-color: #8A6B00; background: #fff2b3; box-shadow: 0 6px 16px rgba(201,151,0,.25); }
+.hero__bio { max-width: 720px; margin: 0.4rem auto 0.9rem 0; color: #333; line-height: 1.85; }
+.hero__links--icons { margin-top: .5rem; }
+.icon-btn { margin-right: .1rem; }
+
+/* Nav emphasis: make About/Publications bigger */
+.masthead .masthead__menu-item a {
+  font-size: 1.2em;
+  font-weight: 700;
+}
+.masthead__menu-sep { display: inline-block; margin: 0 .75rem; color: #9a9a9a; font-weight: 400; }
+
+/* Section headings a bit larger */
+.section > h2 {
+  font-size: 1.6em;
+  color: #0C2340; /* Notre Dame Blue */
+}
+
+/* Emphasize first bio line */
+.hero__text .hero__bio:first-of-type { font-weight: 700; }
+.section h2 {
+  margin-bottom: .75rem;
+}
+.cards .card {
+  transition: box-shadow .2s ease;
+}
+.cards .card:hover {
+  box-shadow: 0 6px 16px rgba(0,0,0,.06);
+}
+.pub { padding: .8rem 1rem; background: #fff; }
+.pub__title { margin: 0 0 .25rem; font-weight: 700; color: #000; }
+.pub__authors { color: #555; font-size: 0.95em; }
+.pub__meta { margin-top: .2rem; color: #666; font-size: 0.95em; }
+.pub__venue { font-weight: 700; color: #0C2340; }
+.pub__badge { display: inline-block; margin-left: .5rem; color: #C2185B; font-weight: 700; }
+.pub__badge--highlight { display: inline-block; margin-left: .25rem; color: #C2185B; font-weight: 700; }
+.pubs__more { margin: -.25rem 0 .5rem; font-size: .95em; }
+.pubs__more a { color: #0C2340; text-decoration: underline; }
+
+.research__text p { margin: .4rem 0; line-height: 1.85; }
+
+/* Publications page */
+.section--publications-list h3 { margin-top: 1.4rem; color: #0C2340; }
+.pub__link { margin-left: .5rem; text-decoration: underline; }
+.pub--clean { padding: .7rem 0; border-bottom: 1px solid #eee; }
+.pub__authors u { text-decoration-thickness: 2px; text-underline-offset: 2px; }
+.news__item { line-height: 1.5; }
+
+/* What's New timeline styles */
+.section--news {
+  max-height: 220px;
+  overflow-y: auto;
+  padding-left: 0.5rem;
+}
+.section--news .news__list {
+  position: relative;
+  margin-left: 1rem;
+}
+.section--news .news__list:before {
+  content: "";
+  position: absolute;
+  left: -0.75rem;
+  top: 0.2rem;
+  bottom: 0.2rem;
+  width: 2px;
+  background: rgba(12,35,64,0.25); /* ND Blue with transparency */
+}
+.section--news .news__item {
+  position: relative;
+  padding-left: 0.5rem;
+  margin: 0.35rem 0 0.55rem;
+}
+.section--news .news__item:before {
+  content: "";
+  position: absolute;
+  left: -1.05rem;
+  top: 0.4rem;
+  width: 10px;
+  height: 10px;
+  background: #0C2340; /* ND Blue */
+  border: 2px solid #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 0 2px rgba(12,35,64,0.25);
+}
+.section--news .news__date {
+  font-weight: 700;
+  color: #0C2340;
+  margin-right: .5rem;
+}

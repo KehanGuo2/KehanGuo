@@ -5,7 +5,7 @@
 <div itemscope itemtype="http://schema.org/Person" class="profile_box">
 
   <div class="author__avatar">
-    <img src="{{ author.avatar }}" class="author__avatar" alt="{{ author.name }}">
+    <img src="{{ author.avatar }}" class="author__avatar" alt="{{ author.name }}" onmouseover="this.dataset.src||(this.dataset.src=this.src);this.src='{{ author.avatar_hover | default: author.avatar }}'" onmouseout="this.src=this.dataset.src">
   </div>
 
   <div class="author__content">

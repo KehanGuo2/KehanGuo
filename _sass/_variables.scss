@@ -6,7 +6,7 @@
    Typography
    ========================================================================== */
 
-   $doc-font-size              : 24;
+   $doc-font-size              : 28;
 
    /* paragraph indention */
    $paragraph-indent           : false; // true, false (default)
@@ -31,8 +31,8 @@
    $calisto                    : "Calisto MT", serif;
    $garamond                   : Garamond, serif;
    
-   $global-font-family         : $sans-serif;
-   $header-font-family         : $sans-serif;
+   $global-font-family         : $monospace;
+   $header-font-family         : $monospace;
    $caption-font-family        : $serif;
    
    /* type scale */
@@ -63,11 +63,11 @@
    $text-color                 : $dark-gray;
    $border-color               : $lighter-gray;
    
-   $primary-color              : #7a8288;
+   $primary-color              : #C99700; // Notre Dame Yellow (Gold)
    $success-color              : #62c462;
    $warning-color              : #f89406;
    $danger-color               : #ee5f5b;
-   $info-color                 : #224b8d;
+   $info-color                 : #C99700; // Align links with ND Yellow
    // $info-color                 : #52adc8;
    
    /* brands */

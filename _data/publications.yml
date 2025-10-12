@@ -1,0 +1,31 @@
+- title: "Can LLMs Solve Molecule Puzzles? A Multimodal Benchmark for Molecular Structure Elucidation"
+  authors: ["Kehan Guo", "Bozhao Nan", "Yujun Zhou", "Taicheng Guo", "Zhichun Guo", "Mihir Surve", "Zhenwen Liang", "Nitesh V. Chawla", "Olaf Wiest", "Xiangliang Zhang"]
+  venue: "NeurIPS"
+  year: 2024
+  url: ""
+- title: "What can Large Language Models do in chemistry? A comprehensive benchmark on eight tasks"
+  authors: ["Taicheng Guo*", "Kehan Guo*", "Bozhao Nan", "Zhenwen Liang", "Zhichun Guo", "Nitesh V. Chawla", "Olaf Wiest", "Xiangliang Zhang"]
+  venue: "NeurIPS"
+  year: 2023
+  url: ""
+- title: "ChemOrch: Empowering LLMs with Chemical Intelligence via Synthetic Instructions"
+  authors: ["Yue Huang", "Zhengzhe Jiang", "Xiaonan Luo", "Kehan Guo", "Haomin Zhuang", "Yujun Zhou", "Zhengqing Yuan", "Xiaoqi Sun", "Jules Schleinitz", "Yanbo Wang", "Shuhao Zhang", "Mihir Surve", "Nitesh V. Chawla", "Olaf Wiest", "Xiangliang Zhang"]
+  venue: "NeurIPS"
+  year: 2025
+  url: ""
+- title: "AdaReasoner: Adaptive Reasoning Enables More Flexible Thinking"
+  authors: ["Xiangqi Wang", "Yue Huang", "Yanbo Wang", "Xiaonan Luo", "Kehan Guo", "Yujun Zhou", "Xiangliang Zhang"]
+  venue: "NeurIPS"
+  year: 2025
+  url: ""
+- title: "Artificial Intelligence in Spectroscopy: Advancing Chemistry from Prediction to Generation and Beyond"
+  authors: ["Kehan Guo", "Yifan Shen", "Gil A. Gonzalez-Montiel", "Yue Huang", "Yujun Zhou", "Mihir Surve", "Zhichun Guo", "..."]
+  venue: "IJCAI"
+  year: 2025
+  url: ""
+- title: "Beyond Single-Value Metrics: Evaluating and Enhancing LLM Unlearning with Cognitive Diagnosis"
+  authors: ["Y. Lang*", "Kehan Guo*", "Yue Huang", "Yujun Zhou", "Haomin Zhuang", "Tianyu Yang", "Yu Su", "Xiangliang Zhang"]
+  venue: "ACL Findings"
+  year: 2024
+  url: "https://arxiv.org/abs/2502.13996"
+
