@@ -795,3 +795,10 @@ LiveReload address: http://0.0.0.0:35729
        Jekyll Feed: Generating feed for posts
                     ...done in 1.51841 seconds.
                     
+      Regenerating: 3 file(s) changed at 2025-10-12 08:56:14
+                    _includes/masthead.html
+                    _includes/head.html
+                    .jekyll.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 1.713266 seconds.
+                    
