@@ -827,3 +827,29 @@ LiveReload address: http://0.0.0.0:35729
        Jekyll Feed: Generating feed for posts
                     ...done in 1.575627 seconds.
                     
+      Regenerating: 1 file(s) changed at 2025-10-13 01:50:33
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 1.90268 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2025-10-13 01:55:08
+                    images/UNI.png
+       Jekyll Feed: Generating feed for posts
+                    ...done in 1.544242 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2025-10-13 01:55:13
+                    images/kehan_statue.jpg
+                    images/oreo.jpg
+       Jekyll Feed: Generating feed for posts
+                    ...done in 1.510743 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2025-10-13 02:01:39
+                    _data/news.yml
+       Jekyll Feed: Generating feed for posts
+                    ...done in 1.570862 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2025-10-13 02:01:56
+                    _data/news.yml
+       Jekyll Feed: Generating feed for posts
+                    ...done in 1.583621 seconds.
+                    
