@@ -853,3 +853,58 @@ LiveReload address: http://0.0.0.0:35729
        Jekyll Feed: Generating feed for posts
                     ...done in 1.583621 seconds.
                     
+      Regenerating: 11 file(s) changed at 2025-10-14 03:13:29
+                    _includes/author-profile.html
+                    _includes/masthead.html
+                    _includes/head.html
+                    index.html
+                    .jekyll.log
+                    _layouts/home.html
+                    _pages/publications.md
+                    _data/publications.yml
+                    _data/news.yml
+                    _sass/_variables.scss
+                    assets/css/main.scss
+       Jekyll Feed: Generating feed for posts
+                    ...done in 4.000084 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2025-10-14 03:13:33
+                    .jekyll.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 1.823395 seconds.
+                    
+      Regenerating: 6 file(s) changed at 2025-10-20 09:22:48
+                    _includes/author-profile.html
+                    index.html
+                    .jekyll.log
+                    _pages/publications.md
+                    _data/publications.yml
+                    _sass/_variables.scss
+       Jekyll Feed: Generating feed for posts
+                    ...done in 5.901198 seconds.
+                    
+      Regenerating: 6 file(s) changed at 2025-10-20 09:22:54
+                    assets/css/main.scss
+                    _includes/masthead.html
+                    _includes/head.html
+                    .jekyll.log
+                    _layouts/home.html
+                    _data/news.yml
+       Jekyll Feed: Generating feed for posts
+                    ...done in 2.344678 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2025-10-20 09:22:57
+                    .jekyll.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 1.628183 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2025-10-20 09:25:29
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 1.502402 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2025-10-20 09:25:40
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 1.795294 seconds.
+                    
