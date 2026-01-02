@@ -31,8 +31,8 @@ I am always open to connecting with colleagues in my field and across interdisci
 ------
 
 <div style="text-align: center; margin: 20px 0;">
-  <img src="images/research_architecture.png" alt="Research Architecture: Self-Evolving Scientific Agents" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
-  <p style="font-size: 14px; color: #666; margin-top: 10px;"><em>Architecture of my Self-Evolving Scientific Agent framework: Multi-agent workflows powered by Graph-RAG, LLM reasoning, and a unified chemistry knowledge graph.</em></p>
+  <img src="images/research_architecture.jpg" alt="The Neuro-Symbolic Loop Architecture" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+  <p style="font-size: 14px; color: #555; margin-top: 12px;"><strong>Figure 1: The Neuro-Symbolic Loop.</strong> My architecture for <em>ChemOrch</em> (NeurIPS '25), integrating a Multi-Agent Workforce with a Unified World Graph.</p>
 </div>
 
 
