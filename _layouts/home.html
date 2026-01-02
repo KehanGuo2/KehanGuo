@@ -26,8 +26,8 @@ layout: compress
                 </div>
                 <div class="hero__text hero__text--center">
                   <p class="hero__bio"><strong>Hi, I'm Kehan Guo.</strong></p>
-                  <p class="hero__bio">I'm a fourth-year Ph.D. student in the <a href="https://mine-lab-nd.github.io/" target="_blank" rel="noopener">MINE Lab</a> at the University of Notre Dame, advised by <a href="https://cse.nd.edu/faculty/xiangliang-zhang/" target="_blank" rel="noopener">Prof. Xiangliang Zhang</a>.</p>
-                  <p class="hero__bio">I build <b>reflective scientific agents</b> — LLM‑based systems that reason about science, check themselves, and improve via tools. I began in <b>AI‑for‑Science (chemistry)</b> and now focus on <b><u>world‑modeling for LMs</u></b> (rule‑/constraint‑aware reasoning that mirrors how the world works) and <b><u>reflective loops</u></b> (critique → verification → refinement) to make agents robust and auditable. Methodologically I work on <b><u>RL post‑training/alignment</u></b>, <b><u>uncertainty calibration</u></b>, and <b><u>agentic tool use</u></b>; application‑wise I turn messy, literature‑grounded chemistry problems (extraction, retrosynthesis, data curation) into structured, provenance‑clear tasks and benchmarks. My goal is to <b><u>bridge scientific reasoning and reflective agent design</u></b>, delivering systems that ship as products while advancing methods.</p>
+                  <p class="hero__bio">I am a fourth-year Ph.D. student in the <a href="https://mine-lab-nd.github.io/" target="_blank" rel="noopener">MINE Lab</a> at <a href="https://www.nd.edu/" target="_blank" rel="noopener">Notre Dame</a>, advised by <a href="https://cse.nd.edu/faculty/xiangliang-zhang/" target="_blank" rel="noopener">Prof. Xiangliang Zhang</a>.</p>
+                  <p class="hero__bio">I build <b>Self-Evolving Scientific Agents</b>—systems that use tools to reason, verify their own logic, and discover new chemistry. My work bridges <b>Diffusion Language Models</b>, <b>Social-Choice GRPO</b>, and <b>Neuro-Symbolic Reasoning</b>, aiming to create AI that doesn't just predict scientific data, but <em>understands</em> it.</p>
                   <div class="hero__links hero__links--icons">
                     <span class="hero__contact-label">Happy to connect:</span>
                     {% if site.author.email %}<a class="icon-btn" href="mailto:{{ site.author.email }}" aria-label="Email"><i class="fas fa-envelope" aria-hidden="true"></i></a>{% endif %}
@@ -41,10 +41,9 @@ layout: compress
 
             <section class="section section--research">
               <h2>Research</h2>
-              <div class="research__text">
-                <p>I build <b>large language models</b> and <b>generative AI systems</b> that reason reliably in complex scientific domains.</p>
-                <p>My current focus is <b><u>world modeling for large language models</u></b>, where models learn and are constrained by rules so they mirror how the world works, and <b><u>self-evolving LMs</u></b> that critique, verify, and iteratively improve via tools and interaction loops.</p>
-                <p>Methodologically I work on <b><u>RL post-training and alignment</u></b>, <b><u>uncertainty calibration</u></b>, and <b><u>agentic tool use</u></b>. Application-wise I emphasize <b><u>AI for Science</u></b> with a focus on chemistry, including literature-grounded extraction, retrosynthesis planning, and data curation. I also <b><u>design complex, cross-domain benchmarks and datasets</u></b>, turning messy real-world data into structured, auditable tasks with clear provenance and rigorous scoring.</p>
+              <div class="research__image" style="text-align: center; margin: 20px 0;">
+                <img src="images/research_architecture.jpg" alt="The Neuro-Symbolic Loop Architecture" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+                <p style="font-size: 14px; color: #555; margin-top: 12px;"><strong>Figure 1: The Neuro-Symbolic Loop.</strong> My architecture for <em>ChemOrch</em> (NeurIPS '25), integrating a Multi-Agent Workforce with a Unified World Graph.</p>
               </div>
             </section>
 
