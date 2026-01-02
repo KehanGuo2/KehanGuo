@@ -1,9 +1,7 @@
-- date: 2026.01
-  text: "My work on **Social-Choice GRPO** (developed during my Amazon AWS internship) achieved state-of-the-art results on BBEH reasoning benchmarks."
 - date: 2025.12
   text: "New Preprint: Co-first author on [Evaluating Large Language Models in Scientific Discovery](https://arxiv.org/abs/2512.15567) (arXiv:2512.15567) — a massive community benchmark for AI in Science."
 - date: 2025.09
-  text: "Two papers accepted to **NeurIPS 2025**: *ChemOrch* (Agentic Chemistry) and *AdaReasoner* (Spotlight)."
+  text: "Two papers accepted to **NeurIPS 2025**: **ChemOrch** (Agentic Chemistry) and *AdaReasoner* (Spotlight)."
 - date: 2025.08
   text: "Completed Applied Scientist Internship at **Amazon AWS AI (Deep Engine Team)** in NYC."
 - date: 2024.12
