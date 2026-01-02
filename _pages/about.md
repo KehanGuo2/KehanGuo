@@ -16,29 +16,41 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <span class='anchor' id='about-me' style="font-size: 16px;">
-I am a Ph.D. Candidate in Computer Science at the <a href="https://www.nd.edu/">University of Notre Dame</a>, advised by <a href="https://sites.nd.edu/xiangliang-zhang/">Prof. Xiangliang Zhang</a>. I build <strong>Self-Evolving Scientific Agents</strong> that use tools, verify their own reasoning, and discover new physics.
 
-My research targets the intersection of <strong>Diffusion Language Models</strong>, <strong>Neuro-Symbolic Reasoning</strong>, and <strong>Agentic RAG</strong>. I am currently pioneering methods for <strong>Social-Choice GRPO</strong> (Group Relative Policy Optimization) to align large models on complex, open-ended scientific tasks.
+I am a fourth-year Ph.D. student in the <a href="https://sites.nd.edu/xiangliang-zhang/">MINE Lab</a> at <a href="https://www.nd.edu/">Notre Dame</a>, advised by <a href="https://sites.nd.edu/xiangliang-zhang/">Prof. Xiangliang Zhang</a>.
 
+I build <strong>Self-Evolving Scientific Agents</strong>—systems that use tools to reason, verify their own logic, and discover new chemistry. My work bridges <strong>Diffusion Language Models</strong>, <strong>Social-Choice GRPO</strong>, and <strong>Neuro-Symbolic Reasoning</strong>, aiming to create AI that doesn't just predict scientific data, but <em>understands</em> it.
 
 <blockquote style="font-size: 16px; line-height: 1.6;">
-I am always open to connecting with colleagues in my field and across interdisciplinary domains, as I strongly believe in the value of collaboration. If my research interests you, please feel free to reach out via 
-<a href="mailto:kguo2@nd.edu">email</a>.
+I am always open to connecting with colleagues in my field and across interdisciplinary domains. If my research interests you, please feel free to reach out via <a href="mailto:kguo2@nd.edu">email</a>.
 </blockquote>
+
+</span>
+
+&#128300; Research
+------
+
+<div style="text-align: center; margin: 20px 0;">
+  <img src="images/research_architecture.png" alt="Research Architecture: Self-Evolving Scientific Agents" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+  <p style="font-size: 14px; color: #666; margin-top: 10px;"><em>Architecture of my Self-Evolving Scientific Agent framework: Multi-agent workflows powered by Graph-RAG, LLM reasoning, and a unified chemistry knowledge graph.</em></p>
+</div>
 
 
 
 
 &#128293; News 
 ------
-* **2025.12:** New Preprint: Co-first author on "[Evaluating Large Language Models in Scientific Discovery](https://arxiv.org/abs/2512.15567)" (arXiv:2512.15567) — a massive community benchmark for AI in Science.
-* **2025.09:** Two papers accepted to **NeurIPS 2025**: *ChemOrch* (Agentic Chemistry) and *AdaReasoner* (Spotlight).
-* **2025.08:** Completed Applied Scientist Internship at **Amazon AWS AI (Deep Engine Team)** in NYC.
-* 2024.12: &#127881;&#127881; Thrilled to be awarded OpenAI's Researcher Access Program.
-* 2024.09: &#127881;&#127881; [MolPuzzle](https://github.com/KehanGuo2/MolPuzzle) has been accepted by *NeurIPS 2024 Dataset and Benchmark Track* as a spotlight! 
-* 2024.09: &#127881;&#127881; One paper has been accepted by main conference of EMNLP 2024!
-* 2024.06: &#127881;&#127881; I passed my Ph.D. Qualification exam!
-* 2023.09: &#127881;&#127881; One first-author paper has been accepted by *NeurIPS 2023*
+
+<ul style="font-size: 16px; line-height: 1.8; list-style-type: disc; padding-left: 20px;">
+  <li><strong>2025.12:</strong> New Preprint: Co-first author on <a href="https://arxiv.org/abs/2512.15567">"Evaluating Large Language Models in Scientific Discovery"</a> (arXiv:2512.15567) — a massive community benchmark for AI in Science.</li>
+  <li><strong>2025.09:</strong> Two papers accepted to <strong>NeurIPS 2025</strong>: <em>ChemOrch</em> (Agentic Chemistry) and <em>AdaReasoner</em> (Spotlight).</li>
+  <li><strong>2025.08:</strong> Completed Applied Scientist Internship at <strong>Amazon AWS AI (Deep Engine Team)</strong> in NYC.</li>
+  <li><strong>2024.12:</strong> Thrilled to be awarded OpenAI's Researcher Access Program.</li>
+  <li><strong>2024.09:</strong> <a href="https://github.com/KehanGuo2/MolPuzzle">MolPuzzle</a> has been accepted by <em>NeurIPS 2024 Dataset and Benchmark Track</em> as a spotlight!</li>
+  <li><strong>2024.09:</strong> One paper has been accepted by main conference of EMNLP 2024!</li>
+  <li><strong>2024.06:</strong> I passed my Ph.D. Qualification exam!</li>
+  <li><strong>2023.09:</strong> One first-author paper has been accepted by <em>NeurIPS 2023</em></li>
+</ul>
 
 
 &#128206; Selected Publications
