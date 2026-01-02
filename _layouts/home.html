@@ -54,7 +54,7 @@ layout: compress
                 {% for item in site.data.news limit:6 %}
                   <li class="news__item">
                     <span class="news__date">{{ item.date }}</span>
-                    <span class="news__text">{{ item.text }}</span>
+                    <span class="news__text">{{ item.text | markdownify | remove: '<p>' | remove: '</p>' }}</span>
                   </li>
                 {% endfor %}
               </ul>

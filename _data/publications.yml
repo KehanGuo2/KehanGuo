@@ -1,31 +1,120 @@
-- title: "Can LLMs Solve Molecule Puzzles? A Multimodal Benchmark for Molecular Structure Elucidation"
-  authors: ["Kehan Guo", "Bozhao Nan", "Yujun Zhou", "Taicheng Guo", "Zhichun Guo", "Mihir Surve", "Zhenwen Liang", "Nitesh V. Chawla", "Olaf Wiest", "Xiangliang Zhang"]
-  venue: "NeurIPS"
-  year: 2024
-  url: ""
-- title: "What can Large Language Models do in chemistry? A comprehensive benchmark on eight tasks"
-  authors: ["Taicheng Guo*", "Kehan Guo*", "Bozhao Nan", "Zhenwen Liang", "Zhichun Guo", "Nitesh V. Chawla", "Olaf Wiest", "Xiangliang Zhang"]
-  venue: "NeurIPS"
-  year: 2023
-  url: ""
+- title: "Evaluating Large Language Models in Scientific Discovery"
+  authors: ["Z Song", "J Lu", "Y Du", "B Yu", "TM Pruyn", "Y Huang", "Kehan Guo", "X Luo", "Y Qu", "Y Qu", "..."]
+  venue: "arXiv preprint arXiv:2512.15567"
+  year: 2025
+  url: "https://arxiv.org/abs/2512.15567"
 - title: "ChemOrch: Empowering LLMs with Chemical Intelligence via Synthetic Instructions"
   authors: ["Yue Huang", "Zhengzhe Jiang", "Xiaonan Luo", "Kehan Guo", "Haomin Zhuang", "Yujun Zhou", "Zhengqing Yuan", "Xiaoqi Sun", "Jules Schleinitz", "Yanbo Wang", "Shuhao Zhang", "Mihir Surve", "Nitesh V. Chawla", "Olaf Wiest", "Xiangliang Zhang"]
   venue: "NeurIPS"
   year: 2025
-  url: ""
+  url: "https://arxiv.org/abs/2509.16543"
 - title: "AdaReasoner: Adaptive Reasoning Enables More Flexible Thinking"
   authors: ["Xiangqi Wang", "Yue Huang", "Yanbo Wang", "Xiaonan Luo", "Kehan Guo", "Yujun Zhou", "Xiangliang Zhang"]
   venue: "NeurIPS"
   year: 2025
-  url: ""
+  url: "https://arxiv.org/abs/2505.17312"
 - title: "Artificial Intelligence in Spectroscopy: Advancing Chemistry from Prediction to Generation and Beyond"
   authors: ["Kehan Guo", "Yifan Shen", "Gil A. Gonzalez-Montiel", "Yue Huang", "Yujun Zhou", "Mihir Surve", "Zhichun Guo", "..."]
   venue: "IJCAI"
   year: 2025
-  url: ""
-- title: "Beyond Single-Value Metrics: Evaluating and Enhancing LLM Unlearning with Cognitive Diagnosis"
-  authors: ["Y. Lang*", "Kehan Guo*", "Yue Huang", "Yujun Zhou", "Haomin Zhuang", "Tianyu Yang", "Yu Su", "Xiangliang Zhang"]
+  url: "https://arxiv.org/abs/2502.09897"
+- title: "Unveiling the power of language models in chemical research question answering"
+  authors: ["X Chen", "T Wang", "T Guo", "Kehan Guo", "J Zhou", "H Li", "Z Song", "X Gao", "X Zhang"]
+  venue: "Communications Chemistry 8 (1), 4"
+  year: 2025
+  url: "https://www.nature.com/articles/s42004-024-01397-x"
+- title: "Position: We need an adaptive interpretation of helpful, honest, and harmless principles"
+  authors: ["Y Huang", "C Gao", "Y Zhou", "Kehan Guo", "X Wang", "O Cohen-Sasson", "M Lamparth", "..."]
+  venue: "arXiv preprint arXiv:2502.06059"
+  year: 2025
+  url: "https://arxiv.org/abs/2502.06059"
+- title: "Beyond single-value metrics: Evaluating and enhancing llm unlearning with cognitive diagnosis"
+  authors: ["Y Lang", "Kehan Guo", "Y Huang", "Y Zhou", "H Zhuang", "T Yang", "Y Su", "X Zhang"]
   venue: "ACL Findings"
-  year: 2024
+  year: 2025
   url: "https://arxiv.org/abs/2502.13996"
-
+- title: "SEUF: Is Unlearning One Expert Enough for Mixture-of-Experts LLMs?"
+  authors: ["H Zhuang", "Y Zhang", "Kehan Guo", "J Jia", "G Liu", "S Liu", "X Zhang"]
+  venue: "ACL"
+  year: 2025
+  url: "https://arxiv.org/abs/2411.18797"
+- title: "Causally-Enhanced Reinforcement Policy Optimization"
+  authors: ["X Wang", "Y Huang", "Y Zhou", "X Luo", "Kehan Guo", "X Zhang"]
+  venue: "arXiv preprint arXiv:2509.23095"
+  year: 2025
+  url: "https://arxiv.org/abs/2509.23095"
+- title: "Dissecting Logical Reasoning in LLMs: A Fine-Grained Evaluation and Supervision Study"
+  authors: ["Y Zhou", "J Ye", "Z Ling", "Y Han", "Y Huang", "H Zhuang", "Z Liang", "Kehan Guo", "T Guo", "..."]
+  venue: "arXiv preprint arXiv:2506.04810"
+  year: 2025
+  url: "https://arxiv.org/abs/2506.04810"
+- title: "On the trustworthiness of generative foundation models: Guideline, assessment, and perspective"
+  authors: ["Y Huang", "C Gao", "S Wu", "H Wang", "X Wang", "Y Zhou", "Y Wang", "J Ye", "J Shi", "..."]
+  venue: "arXiv preprint arXiv:2502.14296"
+  year: 2025
+  url: "https://arxiv.org/abs/2502.14296"
+- title: "Can LLMs Solve Molecule Puzzles? A Multimodal Benchmark for Molecular Structure Elucidation"
+  authors: ["Kehan Guo", "Bozhao Nan", "Yujun Zhou", "Taicheng Guo", "Zhichun Guo", "Mihir Surve", "Zhenwen Liang", "Nitesh V. Chawla", "Olaf Wiest", "Xiangliang Zhang"]
+  venue: "NeurIPS"
+  year: 2024
+  url: "https://kehanguo2.github.io/Molpuzzle.io/"
+- title: "What can Large Language Models do in chemistry? A comprehensive benchmark on eight tasks"
+  authors: ["Taicheng Guo*", "Kehan Guo*", "Bozhao Nan", "Zhenwen Liang", "Zhichun Guo", "Nitesh V. Chawla", "Olaf Wiest", "Xiangliang Zhang"]
+  venue: "NeurIPS"
+  year: 2024
+  url: "https://github.com/ChemFoundationModels/ChemLLMBench"
+- title: "SceMQA: A Scientific College Entrance Level Multimodal Question Answering Benchmark"
+  authors: ["Zhenwen Liang", "Kehan Guo", "Gang Liu", "Taicheng Guo", "Yujun Zhou", "Tianyu Yang", "Jiajun Jiao", "Renjie Pi", "Jipeng Zhang", "..."]
+  venue: "ACL"
+  year: 2024
+  url: "https://scemqa.github.io/"
+- title: "Defending jailbreak prompts via in-context adversarial game"
+  authors: ["Yujun Zhou", "Yufei Han", "Haomin Zhuang", "Kehan Guo", "Zhenwen Liang", "Hongyan Bao", "Xiangliang Zhang"]
+  venue: "EMNLP"
+  year: 2024
+  url: "https://arxiv.org/abs/2402.13148"
+- title: "Uncertainty-aware yield prediction with multimodal molecular features"
+  authors: ["Jiayuan Chen", "Kehan Guo", "Zhen Liu", "Olexandr Isayev", "Xiangliang Zhang"]
+  venue: "AAAI"
+  year: 2024
+  url: "https://ojs.aaai.org/index.php/AAAI/article/view/28668"
+- title: "Labsafety bench: Benchmarking llms on safety issues in scientific labs"
+  authors: ["Yujun Zhou", "Jingdong Yang", "Yue Huang", "Kehan Guo", "Z Emory", "B Ghosh", "A Bedar", "S Shekar", "..."]
+  venue: "arXiv preprint arXiv:2410.14182"
+  year: 2024
+  url: "https://arxiv.org/abs/2410.14182"
+- title: "Social science meets llms: How reliable are large language models in social simulations?"
+  authors: ["Yue Huang", "Zhengqing Yuan", "Yujun Zhou", "Kehan Guo", "Xiangqi Wang", "Haomin Zhuang", "W Sun", "L Sun", "..."]
+  venue: "arXiv preprint arXiv:2410.23426"
+  year: 2024
+  url: "https://arxiv.org/abs/2410.23426"
+- title: "Uoe: Unlearning one expert is enough for mixture-of-experts llms"
+  authors: ["Haomin Zhuang", "Y Zhang", "Kehan Guo", "J Jia", "G Liu", "S Liu", "X Zhang"]
+  venue: "arXiv preprint arXiv:2411.18797"
+  year: 2024
+  url: "https://arxiv.org/abs/2411.18797"
+- title: "Graph-based molecular representation learning"
+  authors: ["Zhichun Guo", "Kehan Guo", "Bozhao Nan", "Yijun Tian", "Roshni G. Iyer", "Yihong Ma", "Olaf Wiest", "Xiangliang Zhang", "Wei Wang", "..."]
+  venue: "IJCAI"
+  year: 2023
+  url: "https://arxiv.org/abs/2207.04869"
+- title: "Compositional mathematical encoding for math word problems"
+  authors: ["Zhenwen Liang", "Jipeng Zhang", "Kehan Guo", "X Wu", "J Shao", "Xiangliang Zhang"]
+  venue: "ACL"
+  year: 2023
+  url: "https://aclanthology.org/2023.acl-main.893/"
+- title: "Modeling non-uniform uncertainty in Reaction Prediction via Boosting and Dropout"
+  authors: ["Taicheng Guo", "C Ma", "X Chen", "Bozhao Nan", "Kehan Guo", "S Pei", "L Yu", "Nitesh V. Chawla", "Olaf Wiest", "..."]
+  venue: "NeurIPS Workshop"
+  year: 2023
+  url: ""
+- title: "Beyond the Typical: Modeling Rare Plausible Patterns in Chemical Reactions by Leveraging Sequential Mixture-of-Experts"
+  authors: ["Taicheng Guo", "C Ma", "X Chen", "Bozhao Nan", "Kehan Guo", "S Pei", "Nitesh V. Chawla", "Olaf Wiest", "Xiangliang Zhang"]
+  venue: "arXiv preprint arXiv:2310.04674"
+  year: 2023
+  url: "https://arxiv.org/abs/2310.04674"
+- title: "Deep-learning-augmented computational miniature mesoscope"
+  authors: ["Y Xue", "Q Yang", "G Hu", "Kehan Guo", "Lei Tian"]
+  venue: "Optica 9 (9), 1009-1021"
+  year: 2022
+  url: "https://opg.optica.org/optica/fulltext.cfm?uri=optica-9-9-1009&id=499105"

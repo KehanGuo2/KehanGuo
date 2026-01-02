@@ -42,11 +42,11 @@ I am always open to connecting with colleagues in my field and across interdisci
 ------
 
 <ul style="font-size: 16px; line-height: 1.8; list-style-type: disc; padding-left: 20px;">
-  <li><strong>2025.12:</strong> New Preprint: Co-first author on <a href="https://arxiv.org/abs/2512.15567">Evaluating Large Language Models in Scientific Discovery</a> (arXiv:2512.15567) — a massive community benchmark for AI in Science.</li>
-  <li><strong>2025.09:</strong> Two papers accepted to <strong>NeurIPS 2025</strong>: <strong>ChemOrch</strong> (Agentic Chemistry) and <em>AdaReasoner</em> (Spotlight).</li>
+  <li><strong>2025.12:</strong> New Preprint: Co-first author on <a href="https://arxiv.org/abs/2512.15567">Evaluating Large Language Models in Scientific Discovery</a> — a massive community benchmark for AI in Science.</li>
+  <li><strong>2025.09:</strong> Two papers accepted to <strong>NeurIPS 2025</strong>: <strong>ChemOrch</strong> (Agentic Chemistry) and <em>AdaReasoner</em> (<span style="color: #e74c3c;">Spotlight</span>).</li>
   <li><strong>2025.08:</strong> Completed Applied Scientist Internship at <strong>Amazon AWS AI (Deep Engine Team)</strong> in NYC.</li>
   <li><strong>2024.12:</strong> Thrilled to be awarded OpenAI's Researcher Access Program.</li>
-  <li><strong>2024.09:</strong> <a href="https://github.com/KehanGuo2/MolPuzzle">MolPuzzle</a> has been accepted by <em>NeurIPS 2024 Dataset and Benchmark Track</em> as a spotlight!</li>
+  <li><strong>2024.09:</strong> <a href="https://github.com/KehanGuo2/MolPuzzle">MolPuzzle</a> has been accepted by <em>NeurIPS 2024 Dataset and Benchmark Track</em> as a <span style="color: #e74c3c;">Spotlight</span>!</li>
   <li><strong>2024.09:</strong> One paper has been accepted by main conference of EMNLP 2024!</li>
   <li><strong>2024.06:</strong> I passed my Ph.D. Qualification exam!</li>
   <li><strong>2023.09:</strong> One first-author paper has been accepted by <em>NeurIPS 2023</em></li>
