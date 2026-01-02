@@ -7,11 +7,13 @@
   authors: ["Yue Huang", "Zhengzhe Jiang", "Xiaonan Luo", "Kehan Guo", "Haomin Zhuang", "Yujun Zhou", "Zhengqing Yuan", "Xiaoqi Sun", "Jules Schleinitz", "Yanbo Wang", "Shuhao Zhang", "Mihir Surve", "Nitesh V. Chawla", "Olaf Wiest", "Xiangliang Zhang"]
   venue: "NeurIPS"
   year: 2025
+  tags: ["Spotlight"]
   url: "https://arxiv.org/abs/2509.16543"
 - title: "AdaReasoner: Adaptive Reasoning Enables More Flexible Thinking"
   authors: ["Xiangqi Wang", "Yue Huang", "Yanbo Wang", "Xiaonan Luo", "Kehan Guo", "Yujun Zhou", "Xiangliang Zhang"]
   venue: "NeurIPS"
   year: 2025
+  tags: ["Spotlight"]
   url: "https://arxiv.org/abs/2505.17312"
 - title: "Artificial Intelligence in Spectroscopy: Advancing Chemistry from Prediction to Generation and Beyond"
   authors: ["Kehan Guo", "Yifan Shen", "Gil A. Gonzalez-Montiel", "Yue Huang", "Yujun Zhou", "Mihir Surve", "Zhichun Guo", "..."]
@@ -57,11 +59,12 @@
   authors: ["Kehan Guo", "Bozhao Nan", "Yujun Zhou", "Taicheng Guo", "Zhichun Guo", "Mihir Surve", "Zhenwen Liang", "Nitesh V. Chawla", "Olaf Wiest", "Xiangliang Zhang"]
   venue: "NeurIPS"
   year: 2024
+  tags: ["Spotlight"]
   url: "https://kehanguo2.github.io/Molpuzzle.io/"
 - title: "What can Large Language Models do in chemistry? A comprehensive benchmark on eight tasks"
   authors: ["Taicheng Guo*", "Kehan Guo*", "Bozhao Nan", "Zhenwen Liang", "Zhichun Guo", "Nitesh V. Chawla", "Olaf Wiest", "Xiangliang Zhang"]
   venue: "NeurIPS"
-  year: 2024
+  year: 2023
   url: "https://github.com/ChemFoundationModels/ChemLLMBench"
 - title: "SceMQA: A Scientific College Entrance Level Multimodal Question Answering Benchmark"
   authors: ["Zhenwen Liang", "Kehan Guo", "Gang Liu", "Taicheng Guo", "Yujun Zhou", "Tianyu Yang", "Jiajun Jiao", "Renjie Pi", "Jipeng Zhang", "..."]

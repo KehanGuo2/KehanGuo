@@ -104,7 +104,7 @@ h1:before, .anchor:before {
     margin-top: .5em;
     margin-left: -.5em;
     color: white;
-    background-color: #00369f;
+    background-color: #e74c3c;
     font-size: .8em;
 }
 
@@ -123,9 +123,9 @@ h1:before, .anchor:before {
 .hero__avatar--center { width: 100%; display: flex; justify-content: center; margin-bottom: 1rem; }
 .hero__avatar--center img { max-width: 160px; border-radius: 50%; box-shadow: 0 8px 20px rgba(0,0,0,.08); }
 .hero__links--icons { display: flex; justify-content: flex-start; gap: .8rem; margin-top: .25rem; }
-.hero__contact-label { font-weight: 700; color: #8A6B00; margin-right: .25rem; display: inline-flex; align-items: center; }
-.icon-btn { display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; border: 2px solid #C99700; border-radius: 50%; color: #C99700; background: #fff8d9; transition: all .2s ease; }
-.icon-btn:hover { color: #8A6B00; border-color: #8A6B00; background: #fff2b3; box-shadow: 0 6px 16px rgba(201,151,0,.25); }
+.hero__contact-label { font-weight: 700; color: #e74c3c; margin-right: .25rem; display: inline-flex; align-items: center; }
+.icon-btn { display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; border: 2px solid #e74c3c; border-radius: 50%; color: #e74c3c; background: #fff; transition: all .2s ease; }
+.icon-btn:hover { color: #c0392b; border-color: #c0392b; background: #fdf2f2; box-shadow: 0 6px 16px rgba(231,76,60,.25); }
 .hero__bio { max-width: 720px; margin: 0.4rem auto 0.9rem 0; color: #333; line-height: 1.85; }
 .hero__links--icons { margin-top: .5rem; }
 .icon-btn { margin-right: .1rem; }
@@ -159,10 +159,10 @@ h1:before, .anchor:before {
 .pub__authors { color: #555; font-size: 0.95em; }
 .pub__meta { margin-top: .2rem; color: #666; font-size: 0.95em; }
 .pub__venue { font-weight: 700; color: #0C2340; }
-.pub__badge { display: inline-block; margin-left: .5rem; color: #C2185B; font-weight: 700; }
-.pub__badge--highlight { display: inline-block; margin-left: .25rem; color: #C2185B; font-weight: 700; }
+.pub__badge { display: inline-block; margin-left: .5rem; color: #e74c3c; font-weight: 700; }
+.pub__badge--highlight { display: inline-block; margin-left: .25rem; color: #e74c3c; font-weight: 700; }
 .pubs__more { margin: -.25rem 0 .5rem; font-size: .95em; }
-.pubs__more a { color: #0C2340; text-decoration: underline; }
+.pubs__more a { color: #e74c3c; text-decoration: underline; }
 
 .research__text p { margin: .4rem 0; line-height: 1.85; }
 
@@ -211,6 +211,6 @@ h1:before, .anchor:before {
 }
 .section--news .news__date {
   font-weight: 700;
-  color: #0C2340;
+  color: #e74c3c;
   margin-right: .5rem;
 }

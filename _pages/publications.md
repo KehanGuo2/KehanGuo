@@ -12,14 +12,14 @@ author_profile: false
 </section>
 
 <style>
-  :root { --accent: #C99700; }
+  :root { --accent: #e74c3c; }
   .pubs .pub-card { border-left:4px solid var(--accent); border-radius:10px; box-shadow:0 1px 3px rgba(0,0,0,.06); padding:1rem 1.25rem; margin-bottom:1rem; background:#fff; }
   .pub-card h3 { margin:0 0 .25rem; font-weight:700; line-height:1.25; }
   .pub-card h3 a { color:#000; }
   .pub-card .authors { color:#555; font-size:.95em; }
   .pub-card .venue { color:#666; font-style:italic; font-size:.95em; }
   .tags { display:inline-flex; gap:.35rem; margin-left:.5rem; flex-wrap:wrap; }
-  .tag { background:rgba(201,151,0,.12); color:#8A6B00; border:1px solid rgba(201,151,0,.35); padding:.05rem .45rem; border-radius:999px; font-size:.8rem; }
+  .tag { background:rgba(231,76,60,.12); color:#e74c3c; border:1px solid rgba(231,76,60,.35); padding:.05rem .45rem; border-radius:999px; font-size:.8rem; }
   .pubs__year { margin:1.2rem 0 .5rem; color:#0C2340; }
   @media (max-width:680px){ .pubs__header { flex-direction:column; align-items:flex-start; } }
 </style>
@@ -41,7 +41,11 @@ author_profile: false
   }
   function authorHTML(authors){
     const shown = truncateAuthors(authors);
-    return shown.map(a=> a === '…' ? '…' : (a === 'Kehan Guo' ? '<u>Kehan Guo</u>' : a)).join(', ');
+    return shown.map(a=> {
+      if (a === '…') return '…';
+      if (a.includes('Kehan Guo')) return `<u>${a}</u>`;
+      return a;
+    }).join(', ');
   }
   function cardHTML(p){
     const title = p.url ? `<a href="${p.url}" target="_blank" rel="noopener">${p.title}</a>` : p.title;
