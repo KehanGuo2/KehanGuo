@@ -7,9 +7,12 @@
 
 # Site Settings
 title                    : "Kehan Guo's Website"
-description              : ""
+description              : "Kehan Guo - PhD Candidate building Self-Evolving Scientific Agents. Research in Generative AI for Science, Diffusion Language Models, Graph Reasoning, Post-Training, GRPO, JAX, vLLM, Neuro-Symbolic Reasoning, and Agentic RAG."
 repository               : "KehanGuo2/KehanGuo"
 google_scholar_stats_use_cdn : true
+
+# Keywords for SEO
+keywords                 : "Generative AI for Science, Diffusion Language Models, Graph Reasoning, Post-Training, GRPO, JAX, vLLM, Neuro-Symbolic Reasoning, Agentic RAG, Social-Choice GRPO, LLM Agents, Scientific Discovery"
 
 # google analytics
 google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/

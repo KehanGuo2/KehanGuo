@@ -908,3 +908,89 @@ LiveReload address: http://0.0.0.0:35729
        Jekyll Feed: Generating feed for posts
                     ...done in 1.795294 seconds.
                     
+      Regenerating: 4 file(s) changed at 2025-10-21 21:40:34
+                    _includes/author-profile.html
+                    index.html
+                    .jekyll.log
+                    _data/publications.yml
+       Jekyll Feed: Generating feed for posts
+                    ...done in 4.3753 seconds.
+                    
+      Regenerating: 8 file(s) changed at 2025-10-21 21:40:38
+                    _sass/_variables.scss
+                    assets/css/main.scss
+                    _includes/masthead.html
+                    _includes/head.html
+                    .jekyll.log
+                    _layouts/home.html
+                    _pages/publications.md
+                    _data/news.yml
+       Jekyll Feed: Generating feed for posts
+                    ...done in 1.831628 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2025-10-21 21:41:46
+                    index.html
+                    .jekyll.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 4.778431 seconds.
+                    
+      Regenerating: 10 file(s) changed at 2025-10-21 21:41:51
+                    _includes/author-profile.html
+                    .jekyll.log
+                    _data/publications.yml
+                    _sass/_variables.scss
+                    assets/css/main.scss
+                    _includes/masthead.html
+                    _includes/head.html
+                    _data/news.yml
+                    _pages/publications.md
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 2.181335 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2025-10-24 22:18:35
+                    .jekyll.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 5.546927 seconds.
+                    
+      Regenerating: 11 file(s) changed at 2025-10-24 22:18:41
+                    assets/css/main.scss
+                    _includes/author-profile.html
+                    _includes/masthead.html
+                    _includes/head.html
+                    index.html
+                    .jekyll.log
+                    _layouts/home.html
+                    _pages/publications.md
+                    _data/publications.yml
+                    _data/news.yml
+                    _sass/_variables.scss
+       Jekyll Feed: Generating feed for posts
+                    ...done in 2.058688 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2025-10-25 03:41:10
+                    .jekyll.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 1.625819 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2025-10-25 03:55:31
+                    index.html
+                    .jekyll.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 1.765677 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2025-10-25 03:55:36
+                    _sass/_variables.scss
+       Jekyll Feed: Generating feed for posts
+                    ...done in 2.066118 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2025-10-25 03:55:38
+                    _includes/author-profile.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 1.744127 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2025-10-25 03:56:15
+                    _data/publications.yml
+       Jekyll Feed: Generating feed for posts
+                    ...done in 1.609037 seconds.
+                    

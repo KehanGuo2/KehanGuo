@@ -16,9 +16,9 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <span class='anchor' id='about-me' style="font-size: 16px;">
-Hi, I'm Kehan Guo, a Ph.D student in Computer Science and Engineering at the <a href="https://www.nd.edu/">University of Notre Dame</a>, supervised by <a href="https://sites.nd.edu/xiangliang-zhang/">Professor Xiangliang Zhang</a>. I am also glad to be a member of the <a href="https://ccas.nd.edu/">NSF Center for Computer Assisted Synthesis (C-CAS)</a>, where we collaborate with chemists and data scientists to develop data-driven approaches that make synthetic chemistry more predictable and efficient. 
+I am a Ph.D. Candidate in Computer Science at the <a href="https://www.nd.edu/">University of Notre Dame</a>, advised by <a href="https://sites.nd.edu/xiangliang-zhang/">Prof. Xiangliang Zhang</a>. I build <strong>Self-Evolving Scientific Agents</strong> that use tools, verify their own reasoning, and discover new physics.
 
-Previously, I completed my Master's at <a href="https://www.bu.edu/">Boston University</a>, where I worked with <a href="https://www.bu.edu/eng/profile/lei-tian/">Professor Lei Tian</a>.
+My research targets the intersection of <strong>Diffusion Language Models</strong>, <strong>Neuro-Symbolic Reasoning</strong>, and <strong>Agentic RAG</strong>. I am currently pioneering methods for <strong>Social-Choice GRPO</strong> (Group Relative Policy Optimization) to align large models on complex, open-ended scientific tasks.
 
 
 <blockquote style="font-size: 16px; line-height: 1.6;">
@@ -28,36 +28,17 @@ I am always open to connecting with colleagues in my field and across interdisci
 
 
 
-&#128214; Research
-------
-<p style="font-size: 16px; line-height: 1.6;">My research is centered on three pivotal topics:</p>
-<ul style="font-size: 16px; line-height: 1.6;">
-    <li>
-        <strong>Enhancing Reasoning of Generative Models:</strong> Developing robust frameworks to evaluate and improve the reasoning and planning ability of foundational generative models through LLM agent and reinforcement learning.
-    </li>
-    <li>
-   <strong>Exploring data-centric approaches for scalable model alignment and adaptation</strong> , aiming to push LLMs toward greater robustness, efficiency, and generalization across diverse tasks and domains
-    </li>
-    <li>
-        <strong>Effectiveness in Downstream Applications:</strong> Critically assessing the practical impact of current AI technologies on downstream applications, particularly their transformative potential in fields like AI4Science, agentic models, and social sciences.
-    </li>
-</ul>
-
-
-
 
 &#128293; News 
 ------
-* 2025.02: &#128209;&#128209; Check out latest preprint: [AI in Spectroscopy](https://arxiv.org/pdf/2502.09897),[HHH principle](https://arxiv.org/pdf/2502.06059)
-* 2025.02: &#127881;&#127881; I will join Amazon AWS as an Applied Scientist Intern in 2025 Summer. See you in NYC!
-* 2024.12: &#127881;&#127881; Thrilled to be awarded OpenAI’s Researcher Access Program.
+* **2025.12:** New Preprint: Co-first author on "[Evaluating Large Language Models in Scientific Discovery](https://arxiv.org/abs/2512.15567)" (arXiv:2512.15567) — a massive community benchmark for AI in Science.
+* **2025.09:** Two papers accepted to **NeurIPS 2025**: *ChemOrch* (Agentic Chemistry) and *AdaReasoner* (Spotlight).
+* **2025.08:** Completed Applied Scientist Internship at **Amazon AWS AI (Deep Engine Team)** in NYC.
+* 2024.12: &#127881;&#127881; Thrilled to be awarded OpenAI's Researcher Access Program.
 * 2024.09: &#127881;&#127881; [MolPuzzle](https://github.com/KehanGuo2/MolPuzzle) has been accepted by *NeurIPS 2024 Dataset and Benchmark Track* as a spotlight! 
 * 2024.09: &#127881;&#127881; One paper has been accepted by main conference of EMNLP 2024!
 * 2024.06: &#127881;&#127881; I passed my Ph.D. Qualification exam!
-* 2024.05: &#127881;&#127881; One paper has been accepted by *ACL 2025*
-* 2023.12: &#127881;&#127881; One paper has been accepted by *AAAI 2024*.
-* 2023.09: &#127881;&#127881; One first-author paper  has been accepted by *NeurIPS 2023* 
-* 2023.04: &#127881;&#127881; One paper has been accepted by *IJCAI 2023*
+* 2023.09: &#127881;&#127881; One first-author paper has been accepted by *NeurIPS 2023*
 
 
 &#128206; Selected Publications
@@ -65,7 +46,7 @@ I am always open to connecting with colleagues in my field and across interdisci
 See more publications in my [Google Scholar](https://scholar.google.com/citations?user=t8iRCLUAAAAJ&hl=en)
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024 as Spotlight</div><img src='images/intro_spectrum.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024 Spotlight</div><img src='images/intro_spectrum.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 ![NeurIPS 2024](https://img.shields.io/badge/NeurIPS-2024-2024) [Can LLMs Solve Molecule Puzzles? A Multimodal Benchmark for Molecular Structure Elucidation](https://kehanguo2.github.io/Molpuzzle.io/)
@@ -78,27 +59,44 @@ See more publications in my [Google Scholar](https://scholar.google.com/citation
 </div>
 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ArXiv 2025 — Co-First Author</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+![ArXiv 2025](https://img.shields.io/badge/ArXiv-2025-b31b1b) [Evaluating Large Language Models in Scientific Discovery](https://arxiv.org/abs/2512.15567)
+
+**Kehan Guo**\*, [Co-authors]\*, ... — *A massive community benchmark for AI in Science*
+
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2025 — Mentored Project</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+![NeurIPS 2025](https://img.shields.io/badge/NeurIPS-2025-2025) [ChemOrch: Empowering LLMs with Chemical Intelligence via Synthetic Instructions](https://github.com/)
+
+Yue Huang, Zhengzhe Jiang, Xiaonan Luo, **Kehan Guo**, Haomin Zhuang, Yujun Zhou, Zhengqing Yuan, Xiaoqi Sun, Jules Schleinitz, Yanbo Wang, Shuhao Zhang, Mihir Surve, Nitesh V. Chawla, Olaf Wiest, Xiangliang Zhang
+
+*Note: Mentored project resulting in NeurIPS acceptance*
+
+</div>
+</div>
+
+
+- ![IJCAI 2025](https://img.shields.io/badge/IJCAI-2025-%232F4F4F?style=plastic&logoColor=%2387CEFA) [Artificial Intelligence in Spectroscopy: Advancing Chemistry from Prediction to Generation and Beyond](https://arxiv.org/pdf/2502.09897), **Kehan Guo**, Yifan Shen, Gil A. Gonzalez-Montiel, Yue Huang, Yujun Zhou, Mihir Surve, Zhichun Guo, ... — *Survey*
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2023</div><img src='images/llmchem.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 ![NeurIPS 2023](https://img.shields.io/badge/NeurIPS-2023-2023) [What can Large Language Models do in chemistry? A comprehensive benchmark on eight tasks](https://github.com/ChemFoundationModels/ChemLLMBench)
 
-**Kehan Guo**, Taicheng Guo∗ , Bozhao Nan, Zhenwen Liang, Zhichun Guo, Nitesh V. Chawla, Olaf Wiest, Xiangliang Zhang
+Taicheng Guo\*, **Kehan Guo**\*, Bozhao Nan, Zhenwen Liang, Zhichun Guo, Nitesh V. Chawla, Olaf Wiest, Xiangliang Zhang
 
 [**Code**](https://github.com/ChemFoundationModels/ChemLLMBench) [![](https://img.shields.io/github/stars/ChemFoundationModels/ChemLLMBench)](https://github.com/ChemFoundationModels/ChemLLMBench)
 
 </div>
 </div>
-
-- ![Arxiv Preprint](https://img.shields.io/badge/Arxiv-Preprint-b4d723) [LabSafety Bench: Benchmarking LLMs on Safety Issues in Scientific Labs](https://yujunzhou.github.io/LabSafetyBench.github.io/), Yujun Zhou, Jingdong Yang, **Kehan Guo**, Pin-Yu Chen, Tian Gao, Werner Geyer, Nuno Moniz, Nitesh V Chawla, Xiangliang Zhang
-
-- ![EMNLP 2024](https://img.shields.io/badge/EMNLP-2024-%2387CEFA?style=plastic&logoColor=%2387CEFA) [Defending Jailbreak Prompts via In-Context Adversarial Game](https://arxiv.org/abs/2402.13148), Yujun Zhou, Yufei Han, Haomin Zhuang, Taicheng Guo, **Kehan Guo**, Zhenwen Liang, Hongyan Bao, and Xiangliang Zhang 
-- ![ACL 2024](https://img.shields.io/badge/ACL-2024-%23800000?style=plastic&logoColor=%2387CEFA) [SceMQA: A Scientific College Entrance Level Multimodal Question Answering Benchmark](https://scemqa.github.io/), Zhenwen Liang, **Kehan Guo**, Gang Liu, Taicheng Guo, Yujun Zhou, Tianyu Yang, Jiajun Jiao, Renjie Pi,Jipeng Zhang, Xiangliang Zhang 
-
-- ![AAAI 2024](https://img.shields.io/badge/AAAI-2024-%23FFA07A?style=plastic&logoColor=%23FFA07A) [Uncertainty-aware Yield Prediction with Multi-modal Molecular Features](https://ojs.aaai.org/index.php/AAAI/article/view/28668) Jiayuan Chen, **Kehan Guo**, Zhen Liu, Olexandr Isayev, Xiangliang Zhang
-
-- ![IJCAI 2023](https://img.shields.io/badge/IJCAI-2023-%232F4F4F?style=plastic&logoColor=%2387CEFA
-) [Graph-based Molecular Representation Learning](https://arxiv.org/abs/2207.04869) Zhichun Guo, **Kehan Guo**, Bozhao Nan, Yijun Tian, Roshni G. Iyer, Yihong Ma, Olaf Wiest, Xiangliang Zhang, Wei Wang, Chuxu Zhang, Nitesh V. Chawla
 
 
 
