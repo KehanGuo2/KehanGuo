@@ -43,20 +43,26 @@ layout: compress
       <section id="about" class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-20">
         <!-- Left Column: Text -->
         <div class="order-2 lg:order-1">
-          <h1 class="text-5xl font-bold text-slate-900 mb-4 tracking-tight">Kehan Guo</h1>
-          <p class="text-xl font-semibold text-chemical-indigo mb-6">Building Self-Evolving Scientific Agents.</p>
+          
+          <div class="flex flex-col sm:flex-row items-center sm:items-center gap-4 mb-6">
+            <img src="{{ site.author.avatar | relative_url }}" alt="{{ site.author.name }}" class="w-20 h-20 rounded-full border-2 border-slate-100 shadow-sm object-cover mx-auto sm:mx-0">
+            <div class="text-center sm:text-left">
+              <h1 class="text-5xl font-bold text-slate-900 tracking-tight">Kehan Guo</h1>
+              <p class="text-xl font-semibold text-chemical-indigo mt-2">Building Self-Evolving Scientific Agents.</p>
+            </div>
+          </div>
           
           <div class="prose prose-lg text-slate-600 mb-8 leading-relaxed">
             <p>
-              I am a fourth-year Ph.D. student in the <a href="https://mine-lab-nd.github.io/" class="text-chemical-indigo hover:underline font-medium">MINE Lab</a> at <a href="https://www.nd.edu/" class="text-chemical-indigo hover:underline font-medium">Notre Dame</a>, advised by <a href="https://cse.nd.edu/faculty/xiangliang-zhang/" class="text-chemical-indigo hover:underline font-medium">Prof. Xiangliang Zhang</a>.
+              I build <strong>Self-Evolving Scientific Agents</strong>—systems that move beyond probabilistic prediction to rigorous understanding.
             </p>
             <p>
-              My research bridges <strong>Diffusion Language Models</strong>, <strong>Social-Choice GRPO</strong>, and <strong>Neuro-Symbolic Reasoning</strong>. I build AI systems that don't just predict scientific data, but <em>understand</em> it—enabling autonomous discovery of new chemistry.
+              My research bridges <a href="#research-pillars" class="text-slate-900 font-medium hover:text-chemical-indigo transition-colors">Neuro-Symbolic Reasoning</a>, <strong>Robust Post-Training</strong>, and <strong>Generative World Modeling</strong> powered by <strong>Diffusion</strong>. By integrating structured chemical knowledge with verifiable reasoning loops, I aim to enable the autonomous discovery of new chemistry.
             </p>
           </div>
 
           <!-- Social Links -->
-          <div class="flex space-x-6">
+          <div class="flex justify-center sm:justify-start space-x-6">
             {% if site.author.email %}
             <a href="mailto:{{ site.author.email }}" class="text-slate-400 hover:text-chemical-indigo transition-colors" aria-label="Email">
               <i class="fas fa-envelope fa-2x"></i>
@@ -77,8 +83,8 @@ layout: compress
               <i class="fab fa-linkedin fa-2x"></i>
             </a>
             {% endif %}
-          </div>
-        </div>
+                  </div>
+                </div>
 
         <!-- Right Column: Visual Anchor -->
         <div class="order-1 lg:order-2">
@@ -88,11 +94,11 @@ layout: compress
               Figure 1: The Blueprint for Self-Evolving Science. Integrating a <strong>Multi-Agent Workforce</strong> with a <strong>World Graph Data Hub</strong> for autonomous discovery.
             </figcaption>
           </figure>
-        </div>
-      </section>
+              </div>
+            </section>
 
       <!-- News Section -->
-      {% if site.data.news %}
+            {% if site.data.news %}
       <section class="mb-20">
         <h2 class="text-2xl font-bold text-slate-900 mb-6 border-b border-slate-200 pb-2">News</h2>
         <div class="bg-white rounded-xl shadow-sm border border-slate-100 p-6 max-h-[300px] overflow-y-auto custom-scrollbar">
@@ -103,15 +109,15 @@ layout: compress
               <span class="text-slate-700 leading-relaxed text-base">
                 {{ item.text | markdownify | remove: '<p>' | remove: '</p>' }}
               </span>
-            </li>
-            {% endfor %}
-          </ul>
+                  </li>
+                {% endfor %}
+              </ul>
         </div>
-      </section>
-      {% endif %}
+            </section>
+            {% endif %}
 
       <!-- Research Vision -->
-      <section class="mb-20">
+      <section id="research-pillars" class="mb-20">
         <h2 class="text-2xl font-bold text-slate-900 mb-8 border-b border-slate-200 pb-2">Research Pillars</h2>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
           
@@ -122,34 +128,34 @@ layout: compress
             </div>
             <h3 class="text-lg font-bold text-slate-900 mb-2">Neuro-Symbolic Reasoning</h3>
             <p class="text-slate-600 text-sm leading-relaxed">
-              Combining the flexibility of LLMs with the rigor of structured logic to verify scientific hypotheses.
+              Injecting <strong>symbolic rigor</strong> into neural generation. I build architectures that use logic verifiers to eliminate hallucinations in high-stakes scientific reasoning.
             </p>
-          </div>
+                </div>
 
           <!-- Pillar 2 -->
           <div class="bg-white p-6 rounded-xl border border-slate-100 shadow-sm hover:shadow-md transition-shadow">
             <div class="text-chemical-indigo mb-4">
               <i class="fas fa-layer-group fa-2x"></i>
-            </div>
+                </div>
             <h3 class="text-lg font-bold text-slate-900 mb-2">Diffusion Models</h3>
             <p class="text-slate-600 text-sm leading-relaxed">
-              Generative modeling for molecular structures and reaction pathways with physical constraints.
+              Moving beyond autoregressive limits. I develop <strong>Discrete Diffusion</strong> models that generate chemically valid structures and reaction pathways with precise controllability.
             </p>
-          </div>
+                </div>
 
           <!-- Pillar 3 -->
           <div class="bg-white p-6 rounded-xl border border-slate-100 shadow-sm hover:shadow-md transition-shadow">
             <div class="text-chemical-indigo mb-4">
               <i class="fas fa-robot fa-2x"></i>
-            </div>
+                </div>
             <h3 class="text-lg font-bold text-slate-900 mb-2">Agentic RAG</h3>
             <p class="text-slate-600 text-sm leading-relaxed">
-              Autonomous agents that retrieve, reason over, and update a unified World Graph of scientific knowledge.
+              Orchestrating <strong>multi-agent workforces</strong> that curate and reason over messy scientific literature, building a dynamic <strong>World Graph</strong> of chemistry.
             </p>
-          </div>
+                </div>
 
-        </div>
-      </section>
+              </div>
+            </section>
 
       <!-- Selected Publications -->
       <section id="publications" class="mb-20">
