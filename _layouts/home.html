@@ -67,39 +67,39 @@ layout: compress
               <p class="pubs__more"><a href="/publications/">See full list in Publications.</a></p>
               <div class="pubs">
                 <div class="pub">
-                  <div class="pub__title">Can LLMs Solve Molecule Puzzles? A Multimodal Benchmark for Molecular Structure Elucidation</div>
+                  <div class="pub__title"><a href="https://kehanguo2.github.io/Molpuzzle.io/" target="_blank">Can LLMs Solve Molecule Puzzles? A Multimodal Benchmark for Molecular Structure Elucidation</a></div>
                   <div class="pub__authors"><u>Kehan Guo</u>, Bozhao Nan, Yujun Zhou, Taicheng Guo, Zhichun Guo, Mihir Surve, Zhenwen Liang, Nitesh V. Chawla, Olaf Wiest, Xiangliang Zhang</div>
                   <div class="pub__meta"><span class="pub__venue">NeurIPS'24</span> <span class="pub__badge--highlight">(Spotlight)</span></div>
                 </div>
 
                 <div class="pub">
-                  <div class="pub__title">What can Large Language Models do in chemistry? A comprehensive benchmark on eight tasks</div>
+                  <div class="pub__title"><a href="https://github.com/ChemFoundationModels/ChemLLMBench" target="_blank">What can Large Language Models do in chemistry? A comprehensive benchmark on eight tasks</a></div>
                   <div class="pub__authors">Taicheng Guo*, <u>Kehan Guo</u>*, Bozhao Nan, Zhenwen Liang, Zhichun Guo, Nitesh V. Chawla, Olaf Wiest, Xiangliang Zhang</div>
                   <div class="pub__meta"><span class="pub__venue">NeurIPS'23</span></div>
                 </div>
 
                 <div class="pub">
-                  <div class="pub__title">ChemOrch: Empowering LLMs with Chemical Intelligence via Synthetic Instructions</div>
+                  <div class="pub__title"><a href="https://arxiv.org/abs/2509.16543" target="_blank">ChemOrch: Empowering LLMs with Chemical Intelligence via Synthetic Instructions</a></div>
                   <div class="pub__authors">Yue Huang, Zhengzhe Jiang, Xiaonan Luo, <u>Kehan Guo</u>, Haomin Zhuang, Yujun Zhou, Zhengqing Yuan, Xiaoqi Sun, Jules Schleinitz, Yanbo Wang, Shuhao Zhang, Mihir Surve, Nitesh V. Chawla, Olaf Wiest, Xiangliang Zhang</div>
                   <div class="pub__meta"><span class="pub__venue">NeurIPS'25</span></div>
                 </div>
 
                 <div class="pub">
-                  <div class="pub__title">AdaReasoner: Adaptive Reasoning Enables More Flexible Thinking</div>
+                  <div class="pub__title"><a href="https://arxiv.org/abs/2505.17312" target="_blank">AdaReasoner: Adaptive Reasoning Enables More Flexible Thinking</a></div>
                   <div class="pub__authors">Xiangqi Wang, Yue Huang, Yanbo Wang, Xiaonan Luo, <u>Kehan Guo</u>, Yujun Zhou, Xiangliang Zhang</div>
                   <div class="pub__meta"><span class="pub__venue">NeurIPS'25</span> <span class="pub__badge--highlight">(Spotlight)</span></div>
                 </div>
 
                 <div class="pub">
-                  <div class="pub__title">Artificial Intelligence in Spectroscopy: Advancing Chemistry from Prediction to Generation and Beyond</div>
+                  <div class="pub__title"><a href="https://arxiv.org/abs/2502.09897" target="_blank">Artificial Intelligence in Spectroscopy: Advancing Chemistry from Prediction to Generation and Beyond</a></div>
                   <div class="pub__authors"><u>Kehan Guo</u>, Yifan Shen, Gil A. Gonzalez-Montiel, Yue Huang, Yujun Zhou, Mihir Surve, Zhichun Guo, ...</div>
                   <div class="pub__meta"><span class="pub__venue">IJCAI'25</span></div>
                 </div>
 
                 <div class="pub">
-                  <div class="pub__title">Beyond Single-Value Metrics: Evaluating and Enhancing LLM Unlearning with Cognitive Diagnosis</div>
+                  <div class="pub__title"><a href="https://arxiv.org/abs/2502.13996" target="_blank">Beyond Single-Value Metrics: Evaluating and Enhancing LLM Unlearning with Cognitive Diagnosis</a></div>
                   <div class="pub__authors">Y. Lang*, <u>Kehan Guo</u>*, Yue Huang, Yujun Zhou, Haomin Zhuang, Tianyu Yang, Yu Su, Xiangliang Zhang</div>
-                  <div class="pub__meta"><span class="pub__venue">ACL'24 Findings</span> <span class="pub__badge">arXiv:2502.13996</span></div>
+                  <div class="pub__meta"><span class="pub__venue">ACL'24 Findings</span> <a href="https://arxiv.org/abs/2502.13996" target="_blank" class="pub__badge">arXiv:2502.13996</a></div>
                 </div>
               </div>
             </section>
@@ -134,7 +134,11 @@ layout: compress
     .card { border: 1px solid #eee; border-radius: 10px; padding: 1rem; background: #fff; }
     .pubs { display: grid; gap: 1rem; }
     .pub { padding: 1rem; border-left: 3px solid #e74c3c; background: #fff; }
+    .pub__title a { color: #000; text-decoration: none; }
+    .pub__title a:hover { color: #e74c3c; text-decoration: underline; }
     .pub__venue { font-weight: 600; color: #e74c3c; margin-bottom: .25rem; }
+    .pub__badge, .pub__badge--highlight { color: #e74c3c; font-weight: 700; margin-left: 0.5rem; text-decoration: none; }
+    .pub__badge:hover { text-decoration: underline; }
     .news__list { list-style: none; padding: 0; margin: 0; }
     .news__item { margin: .25rem 0; }
     .news__date { color: #e74c3c; margin-right: .5rem; font-weight: 700; }
