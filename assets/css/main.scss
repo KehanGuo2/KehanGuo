@@ -123,10 +123,12 @@ h1:before, .anchor:before {
 .hero__avatar--center { width: 100%; display: flex; justify-content: center; margin-bottom: 1rem; }
 .hero__avatar--center img { max-width: 160px; border-radius: 50%; box-shadow: 0 8px 20px rgba(0,0,0,.08); }
 .hero__links--icons { display: flex; justify-content: flex-start; gap: .8rem; margin-top: .25rem; }
-.hero__contact-label { font-weight: 700; color: #00369f; margin-right: .25rem; display: inline-flex; align-items: center; }
-.icon-btn { display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; border: 2px solid #00369f; border-radius: 50%; color: #00369f; background: #fff; transition: all .2s ease; }
+.hero__contact-label { font-weight: 700; color: #00369f !important; margin-right: .25rem; display: inline-flex; align-items: center; }
+.icon-btn { display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; border: 2px solid #00369f !important; border-radius: 50%; color: #00369f !important; background: #fff; transition: all .2s ease; }
 .icon-btn:hover { color: #002b7f; border-color: #002b7f; background: #f2f5fd; box-shadow: 0 6px 16px rgba(0,54,159,.25); }
 .hero__bio { max-width: 720px; margin: 0.4rem auto 0.9rem 0; color: #333; line-height: 1.85; }
+.hero__bio a { color: #00369f !important; text-decoration: none; border-bottom: 1px solid rgba(0,54,159,0.2); }
+.hero__bio a:hover { color: #002b7f !important; border-bottom-color: #002b7f; }
 .hero__links--icons { margin-top: .5rem; }
 .icon-btn { margin-right: .1rem; }
 
@@ -134,6 +136,11 @@ h1:before, .anchor:before {
 .masthead .masthead__menu-item a {
   font-size: 1.2em;
   font-weight: 700;
+  color: #00369f;
+}
+.masthead .masthead__menu-item a:hover {
+  color: #002b7f;
+  text-decoration: underline;
 }
 .masthead__menu-sep { display: inline-block; margin: 0 .75rem; color: #9a9a9a; font-weight: 400; }
 
@@ -159,7 +166,7 @@ h1:before, .anchor:before {
 .pub__authors { color: #555; font-size: 0.95em; }
 .pub__meta { margin-top: .2rem; color: #666; font-size: 0.95em; }
 .pub__venue { font-weight: 700; color: #00369f; }
-.pub__badge { display: inline-block; margin-left: .5rem; color: #e74c3c; font-weight: 700; }
+.pub__badge { display: inline-block; margin-left: .5rem; color: #00369f; font-weight: 700; }
 .pub__badge--highlight { display: inline-block; margin-left: .25rem; color: #e74c3c; font-weight: 700; }
 .pubs__more { margin: -.25rem 0 .5rem; font-size: .95em; }
 .pubs__more a { color: #00369f; text-decoration: underline; }
