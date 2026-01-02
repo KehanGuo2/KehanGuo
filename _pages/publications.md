@@ -12,14 +12,16 @@ author_profile: false
 </section>
 
 <style>
-  :root { --accent: #e74c3c; }
+  :root { --accent: #00369f; }
   .pubs .pub-card { border-left:4px solid var(--accent); border-radius:10px; box-shadow:0 1px 3px rgba(0,0,0,.06); padding:1rem 1.25rem; margin-bottom:1rem; background:#fff; }
   .pub-card h3 { margin:0 0 .25rem; font-weight:700; line-height:1.25; }
   .pub-card h3 a { color:#000; }
+  .pub-card h3 a:hover { color:var(--accent); }
   .pub-card .authors { color:#555; font-size:.95em; }
   .pub-card .venue { color:#666; font-style:italic; font-size:.95em; }
   .tags { display:inline-flex; gap:.35rem; margin-left:.5rem; flex-wrap:wrap; }
-  .tag { background:rgba(231,76,60,.12); color:#e74c3c; border:1px solid rgba(231,76,60,.35); padding:.05rem .45rem; border-radius:999px; font-size:.8rem; }
+  .tag { background:rgba(0,54,159,.12); color:#00369f; border:1px solid rgba(0,54,159,.35); padding:.05rem .45rem; border-radius:999px; font-size:.8rem; }
+  .tag--red { background:rgba(231,76,60,.12); color:#e74c3c; border:1px solid rgba(231,76,60,.35); }
   .pubs__year { margin:1.2rem 0 .5rem; color:#0C2340; }
   @media (max-width:680px){ .pubs__header { flex-direction:column; align-items:flex-start; } }
 </style>

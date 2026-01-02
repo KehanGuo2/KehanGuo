@@ -42,7 +42,7 @@ I am always open to connecting with colleagues in my field and across interdisci
 ------
 
 <ul style="font-size: 16px; line-height: 1.8; list-style-type: disc; padding-left: 20px;">
-  <li><strong>Status:</strong> 🚀 Actively seeking <strong>Research Scientist Internships</strong> for Spring/Summer/Fall 2026 at top AI labs (DeepMind, Meta, OpenAI, etc.).</li>
+  <li><strong>Status:</strong> 🚀 Actively seeking <strong>Research Scientist Internships</strong> for Spring/Summer/Fall 2026.</li>
   <li><strong>2025.12:</strong> New Preprint: Co-first author on <a href="https://arxiv.org/abs/2512.15567">Evaluating Large Language Models in Scientific Discovery</a> — a massive community benchmark for AI in Science.</li>
   <li><strong>2025.09:</strong> Two papers accepted to <strong>NeurIPS 2025</strong>: <strong>ChemOrch</strong> (Agentic Chemistry) and <em>AdaReasoner</em> (<span style="color: #e74c3c;">Spotlight</span>).</li>
   <li><strong>2025.08:</strong> Completed Applied Scientist Internship at <strong>Amazon AWS AI (Deep Engine Team)</strong> in NYC.</li>
