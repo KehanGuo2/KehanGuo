@@ -39,7 +39,13 @@ author_profile: false
   }
   function renderTags(tags){
     if (!tags || !tags.length) return '';
-    return '<span class="tags">' + tags.map(t=>`<span class="tag">${t}</span>`).join('') + '</span>';
+    return '<span class="tags">' + tags.map(t=>{
+      const norm = String(t||'').trim().toLowerCase();
+      if (norm === 'spotlight' || norm === 'neurips spotlight') {
+        return `<span class="tag tag--red"><strong>NeurIPS Spotlight</strong></span>`;
+      }
+      return `<span class="tag">${t}</span>`;
+    }).join('') + '</span>';
   }
   function authorHTML(authors){
     const shown = truncateAuthors(authors);

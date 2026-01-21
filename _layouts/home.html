@@ -28,7 +28,6 @@ layout: compress
         }
       }
     </script>
-    <!-- Add Inter font -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
       body { font-family: 'Inter', sans-serif; }
@@ -39,29 +38,26 @@ layout: compress
 
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       
-      <!-- Hero Section -->
       <section id="about" class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-20">
-        <!-- Left Column: Text -->
         <div class="order-2 lg:order-1">
           
           <div class="flex flex-col sm:flex-row items-center sm:items-center gap-4 mb-6">
             <img src="{{ site.author.avatar | relative_url }}" alt="{{ site.author.name }}" class="w-20 h-20 rounded-full border-2 border-slate-100 shadow-sm object-cover mx-auto sm:mx-0">
             <div class="text-center sm:text-left">
               <h1 class="text-5xl font-bold text-slate-900 tracking-tight">Kehan Guo</h1>
-              <p class="text-xl font-semibold text-chemical-indigo mt-2">Building Self-Evolving Scientific Agents.</p>
+              <p class="text-xl font-semibold text-chemical-indigo mt-2">Building Foundation Models for System 2 Reasoning.</p>
             </div>
           </div>
           
           <div class="prose prose-lg text-slate-600 mb-8 leading-relaxed">
             <p>
-              I build <strong>Self-Evolving Scientific Agents</strong>—systems that move beyond probabilistic prediction to rigorous understanding.
+              I build <strong>Self-Evolving Scientific Agents</strong>—systems that move beyond generative fluency to rigorous, <strong>System 2 understanding</strong>.
             </p>
             <p>
-              My research bridges <a href="#research-pillars" class="text-slate-900 font-medium hover:text-chemical-indigo transition-colors">Neuro-Symbolic Reasoning</a>, <strong>Robust Post-Training</strong>, and <strong>Generative World Modeling</strong> powered by <strong>Diffusion</strong>. By integrating structured chemical knowledge with verifiable reasoning loops, I aim to enable the autonomous discovery of new chemistry.
+              My research lies at the intersection of <strong>Agentic Reasoning</strong>, <strong>RL Post-Training</strong>, and <strong>Generative Planning</strong>. By aligning LLMs with structured verification loops and non-autoregressive mechanisms (Diffusion), I aim to enable AI systems to perform reliable, multi-step deduction in open-ended domains.
             </p>
           </div>
 
-          <!-- Social Links -->
           <div class="flex justify-center sm:justify-start space-x-6">
             {% if site.author.email %}
             <a href="mailto:{{ site.author.email }}" class="text-slate-400 hover:text-chemical-indigo transition-colors" aria-label="Email">
@@ -86,19 +82,17 @@ layout: compress
                   </div>
                 </div>
 
-        <!-- Right Column: Visual Anchor -->
         <div class="order-1 lg:order-2">
           <figure class="bg-white p-2 rounded-xl shadow-lg border border-slate-100 transform hover:scale-[1.01] transition-transform duration-300">
-            <img src="images/research_architecture.jpg" alt="The Blueprint for Self-Evolving Science" class="rounded-lg w-full h-auto object-cover">
+            <img src="images/research_architecture.jpg" alt="System 2 Reasoning Architecture" class="rounded-lg w-full h-auto object-cover">
             <figcaption class="text-center text-sm text-slate-400 mt-3 italic px-4 pb-2">
-              Figure 1: The Blueprint for Self-Evolving Science. Integrating a <strong>Multi-Agent Workforce</strong> with a <strong>World Graph Data Hub</strong> for autonomous discovery.
+              Figure 1: The Blueprint for <strong>System 2 AI</strong>. Integrating Multi-Agent Planning, Knowledge Graphs, and RL Alignment for rigorous discovery.
             </figcaption>
           </figure>
               </div>
             </section>
 
-      <!-- News Section -->
-            {% if site.data.news %}
+      {% if site.data.news %}
       <section class="mb-20">
         <h2 class="text-2xl font-bold text-slate-900 mb-6 border-b border-slate-200 pb-2">News</h2>
         <div class="bg-white rounded-xl shadow-sm border border-slate-100 p-6 max-h-[300px] overflow-y-auto custom-scrollbar">
@@ -116,48 +110,43 @@ layout: compress
             </section>
             {% endif %}
 
-      <!-- Research Vision -->
       <section id="research-pillars" class="mb-20">
         <h2 class="text-2xl font-bold text-slate-900 mb-8 border-b border-slate-200 pb-2">Research Pillars</h2>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
           
-          <!-- Pillar 1 -->
           <div class="bg-white p-6 rounded-xl border border-slate-100 shadow-sm hover:shadow-md transition-shadow">
             <div class="text-chemical-indigo mb-4">
               <i class="fas fa-brain fa-2x"></i>
             </div>
-            <h3 class="text-lg font-bold text-slate-900 mb-2">Neuro-Symbolic Reasoning</h3>
+            <h3 class="text-lg font-bold text-slate-900 mb-2">System 2 Reasoning &amp; Evaluation</h3>
             <p class="text-slate-600 text-sm leading-relaxed">
-              Injecting <strong>symbolic rigor</strong> into neural generation. I build architectures that use logic verifiers to eliminate hallucinations in high-stakes scientific reasoning.
+              Defining and measuring rigorous thinking. I build comprehensive benchmarks (e.g., MolPuzzle) and evaluation protocols to stress-test LLMs on multi-step deduction, identifying the gap between fluency and true reasoning.
             </p>
-                </div>
+          </div>
 
-          <!-- Pillar 2 -->
-          <div class="bg-white p-6 rounded-xl border border-slate-100 shadow-sm hover:shadow-md transition-shadow">
-            <div class="text-chemical-indigo mb-4">
-              <i class="fas fa-layer-group fa-2x"></i>
-                </div>
-            <h3 class="text-lg font-bold text-slate-900 mb-2">Diffusion Models</h3>
-            <p class="text-slate-600 text-sm leading-relaxed">
-              Moving beyond autoregressive limits. I develop <strong>Discrete Diffusion</strong> models that generate chemically valid structures and reaction pathways with precise controllability.
-            </p>
-                </div>
-
-          <!-- Pillar 3 -->
           <div class="bg-white p-6 rounded-xl border border-slate-100 shadow-sm hover:shadow-md transition-shadow">
             <div class="text-chemical-indigo mb-4">
               <i class="fas fa-robot fa-2x"></i>
-                </div>
-            <h3 class="text-lg font-bold text-slate-900 mb-2">Agentic RAG</h3>
+            </div>
+            <h3 class="text-lg font-bold text-slate-900 mb-2">Agentic Alignment &amp; RAG</h3>
             <p class="text-slate-600 text-sm leading-relaxed">
-              Orchestrating <strong>multi-agent workforces</strong> that curate and reason over messy scientific literature, building a dynamic <strong>World Graph</strong> of chemistry.
+              Orchestrating self-correcting agents. I combine <strong>Retrieval-Augmented Generation (RAG)</strong> with <strong>Reinforcement Learning (RL)</strong> post-training to align agentic workflows with structured knowledge, ensuring verifiable and robust planning.
             </p>
-                </div>
+          </div>
 
-              </div>
-            </section>
+          <div class="bg-white p-6 rounded-xl border border-slate-100 shadow-sm hover:shadow-md transition-shadow">
+            <div class="text-chemical-indigo mb-4">
+              <i class="fas fa-layer-group fa-2x"></i>
+            </div>
+            <h3 class="text-lg font-bold text-slate-900 mb-2">Generative Planning &amp; Diffusion</h3>
+            <p class="text-slate-600 text-sm leading-relaxed">
+              Beyond autoregressive limits. I explore <strong>Diffusion Models</strong> as non-autoregressive planners for structured generation. This enables global context modeling and precise controllability in complex design spaces.
+            </p>
+          </div>
 
-      <!-- Selected Publications -->
+        </div>
+      </section>
+
       <section id="publications" class="mb-20">
         <div class="flex justify-between items-end mb-8 border-b border-slate-200 pb-2">
           <h2 class="text-2xl font-bold text-slate-900">Selected Publications</h2>
@@ -166,14 +155,33 @@ layout: compress
 
         <div class="space-y-10">
           
-          <!-- Paper 1 -->
+          <article class="group">
+            <div class="flex flex-wrap items-center gap-2 mb-2">
+              <h3 class="text-lg font-bold text-slate-900 group-hover:text-chemical-indigo transition-colors">
+                <a href="https://arxiv.org/abs/2505.17312" target="_blank">AdaReasoner: Adaptive Reasoning Enables More Flexible Thinking</a>
+              </h3>
+              <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-bold bg-rose-50 text-spotlight-red border border-rose-100">
+                <span class="font-extrabold">NeurIPS Spotlight</span> 2025
+              </span>
+            </div>
+            <div class="text-slate-600 text-sm mb-3">
+              Xiangqi Wang, Yue Huang, Yanbo Wang, Xiaonan Luo, <span class="font-bold text-slate-900 border-b-2 border-indigo-100">Kehan Guo</span>, Yujun Zhou, Xiangliang Zhang
+            </div>
+            <div class="flex gap-4 text-xs font-medium text-slate-500 mb-2">
+              <a href="https://arxiv.org/abs/2505.17312" class="hover:text-chemical-indigo flex items-center gap-1"><i class="fas fa-file-pdf"></i> PDF</a>
+            </div>
+            <p class="text-sm text-slate-500 italic">
+              "Adaptive reasoning to enable more flexible thinking."
+            </p>
+          </article>
+
           <article class="group">
             <div class="flex flex-wrap items-center gap-2 mb-2">
               <h3 class="text-lg font-bold text-slate-900 group-hover:text-chemical-indigo transition-colors">
                 <a href="https://kehanguo2.github.io/Molpuzzle.io/" target="_blank">Can LLMs Solve Molecule Puzzles? A Multimodal Benchmark for Molecular Structure Elucidation</a>
               </h3>
               <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-bold bg-rose-50 text-spotlight-red border border-rose-100">
-                NeurIPS 2024 Spotlight
+                <span class="font-extrabold">NeurIPS Spotlight</span> 2024
               </span>
             </div>
             <div class="text-slate-600 text-sm mb-3">
@@ -189,7 +197,6 @@ layout: compress
             </p>
           </article>
 
-          <!-- Paper 2 -->
           <article class="group">
             <div class="flex flex-wrap items-center gap-2 mb-2">
               <h3 class="text-lg font-bold text-slate-900 group-hover:text-chemical-indigo transition-colors">
@@ -210,11 +217,10 @@ layout: compress
             </p>
           </article>
 
-          <!-- Paper 3 -->
           <article class="group">
             <div class="flex flex-wrap items-center gap-2 mb-2">
               <h3 class="text-lg font-bold text-slate-900 group-hover:text-chemical-indigo transition-colors">
-                <a href="https://github.com/" target="_blank">ChemOrch: Empowering LLMs with Chemical Intelligence via Synthetic Instructions</a>
+                <a href="https://arxiv.org/abs/2509.16543" target="_blank">ChemOrch: Empowering LLMs with Chemical Intelligence via Synthetic Instructions</a>
               </h3>
               <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-bold bg-indigo-50 text-chemical-indigo border border-indigo-100">
                 NeurIPS 2025
@@ -224,15 +230,13 @@ layout: compress
               Yue Huang, ... <span class="font-bold text-slate-900 border-b-2 border-indigo-100">Kehan Guo</span>, ...
             </div>
             <div class="flex gap-4 text-xs font-medium text-slate-500 mb-2">
-              <a href="#" class="hover:text-chemical-indigo flex items-center gap-1"><i class="fas fa-file-pdf"></i> PDF</a>
-              <a href="#" class="hover:text-chemical-indigo flex items-center gap-1"><i class="fab fa-github"></i> Code</a>
+              <a href="https://arxiv.org/abs/2509.16543" class="hover:text-chemical-indigo flex items-center gap-1"><i class="fas fa-file-pdf"></i> PDF</a>
             </div>
             <p class="text-sm text-slate-500 italic">
               "Developed a multi-agent orchestration framework for chemical synthesis planning."
             </p>
           </article>
 
-          <!-- Paper 4 -->
           <article class="group">
             <div class="flex flex-wrap items-center gap-2 mb-2">
               <h3 class="text-lg font-bold text-slate-900 group-hover:text-chemical-indigo transition-colors">
@@ -253,8 +257,7 @@ layout: compress
             </p>
           </article>
 
-           <!-- Paper 5 -->
-           <article class="group">
+          <article class="group">
             <div class="flex flex-wrap items-center gap-2 mb-2">
               <h3 class="text-lg font-bold text-slate-900 group-hover:text-chemical-indigo transition-colors">
                 <a href="https://github.com/ChemFoundationModels/ChemLLMBench" target="_blank">What can Large Language Models do in chemistry?</a>
@@ -267,7 +270,6 @@ layout: compress
               Taicheng Guo*, <span class="font-bold text-slate-900 border-b-2 border-indigo-100">Kehan Guo*</span>, et al.
             </div>
             <div class="flex gap-4 text-xs font-medium text-slate-500 mb-2">
-              <a href="#" class="hover:text-chemical-indigo flex items-center gap-1"><i class="fas fa-file-pdf"></i> PDF</a>
               <a href="https://github.com/ChemFoundationModels/ChemLLMBench" class="hover:text-chemical-indigo flex items-center gap-1"><i class="fab fa-github"></i> Code</a>
             </div>
             <p class="text-sm text-slate-500 italic">
@@ -283,5 +285,3 @@ layout: compress
     {% include scripts.html %}
   </body>
 </html>
-
-
