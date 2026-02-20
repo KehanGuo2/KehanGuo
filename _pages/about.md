@@ -15,15 +15,19 @@ redirect_from:
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
-<span class='anchor' id='about-me' style="font-size: 16px;">
+<span class='anchor' id='about-me'>
 
+<p style="font-size: 1em; line-height: 1.75; color: #333;">
 I am a Ph.D. candidate in Computer Science at <a href="https://www.nd.edu/">University of Notre Dame</a> (graduating May 2027), advised by <a href="https://sites.nd.edu/xiangliang-zhang/">Prof. Xiangliang Zhang</a> in the <a href="https://sites.nd.edu/xiangliang-zhang/">MINE Lab</a>.
+</p>
 
-My research sits at the intersection of <strong>RL post-training</strong>, <strong>LLM agents</strong>, and <strong>AI for Science</strong>. I build systems that go beyond next-token prediction: agents that use structured tools, verify their own reasoning, and adapt their compute budget to problem difficulty. At <strong>Amazon AWS AI</strong> (Summer 2025), I developed <strong>Social-Choice GRPO</strong>, a reward shaping framework achieving an <strong>8.9% relative accuracy gain on BBEH</strong> over PPO baselines. 
+<p style="font-size: 1em; line-height: 1.75; color: #333;">
+My research sits at the intersection of <strong>RL post-training</strong>, <strong>LLM agents</strong>, and <strong>AI for Science</strong>. I build systems that go beyond next-token prediction: agents that use structured tools, verify their own reasoning, and adapt their compute budget to problem difficulty. At <strong>Amazon AWS AI</strong> (Summer 2025), I developed <strong>Social-Choice GRPO</strong>, a reward shaping framework achieving an <strong>8.9% relative accuracy gain on BBEH</strong> over PPO baselines. My academic work has produced two <strong>NeurIPS Spotlight</strong> papers in consecutive years (2024, 2025).
+</p>
 
-<blockquote style="font-size: 16px; line-height: 1.6;">
-I am actively seeking <strong>Research Scientist / Applied Scientist Internships</strong> for <strong>Spring / Summer / Fall 2026</strong>. If my work resonates with your team, please reach out at <a href="mailto:kguo2@nd.edu">kguo2@nd.edu</a>.
-</blockquote>
+<div class="cta-banner">
+  <strong>Seeking Internship:</strong> I am actively looking for <strong>Research Scientist / Applied Scientist Internships</strong> for <strong>Spring / Summer / Fall 2026</strong>. If my work resonates with your team, please reach out at <a href="mailto:kguo2@nd.edu">kguo2@nd.edu</a>.
+</div>
 
 </span>
 
