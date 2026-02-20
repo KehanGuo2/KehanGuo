@@ -7,12 +7,12 @@
 
 # Site Settings
 title                    : "Kehan Guo's Website"
-description              : "Kehan Guo - PhD Student building Self-Evolving Scientific Agents. Research in Generative AI for Science, Diffusion Language Models, Graph Reasoning, Post-Training, GRPO, JAX, vLLM, Neuro-Symbolic Reasoning, and Agentic RAG."
+description              : "Kehan Guo - PhD Candidate at Notre Dame. Research in RL Post-Training (GRPO), LLM Agents, Adaptive Inference, and AI for Science. Two NeurIPS Spotlight papers. Amazon AWS AI intern. Seeking research internships for 2026."
 repository               : "KehanGuo2/KehanGuo"
 google_scholar_stats_use_cdn : true
 
 # Keywords for SEO
-keywords                 : "Generative AI for Science, Diffusion Language Models, Graph Reasoning, Post-Training, GRPO, JAX, vLLM, Neuro-Symbolic Reasoning, Agentic RAG, Social-Choice GRPO, LLM Agents, Scientific Discovery"
+keywords                 : "RL Post-Training, GRPO, RLHF, LLM Agents, Adaptive Inference, AI for Science, Diffusion Language Models, Neuro-Symbolic Reasoning, Social-Choice GRPO, Tool-Augmented LLM, Scientific Discovery, NeurIPS Spotlight, Research Scientist Intern"
 
 # google analytics
 google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
@@ -27,7 +27,7 @@ author:
   name             : "Kehan Guo"
   avatar           : "images/snow.jpg"
   avatar_hover     : "images/oreo.jpg"
-  bio              : "University of Notre Dame"
+  bio              : "Ph.D. Candidate, Notre Dame | RL Post-Training, LLM Agents, AI for Science"
   location         : "South Bend, IN, USA"
   employer         :
   pubmed           : 
