@@ -22,7 +22,7 @@ I am a Ph.D. candidate in Computer Science at <a href="https://www.nd.edu/">Univ
 </p>
 
 <p style="font-size: 1em; line-height: 1.75; color: #333;">
-My research sits at the intersection of <strong>RL post-training</strong>, <strong>LLM agents</strong>, and <strong>AI for Science</strong>. I build systems that go beyond next-token prediction: agents that use structured tools, verify their own reasoning, and adapt their compute budget to problem difficulty. At <strong>Amazon AWS AI</strong> (Summer 2025), I developed <strong>Social-Choice GRPO</strong>, a reward shaping framework achieving an <strong>8.9% relative accuracy gain on BBEH</strong> over PPO baselines. My academic work has produced two <strong>NeurIPS Spotlight</strong> papers in consecutive years (2024, 2025).
+My research sits at the intersection of <strong>RL post-training</strong>, <strong>LLM agents</strong>, and <strong>AI for Science</strong>. I build systems that go beyond next-token prediction: agents that use structured tools, verify their own reasoning, and adapt their compute budget to problem difficulty. 
 </p>
 
 <div class="cta-banner">
@@ -63,7 +63,7 @@ I have led or co-led three benchmark projects &mdash; <em>ChemLLMBench</em> (Neu
   <li><strong>Seeking Internship:</strong> Actively looking for <strong>Research Scientist / Applied Scientist Internships</strong> for Spring/Summer/Fall 2026. <a href="mailto:kguo2@nd.edu">Reach out!</a></li>
   <li><strong>2025.12:</strong> New preprint: co-first author on <a href="https://arxiv.org/abs/2512.15567">Evaluating Large Language Models in Scientific Discovery</a> &mdash; a comprehensive multi-domain assessment across 10 scientific fields.</li>
   <li><strong>2025.09:</strong> Two papers accepted at <strong>NeurIPS 2025</strong>: <strong>ChemOrch</strong> (multi-agent orchestration for chemistry) and <em>AdaReasoner</em> (<span style="color: #e74c3c;">Spotlight</span>, adaptive inference-time reasoning).</li>
-  <li><strong>2025.08:</strong> Completed Applied Scientist Internship at <strong>Amazon AWS AI (Deep Engine Team)</strong> in NYC. Developed Social-Choice GRPO; 8.9% gain on BBEH.</li>
+  <li><strong>2025.08:</strong> Completed Applied Scientist Internship at <strong>Amazon AWS AI (Deep Engine Team)</strong> in NYC.</li>
   <li><strong>2025.04:</strong> Survey paper accepted at <strong>IJCAI 2025</strong> (Survey Track): <em>AI in Spectroscopy</em>.</li>
   <li><strong>2024.12:</strong> Selected for <strong>OpenAI Researcher Access Program</strong>.</li>
   <li><strong>2024.09:</strong> <a href="https://github.com/KehanGuo2/MolPuzzle">MolPuzzle</a> accepted at <em>NeurIPS 2024 Dataset and Benchmark Track</em> as <span style="color: #e74c3c;">Spotlight</span> (top ~3%).</li>
@@ -110,7 +110,7 @@ Xiangqi Wang, Yue Huang, Yanbo Wang, Xiaonan Luo, **Kehan Guo**, Yujun Zhou, Xia
 ![NeurIPS 2025](https://img.shields.io/badge/NeurIPS-2025-blue) [ChemOrch: Empowering LLMs with Chemical Intelligence via Synthetic Instructions](https://arxiv.org/abs/2509.16543)
 
 Yue Huang, Zhengzhe Jiang, Xiaonan Luo, **Kehan Guo**, Haomin Zhuang, Yujun Zhou, Zhengqing Yuan, Xiaoqi Sun, Jules Schleinitz, Yanbo Wang, Shuhao Zhang, Mihir Surve, Nitesh V. Chawla, Olaf Wiest, Xiangliang Zhang
-
+ 
 *Mentored project: multi-agent orchestration integrating 74+ chemistry tools.*
 
 </div>
