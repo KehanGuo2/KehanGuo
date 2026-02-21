@@ -14,7 +14,7 @@ source "https://rubygems.org"
 # If you want to use Jekyll native, uncomment the line below.
 # To upgrade, run `bundle update`.
 
-gem "jekyll", "~> 3.9"
+gem "jekyll", "~> 4.3"
 gem "csv"
 gem "webrick"
 gem "base64"
@@ -29,7 +29,7 @@ group :jekyll_plugins do
   # gem "jekyll-archives"
   gem "jekyll-feed"
   gem 'jekyll-sitemap'
-  gem 'hawkins'
+  # gem 'hawkins'  # incompatible with Jekyll 4.x; use jekyll serve --livereload instead
   gem 'jekyll-paginate'
   gem 'jekyll-gist'
   gem 'jekyll-redirect-from'

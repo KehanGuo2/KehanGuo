@@ -15,7 +15,7 @@ redirect_from:
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
-<span class='anchor' id='about-me'>
+<div class='anchor' id='about-me'></div>
 
 I am a Ph.D. candidate in Computer Science at <a href="https://www.nd.edu/">University of Notre Dame</a> (graduating May 2027), advised by <a href="https://sites.nd.edu/xiangliang-zhang/">Prof. Xiangliang Zhang</a> in the <a href="https://sites.nd.edu/xiangliang-zhang/">MINE Lab</a>.
 
@@ -24,8 +24,6 @@ My research sits at the intersection of **RL post-training**, **LLM agents**, an
 <div class="cta-banner">
   <strong>Seeking Internship:</strong> I am actively looking for <strong>Research Scientist / Applied Scientist Internships</strong> for <strong>Spring / Summer / Fall 2026</strong>. If my work resonates with your team, please reach out at <a href="mailto:kguo2@nd.edu">kguo2@nd.edu</a>.
 </div>
-
-</span>
 
 ## Research
 
