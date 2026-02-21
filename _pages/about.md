@@ -33,12 +33,6 @@ My research sits at the intersection of **RL post-training**, **LLM agents**, an
 
 **Evaluation.** Three benchmark projects identifying capability gaps in frontier models. 600+ citations across ChemLLMBench (NeurIPS 2023), MolPuzzle (NeurIPS 2024 Spotlight), and a Scientific Discovery evaluation suite.
 
-<div class="research-figure">
-  <img src="images/research_architecture.jpg" alt="The Neuro-Symbolic Loop Architecture">
-  <p><strong>Figure 1: The Neuro-Symbolic Loop.</strong> Architecture for <em>ChemOrch</em> (NeurIPS '25), integrating a Multi-Agent Workforce with a Unified World Graph.</p>
-</div>
-
-
 ## News
 
 <ul class="news-list">
@@ -113,7 +107,3 @@ Taicheng Guo\*, **Kehan Guo**\*, Bozhao Nan, Zhenwen Liang, Zhichun Guo, Nitesh 
 
 # Professional Service
 - **Reviewer:** NeurIPS (2024&ndash;25), ICLR (2025&ndash;26), ICML, AAAI, IJCAI, KDD, ACL Rolling Review, WWW, EMNLP
-
-<div class="map-container">
-<script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=j0c1_fHIloUhG4VJOq9LgaxK6GKOZ6MwrAZbEqZLjM4&cl=ffffff&w=a"></script>
-</div>
