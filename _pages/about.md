@@ -70,7 +70,7 @@ I have led or co-led benchmark projects that identified fundamental capability g
 <div class="pub-entry">
   <div class="pub-title"><a href="https://arxiv.org/abs/2512.15567">Evaluating Large Language Models in Scientific Discovery</a></div>
   <div class="pub-authors"><strong>Kehan Guo</strong>*, Ziqian Song*, Jiuding Lu*, and others</div>
-  <div class="pub-venue"><em>arXiv preprint</em>, 2025. <a href="https://arxiv.org/abs/2512.15567">[Paper]</a></div>
+  <div class="pub-venue"><em>arXiv preprint</em>, 2025. <a href="https://arxiv.org/abs/2512.15567">&#128196; Paper</a> &nbsp;<a href="https://github.com/deepprinciple/lm-evaluation-harness/tree/main">&#128187; Code</a> &nbsp;<a href="https://huggingface.co/deep-principle/datasets">&#128202; Dataset</a> &nbsp;<a href="https://github.com/HowieHwong/sde-harness">&#129518; Oracle</a></div>
 </div>
 
 <div class="pub-entry">
