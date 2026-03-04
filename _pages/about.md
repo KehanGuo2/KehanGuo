@@ -17,7 +17,7 @@ redirect_from:
 
 <div class='anchor' id='about-me'></div>
 
-I am a Ph.D. candidate in Computer Science at <a href="https://www.nd.edu/">University of Notre Dame</a> (graduating May 2027), advised by <a href="https://sites.nd.edu/xiangliang-zhang/">Prof. Xiangliang Zhang</a>. I build **RL post-training methods**, **agentic reasoning systems**, and **reward-aligned generative models** &mdash; training and evaluating at scales from 7B to 70B parameters on 64-GPU clusters.
+I am a Ph.D. candidate in Computer Science at <a href="https://www.nd.edu/">University of Notre Dame</a> (graduating May 2027), advised by <a href="https://sites.nd.edu/xiangliang-zhang/">Prof. Xiangliang Zhang</a>. I build **RL post-training methods**, **agentic reasoning systems**, and **reward-aligned generative models**.
 
 My work focuses on the hard problems that arise when LLMs must *act*, not just *predict*: how to shape reward signals that remain informative over long horizons, how to build agents that verify their own tool-use chains before committing (multi-agent orchestration, NeurIPS 2025), and how to dynamically allocate inference-time compute to match problem difficulty (*AdaReasoner*, NeurIPS 2025 Spotlight). I use scientific reasoning as a demanding testbed &mdash; where tool errors cascade, outputs require formal verification, and benchmarks I created (NeurIPS 2023, 300+ citations; NeurIPS 2024 Spotlight) have become community standards.
 
@@ -28,7 +28,7 @@ My work focuses on the hard problems that arise when LLMs must *act*, not just *
 ## Research
 
 **1. RL Post-Training and Inference-Time Reasoning.**
-I develop methods that improve LLM behavior through reinforcement learning &mdash; at both training time and inference time. This includes principled reward-shaping frameworks for stable policy optimization at 7B&ndash;70B scale ([CEPO](https://arxiv.org/abs/2509.23095)), adaptive inference-time reasoning that dynamically selects computation depth to reduce cost by 35% with no accuracy loss ([AdaReasoner](https://arxiv.org/abs/2505.17312), NeurIPS 2025 Spotlight), and ongoing work unifying reward-aligned generation with KL-regularized RL via optimal-transport coupling.
+I develop methods that improve LLM behavior through reinforcement learning &mdash; at both training time and inference time. This includes principled reward-shaping frameworks for stable policy optimization ([CEPO](https://arxiv.org/abs/2509.23095)), adaptive inference-time reasoning that dynamically selects computation depth to reduce cost by 35% with no accuracy loss ([AdaReasoner](https://arxiv.org/abs/2505.17312), NeurIPS 2025 Spotlight), and ongoing work unifying reward-aligned generation with KL-regularized RL via optimal-transport coupling.
 
 **2. Agentic Reasoning and Structured Tool Use.**
 I build multi-agent architectures with explicit Router&ndash;Planner&ndash;Executor&ndash;Verifier pipelines where each tool call is verified before downstream steps proceed. Our orchestration framework ([ChemOrch](https://arxiv.org/abs/2509.16543), NeurIPS 2025) integrates 74+ structured tools and dramatically improves reliability on expert-level, multi-step reasoning. A follow-on system adds knowledge-graph grounding and self-evolving memory.
@@ -56,27 +56,15 @@ I have led or co-led benchmark projects that identified fundamental capability g
 ## Selected Publications ([Full Publications](https://scholar.google.com/citations?user=t8iRCLUAAAAJ&hl=en))
 
 <div class="pub-entry">
-  <div class="pub-title"><a href="https://arxiv.org/abs/2505.17312">AdaReasoner: Adaptive Reasoning Enables More Flexible Thinking</a></div>
-  <div class="pub-authors">Xiangqi Wang, Yue Huang, Yanbo Wang, Xiaonan Luo, <strong>Kehan Guo</strong>, Yujun Zhou, Xiangliang Zhang</div>
-  <div class="pub-venue"><em>NeurIPS</em>, 2025. <strong>Spotlight.</strong> <a href="https://arxiv.org/abs/2505.17312">[Paper]</a></div>
-</div>
-
-<div class="pub-entry">
   <div class="pub-title"><a href="https://kehanguo2.github.io/Molpuzzle.io/">Can LLMs Solve Molecule Puzzles? A Multimodal Benchmark for Molecular Structure Elucidation</a></div>
   <div class="pub-authors"><strong>Kehan Guo</strong>, Bozhao Nan, Yujun Zhou, Taicheng Guo, Zhichun Guo, Mihir Surve, Zhenwen Liang, Nitesh V. Chawla, Olaf Wiest, Xiangliang Zhang</div>
   <div class="pub-venue"><em>NeurIPS</em>, 2024. <strong>Spotlight.</strong> <a href="https://kehanguo2.github.io/Molpuzzle.io/">[Paper]</a> <a href="https://github.com/KehanGuo2/MolPuzzle">[Code]</a></div>
 </div>
 
 <div class="pub-entry">
-  <div class="pub-title"><a href="https://arxiv.org/abs/2509.16543">ChemOrch: Empowering LLMs with Chemical Intelligence via Synthetic Instructions</a></div>
-  <div class="pub-authors">Yue Huang, Zhengzhe Jiang, Xiaonan Luo, <strong>Kehan Guo</strong>, Haomin Zhuang, Yujun Zhou, Zhengqing Yuan, Xiaoqi Sun, Jules Schleinitz, Yanbo Wang, Shuhao Zhang, Mihir Surve, Nitesh V. Chawla, Olaf Wiest, Xiangliang Zhang</div>
-  <div class="pub-venue"><em>NeurIPS</em>, 2025. <a href="https://arxiv.org/abs/2509.16543">[Paper]</a></div>
-</div>
-
-<div class="pub-entry">
-  <div class="pub-title"><a href="https://arxiv.org/abs/2509.23095">Causally-Enhanced Reinforcement Policy Optimization</a></div>
-  <div class="pub-authors">Xiangqi Wang, Yue Huang, Yujun Zhou, Xiaonan Luo, <strong>Kehan Guo</strong>, Xiangliang Zhang</div>
-  <div class="pub-venue"><em>arXiv preprint</em>, 2025. <a href="https://arxiv.org/abs/2509.23095">[Paper]</a></div>
+  <div class="pub-title"><a href="https://github.com/ChemFoundationModels/ChemLLMBench">What can Large Language Models do in chemistry? A comprehensive benchmark on eight tasks</a></div>
+  <div class="pub-authors">Taicheng Guo*, <strong>Kehan Guo</strong>*, Bozhao Nan, Zhenwen Liang, Zhichun Guo, Nitesh V. Chawla, Olaf Wiest, Xiangliang Zhang</div>
+  <div class="pub-venue"><em>NeurIPS</em>, 2023. 300+ citations. <a href="https://github.com/ChemFoundationModels/ChemLLMBench">[Paper]</a> <a href="https://github.com/ChemFoundationModels/ChemLLMBench">[Code]</a></div>
 </div>
 
 <div class="pub-entry">
@@ -88,13 +76,25 @@ I have led or co-led benchmark projects that identified fundamental capability g
 <div class="pub-entry">
   <div class="pub-title"><a href="https://arxiv.org/pdf/2502.09897">Artificial Intelligence in Spectroscopy: Advancing Chemistry from Prediction to Generation and Beyond</a></div>
   <div class="pub-authors"><strong>Kehan Guo</strong>, Yifan Shen, Gil A. Gonzalez-Montiel, Yue Huang, Yujun Zhou, Mihir Surve, Zhichun Guo, ...</div>
-  <div class="pub-venue"><em>IJCAI</em>, 2025. Survey Track. <a href="https://arxiv.org/pdf/2502.09897">[Paper]</a></div>
+  <div class="pub-venue"><em>IJCAI</em>, 2025. Survey Track. <a href="https://arxiv.org/pdf/2502.09897">[Paper]</a> <a href="https://github.com/MINE-Lab-ND/SpectrumML_Survey_Papers">[Code]</a></div>
 </div>
 
 <div class="pub-entry">
-  <div class="pub-title"><a href="https://github.com/ChemFoundationModels/ChemLLMBench">What can Large Language Models do in chemistry? A comprehensive benchmark on eight tasks</a></div>
-  <div class="pub-authors">Taicheng Guo*, <strong>Kehan Guo</strong>*, Bozhao Nan, Zhenwen Liang, Zhichun Guo, Nitesh V. Chawla, Olaf Wiest, Xiangliang Zhang</div>
-  <div class="pub-venue"><em>NeurIPS</em>, 2023. 300+ citations. <a href="https://github.com/ChemFoundationModels/ChemLLMBench">[Paper]</a> <a href="https://github.com/ChemFoundationModels/ChemLLMBench">[Code]</a></div>
+  <div class="pub-title"><a href="https://arxiv.org/abs/2505.17312">AdaReasoner: Adaptive Reasoning Enables More Flexible Thinking</a></div>
+  <div class="pub-authors">Xiangqi Wang, Yue Huang, Yanbo Wang, Xiaonan Luo, <strong>Kehan Guo</strong>, Yujun Zhou, Xiangliang Zhang</div>
+  <div class="pub-venue"><em>NeurIPS</em>, 2025. <strong>Spotlight.</strong> <a href="https://arxiv.org/abs/2505.17312">[Paper]</a> <a href="https://github.com/XiangqiWang77/officialadareasoner">[Code]</a></div>
+</div>
+
+<div class="pub-entry">
+  <div class="pub-title"><a href="https://arxiv.org/abs/2509.16543">ChemOrch: Empowering LLMs with Chemical Intelligence via Synthetic Instructions</a></div>
+  <div class="pub-authors">Yue Huang, Zhengzhe Jiang, Xiaonan Luo, <strong>Kehan Guo</strong>, Haomin Zhuang, Yujun Zhou, Zhengqing Yuan, Xiaoqi Sun, Jules Schleinitz, Yanbo Wang, Shuhao Zhang, Mihir Surve, Nitesh V. Chawla, Olaf Wiest, Xiangliang Zhang</div>
+  <div class="pub-venue"><em>NeurIPS</em>, 2025. <a href="https://arxiv.org/abs/2509.16543">[Paper]</a> <a href="https://github.com/HowieHwong/ChemOrch">[Code]</a></div>
+</div>
+
+<div class="pub-entry">
+  <div class="pub-title"><a href="https://arxiv.org/abs/2509.23095">Causally-Enhanced Reinforcement Policy Optimization</a></div>
+  <div class="pub-authors">Xiangqi Wang, Yue Huang, Yujun Zhou, Xiaonan Luo, <strong>Kehan Guo</strong>, Xiangliang Zhang</div>
+  <div class="pub-venue"><em>arXiv preprint</em>, 2025. <a href="https://arxiv.org/abs/2509.23095">[Paper]</a> <a href="https://github.com/XiangqiWang77/causalrl">[Code]</a></div>
 </div>
 
 <div class="pub-entry">
@@ -112,25 +112,25 @@ I have led or co-led benchmark projects that identified fundamental capability g
 <div class="pub-entry">
   <div class="pub-title"><a href="https://www.nature.com/articles/s42004-024-01397-x">Unveiling the Power of Language Models in Chemical Research Question Answering</a></div>
   <div class="pub-authors">Xiuying Chen, Tairan Wang, Taicheng Guo, <strong>Kehan Guo</strong>, Jingwei Zhou, Hualin Li, Ziqian Song, Xiang Gao, Xiangliang Zhang</div>
-  <div class="pub-venue"><em>Communications Chemistry</em>, 2025. <a href="https://www.nature.com/articles/s42004-024-01397-x">[Paper]</a></div>
+  <div class="pub-venue"><em>Communications Chemistry</em>, 2025. <a href="https://www.nature.com/articles/s42004-024-01397-x">[Paper]</a> <a href="https://github.com/iriscxy/chemmatch">[Code]</a></div>
 </div>
 
 <div class="pub-entry">
   <div class="pub-title"><a href="https://arxiv.org/abs/2402.13148">Defending Jailbreak Prompts via In-Context Adversarial Game</a></div>
   <div class="pub-authors">Yujun Zhou, Yufei Han, Haomin Zhuang, <strong>Kehan Guo</strong>, Zhenwen Liang, Hongyan Bao, Xiangliang Zhang</div>
-  <div class="pub-venue"><em>EMNLP</em>, 2024. <a href="https://arxiv.org/abs/2402.13148">[Paper]</a></div>
+  <div class="pub-venue"><em>EMNLP</em>, 2024. <a href="https://arxiv.org/abs/2402.13148">[Paper]</a> <a href="https://github.com/YujunZhou/In-Context-Adversarial-Game">[Code]</a></div>
 </div>
 
 <div class="pub-entry">
   <div class="pub-title"><a href="https://scemqa.github.io/">SceMQA: A Scientific College Entrance Level Multimodal Question Answering Benchmark</a></div>
   <div class="pub-authors">Zhenwen Liang, <strong>Kehan Guo</strong>, Gang Liu, Taicheng Guo, Yujun Zhou, Tianyu Yang, Jiajun Jiao, Renjie Pi, Jipeng Zhang, ...</div>
-  <div class="pub-venue"><em>ACL</em>, 2024. <a href="https://scemqa.github.io/">[Paper]</a></div>
+  <div class="pub-venue"><em>ACL</em>, 2024. <a href="https://scemqa.github.io/">[Paper]</a> <a href="https://github.com/SceMQA/SceMQA">[Code]</a></div>
 </div>
 
 <div class="pub-entry">
   <div class="pub-title"><a href="https://ojs.aaai.org/index.php/AAAI/article/view/28668">Uncertainty-Aware Yield Prediction with Multimodal Molecular Features</a></div>
   <div class="pub-authors">Jiayuan Chen, <strong>Kehan Guo</strong>, Zhen Liu, Olexandr Isayev, Xiangliang Zhang</div>
-  <div class="pub-venue"><em>AAAI</em>, 2024. <a href="https://ojs.aaai.org/index.php/AAAI/article/view/28668">[Paper]</a></div>
+  <div class="pub-venue"><em>AAAI</em>, 2024. <a href="https://ojs.aaai.org/index.php/AAAI/article/view/28668">[Paper]</a> <a href="https://github.com/jychen229/Multimodal-reaction-yield-prediction">[Code]</a></div>
 </div>
 
 <div class="pub-entry">
