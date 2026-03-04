@@ -58,36 +58,85 @@ Reliable progress requires reliable measurement. I have led or co-led benchmark 
 </ul>
 
 
-## Selected Publications
+## Selected Publications ([Full Publications](https://scholar.google.com/citations?user=t8iRCLUAAAAJ&hl=en))
 
-See full list (20+ papers, 300+ citations) on my [Google Scholar](https://scholar.google.com/citations?user=t8iRCLUAAAAJ&hl=en)
+<div class="pub-entry">
+  <div class="pub-title"><a href="https://arxiv.org/abs/2505.17312">AdaReasoner: Adaptive Reasoning Enables More Flexible Thinking</a></div>
+  <div class="pub-authors">Xiangqi Wang, Yue Huang, Yanbo Wang, Xiaonan Luo, <strong>Kehan Guo</strong>, Yujun Zhou, Xiangliang Zhang</div>
+  <div class="pub-venue"><em>NeurIPS</em>, 2025. <strong>Spotlight.</strong> <a href="https://arxiv.org/abs/2505.17312">[Paper]</a></div>
+</div>
 
+<div class="pub-entry">
+  <div class="pub-title"><a href="https://kehanguo2.github.io/Molpuzzle.io/">Can LLMs Solve Molecule Puzzles? A Multimodal Benchmark for Molecular Structure Elucidation</a></div>
+  <div class="pub-authors"><strong>Kehan Guo</strong>, Bozhao Nan, Yujun Zhou, Taicheng Guo, Zhichun Guo, Mihir Surve, Zhenwen Liang, Nitesh V. Chawla, Olaf Wiest, Xiangliang Zhang</div>
+  <div class="pub-venue"><em>NeurIPS</em>, 2024. <strong>Spotlight.</strong> <a href="https://kehanguo2.github.io/Molpuzzle.io/">[Paper]</a> <a href="https://github.com/KehanGuo2/MolPuzzle">[Code]</a></div>
+</div>
 
-- ![NeurIPS 2025 Spotlight](https://img.shields.io/badge/NeurIPS_Spotlight-2025-blue?style=plastic) [AdaReasoner: Adaptive Reasoning Enables More Flexible Thinking](https://arxiv.org/abs/2505.17312), X Wang, Y Huang, Y Wang, X Luo, **Kehan Guo**, Y Zhou, X Zhang
+<div class="pub-entry">
+  <div class="pub-title"><a href="https://arxiv.org/abs/2509.16543">ChemOrch: Empowering LLMs with Chemical Intelligence via Synthetic Instructions</a></div>
+  <div class="pub-authors">Yue Huang, Zhengzhe Jiang, Xiaonan Luo, <strong>Kehan Guo</strong>, Haomin Zhuang, Yujun Zhou, Zhengqing Yuan, Xiaoqi Sun, Jules Schleinitz, Yanbo Wang, Shuhao Zhang, Mihir Surve, Nitesh V. Chawla, Olaf Wiest, Xiangliang Zhang</div>
+  <div class="pub-venue"><em>NeurIPS</em>, 2025. <a href="https://arxiv.org/abs/2509.16543">[Paper]</a></div>
+</div>
 
-- ![NeurIPS 2024 Spotlight](https://img.shields.io/badge/NeurIPS_Spotlight-2024-blue?style=plastic) [Can LLMs Solve Molecule Puzzles? A Multimodal Benchmark for Molecular Structure Elucidation](https://kehanguo2.github.io/Molpuzzle.io/), **Kehan Guo**, B Nan, Y Zhou, T Guo, Z Guo, M Surve, Z Liang, N Chawla, O Wiest, X Zhang [**Code**](https://github.com/KehanGuo2/MolPuzzle) [![](https://img.shields.io/github/stars/KehanGuo2/MolPuzzle)](https://github.com/KehanGuo2/MolPuzzle)
+<div class="pub-entry">
+  <div class="pub-title"><a href="https://arxiv.org/abs/2512.15567">Evaluating Large Language Models in Scientific Discovery</a></div>
+  <div class="pub-authors"><strong>Kehan Guo</strong>*, Ziqian Song*, Jiuding Lu*, and others</div>
+  <div class="pub-venue"><em>arXiv preprint</em>, 2025. <a href="https://arxiv.org/abs/2512.15567">[Paper]</a></div>
+</div>
 
-- ![NeurIPS 2025](https://img.shields.io/badge/NeurIPS-2025-blue?style=plastic) [ChemOrch: Empowering LLMs with Chemical Intelligence via Synthetic Instructions](https://arxiv.org/abs/2509.16543), Y Huang, Z Jiang, X Luo, **Kehan Guo**, H Zhuang, Y Zhou, Z Yuan, X Sun, J Schleinitz, Y Wang, S Zhang, M Surve, N Chawla, O Wiest, X Zhang
+<div class="pub-entry">
+  <div class="pub-title"><a href="https://arxiv.org/pdf/2502.09897">Artificial Intelligence in Spectroscopy: Advancing Chemistry from Prediction to Generation and Beyond</a></div>
+  <div class="pub-authors"><strong>Kehan Guo</strong>, Yifan Shen, Gil A. Gonzalez-Montiel, Yue Huang, Yujun Zhou, Mihir Surve, Zhichun Guo, ...</div>
+  <div class="pub-venue"><em>IJCAI</em>, 2025. Survey Track. <a href="https://arxiv.org/pdf/2502.09897">[Paper]</a></div>
+</div>
 
-- ![ArXiv 2025](https://img.shields.io/badge/ArXiv-2025-b31b1b?style=plastic) [Evaluating Large Language Models in Scientific Discovery](https://arxiv.org/abs/2512.15567), **Kehan Guo**\*, [Co-authors]\*, ...
+<div class="pub-entry">
+  <div class="pub-title"><a href="https://github.com/ChemFoundationModels/ChemLLMBench">What can Large Language Models do in chemistry? A comprehensive benchmark on eight tasks</a></div>
+  <div class="pub-authors">Taicheng Guo*, <strong>Kehan Guo</strong>*, Bozhao Nan, Zhenwen Liang, Zhichun Guo, Nitesh V. Chawla, Olaf Wiest, Xiangliang Zhang</div>
+  <div class="pub-venue"><em>NeurIPS</em>, 2023. 300+ citations. <a href="https://github.com/ChemFoundationModels/ChemLLMBench">[Paper]</a> <a href="https://github.com/ChemFoundationModels/ChemLLMBench">[Code]</a></div>
+</div>
 
-- ![IJCAI 2025](https://img.shields.io/badge/IJCAI-2025-%232F4F4F?style=plastic&logoColor=%2387CEFA) [Artificial Intelligence in Spectroscopy: Advancing Chemistry from Prediction to Generation and Beyond](https://arxiv.org/pdf/2502.09897), **Kehan Guo**, Y Shen, G Gonzalez-Montiel, Y Huang, Y Zhou, M Surve, Z Guo, ... &mdash; *Survey*
+<div class="pub-entry">
+  <div class="pub-title"><a href="https://arxiv.org/abs/2411.18797">SEUF: Is Unlearning One Expert Enough for Mixture-of-Experts LLMs?</a></div>
+  <div class="pub-authors">Haomin Zhuang, Yizhuo Zhang, <strong>Kehan Guo</strong>, Jinghan Jia, Gang Liu, Sijia Liu, Xiangliang Zhang</div>
+  <div class="pub-venue"><em>ACL</em>, 2025. <a href="https://arxiv.org/abs/2411.18797">[Paper]</a></div>
+</div>
 
-- ![NeurIPS 2023](https://img.shields.io/badge/NeurIPS-2023-blue?style=plastic) [What can Large Language Models do in chemistry? A comprehensive benchmark on eight tasks](https://github.com/ChemFoundationModels/ChemLLMBench), T Guo\*, **Kehan Guo**\*, B Nan, Z Liang, Z Guo, N Chawla, O Wiest, X Zhang &mdash; *300+ citations* [**Code**](https://github.com/ChemFoundationModels/ChemLLMBench) [![](https://img.shields.io/github/stars/ChemFoundationModels/ChemLLMBench)](https://github.com/ChemFoundationModels/ChemLLMBench)
+<div class="pub-entry">
+  <div class="pub-title"><a href="https://arxiv.org/abs/2502.13996">Beyond Single-Value Metrics: Evaluating and Enhancing LLM Unlearning with Cognitive Diagnosis</a></div>
+  <div class="pub-authors">Yuang Lang, <strong>Kehan Guo</strong>, Yue Huang, Yujun Zhou, Haomin Zhuang, Tianyu Yang, Yuxuan Su, Xiangliang Zhang</div>
+  <div class="pub-venue"><em>ACL Findings</em>, 2025. <a href="https://arxiv.org/abs/2502.13996">[Paper]</a></div>
+</div>
 
-- ![ACL 2025](https://img.shields.io/badge/ACL-2025-blue?style=plastic) [SEUF: Is Unlearning One Expert Enough for Mixture-of-Experts LLMs?](https://arxiv.org/abs/2411.18797), H Zhuang, Y Zhang, **Kehan Guo**, J Jia, G Liu, S Liu, X Zhang
+<div class="pub-entry">
+  <div class="pub-title"><a href="https://www.nature.com/articles/s42004-024-01397-x">Unveiling the Power of Language Models in Chemical Research Question Answering</a></div>
+  <div class="pub-authors">Xiuying Chen, Tairan Wang, Taicheng Guo, <strong>Kehan Guo</strong>, Jingwei Zhou, Hualin Li, Ziqian Song, Xiang Gao, Xiangliang Zhang</div>
+  <div class="pub-venue"><em>Communications Chemistry</em>, 2025. <a href="https://www.nature.com/articles/s42004-024-01397-x">[Paper]</a></div>
+</div>
 
-- ![ACL Findings 2025](https://img.shields.io/badge/ACL_Findings-2025-blue?style=plastic) [Beyond Single-Value Metrics: Evaluating and Enhancing LLM Unlearning with Cognitive Diagnosis](https://arxiv.org/abs/2502.13996), Y Lang, **Kehan Guo**, Y Huang, Y Zhou, H Zhuang, T Yang, Y Su, X Zhang
+<div class="pub-entry">
+  <div class="pub-title"><a href="https://arxiv.org/abs/2402.13148">Defending Jailbreak Prompts via In-Context Adversarial Game</a></div>
+  <div class="pub-authors">Yujun Zhou, Yufei Han, Haomin Zhuang, <strong>Kehan Guo</strong>, Zhenwen Liang, Hongyan Bao, Xiangliang Zhang</div>
+  <div class="pub-venue"><em>EMNLP</em>, 2024. <a href="https://arxiv.org/abs/2402.13148">[Paper]</a></div>
+</div>
 
-- ![Nature Comms Chem 2025](https://img.shields.io/badge/Comms_Chem-2025-green?style=plastic) [Unveiling the Power of Language Models in Chemical Research Question Answering](https://www.nature.com/articles/s42004-024-01397-x), X Chen, T Wang, T Guo, **Kehan Guo**, J Zhou, H Li, Z Song, X Gao, X Zhang
+<div class="pub-entry">
+  <div class="pub-title"><a href="https://scemqa.github.io/">SceMQA: A Scientific College Entrance Level Multimodal Question Answering Benchmark</a></div>
+  <div class="pub-authors">Zhenwen Liang, <strong>Kehan Guo</strong>, Gang Liu, Taicheng Guo, Yujun Zhou, Tianyu Yang, Jiajun Jiao, Renjie Pi, Jipeng Zhang, ...</div>
+  <div class="pub-venue"><em>ACL</em>, 2024. <a href="https://scemqa.github.io/">[Paper]</a></div>
+</div>
 
-- ![EMNLP 2024](https://img.shields.io/badge/EMNLP-2024-purple?style=plastic) [Defending Jailbreak Prompts via In-Context Adversarial Game](https://arxiv.org/abs/2402.13148), Y Zhou, Y Han, H Zhuang, **Kehan Guo**, Z Liang, H Bao, X Zhang
+<div class="pub-entry">
+  <div class="pub-title"><a href="https://ojs.aaai.org/index.php/AAAI/article/view/28668">Uncertainty-Aware Yield Prediction with Multimodal Molecular Features</a></div>
+  <div class="pub-authors">Jiayuan Chen, <strong>Kehan Guo</strong>, Zhen Liu, Olexandr Isayev, Xiangliang Zhang</div>
+  <div class="pub-venue"><em>AAAI</em>, 2024. <a href="https://ojs.aaai.org/index.php/AAAI/article/view/28668">[Paper]</a></div>
+</div>
 
-- ![ACL 2024](https://img.shields.io/badge/ACL-2024-blue?style=plastic) [SceMQA: A Scientific College Entrance Level Multimodal Question Answering Benchmark](https://scemqa.github.io/), Z Liang, **Kehan Guo**, G Liu, T Guo, Y Zhou, T Yang, J Jiao, R Pi, J Zhang, ...
-
-- ![AAAI 2024](https://img.shields.io/badge/AAAI-2024-orange?style=plastic) [Uncertainty-Aware Yield Prediction with Multimodal Molecular Features](https://ojs.aaai.org/index.php/AAAI/article/view/28668), J Chen, **Kehan Guo**, Z Liu, O Isayev, X Zhang
-
-- ![IJCAI 2023](https://img.shields.io/badge/IJCAI-2023-%232F4F4F?style=plastic) [Graph-based Molecular Representation Learning](https://arxiv.org/abs/2207.04869), Z Guo, **Kehan Guo**, B Nan, Y Tian, R Iyer, Y Ma, O Wiest, X Zhang, W Wang, ...
+<div class="pub-entry">
+  <div class="pub-title"><a href="https://arxiv.org/abs/2207.04869">Graph-based Molecular Representation Learning</a></div>
+  <div class="pub-authors">Zhichun Guo, <strong>Kehan Guo</strong>, Bozhao Nan, Yijun Tian, Roshni G. Iyer, Yihong Ma, Olaf Wiest, Xiangliang Zhang, Wei Wang, ...</div>
+  <div class="pub-venue"><em>IJCAI</em>, 2023. <a href="https://arxiv.org/abs/2207.04869">[Paper]</a></div>
+</div>
 
 
 # Education

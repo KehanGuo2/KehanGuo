@@ -221,6 +221,44 @@ h1:before, .anchor:before {
   }
 }
 
+/* --- Publication Entry (clean three-line style) --- */
+.pub-entry {
+  margin-bottom: $space-lg;
+
+  .pub-title {
+    font-size: 1.05em;
+    font-weight: 600;
+    line-height: 1.4;
+
+    a {
+      color: $nd-blue;
+      text-decoration: none;
+      &:hover { color: $primary-blue; text-decoration: underline; }
+    }
+  }
+
+  .pub-authors {
+    font-size: 0.93em;
+    line-height: 1.5;
+    color: $text-primary;
+    margin-top: 2px;
+  }
+
+  .pub-venue {
+    font-size: 0.93em;
+    line-height: 1.5;
+    color: $text-secondary;
+    margin-top: 2px;
+
+    a {
+      color: $primary-blue;
+      font-weight: 600;
+      text-decoration: none;
+      &:hover { text-decoration: underline; }
+    }
+  }
+}
+
 /* --- Map container --- */
 .map-container {
   width: 300px;
