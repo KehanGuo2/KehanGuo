@@ -58,85 +58,85 @@ I have led or co-led benchmark projects that identified fundamental capability g
 <div class="pub-entry">
   <div class="pub-title"><a href="https://kehanguo2.github.io/Molpuzzle.io/">Can LLMs Solve Molecule Puzzles? A Multimodal Benchmark for Molecular Structure Elucidation</a></div>
   <div class="pub-authors"><strong>Kehan Guo</strong>, Bozhao Nan, Yujun Zhou, Taicheng Guo, Zhichun Guo, Mihir Surve, Zhenwen Liang, Nitesh V. Chawla, Olaf Wiest, Xiangliang Zhang</div>
-  <div class="pub-venue"><em>NeurIPS</em>, 2024. <strong>Spotlight.</strong> <a href="https://kehanguo2.github.io/Molpuzzle.io/">[Paper]</a> <a href="https://github.com/KehanGuo2/MolPuzzle">[Code]</a></div>
+  <div class="pub-venue"><em>NeurIPS</em>, 2024. <strong>Spotlight.</strong> <a href="https://kehanguo2.github.io/Molpuzzle.io/">📄 Paper</a> &nbsp;<a href="https://github.com/KehanGuo2/MolPuzzle">⚙️ Code</a></div>
 </div>
 
 <div class="pub-entry">
   <div class="pub-title"><a href="https://github.com/ChemFoundationModels/ChemLLMBench">What can Large Language Models do in chemistry? A comprehensive benchmark on eight tasks</a></div>
   <div class="pub-authors">Taicheng Guo*, <strong>Kehan Guo</strong>*, Bozhao Nan, Zhenwen Liang, Zhichun Guo, Nitesh V. Chawla, Olaf Wiest, Xiangliang Zhang</div>
-  <div class="pub-venue"><em>NeurIPS</em>, 2023. 300+ citations. <a href="https://github.com/ChemFoundationModels/ChemLLMBench">[Paper]</a> <a href="https://github.com/ChemFoundationModels/ChemLLMBench">[Code]</a></div>
+  <div class="pub-venue"><em>NeurIPS</em>, 2023. 300+ citations. <a href="https://github.com/ChemFoundationModels/ChemLLMBench">📄 Paper</a> &nbsp;<a href="https://github.com/ChemFoundationModels/ChemLLMBench">⚙️ Code</a></div>
 </div>
 
 <div class="pub-entry">
   <div class="pub-title"><a href="https://arxiv.org/abs/2512.15567">Evaluating Large Language Models in Scientific Discovery</a></div>
   <div class="pub-authors"><strong>Kehan Guo</strong>*, Ziqian Song*, Jiuding Lu*, and others</div>
-  <div class="pub-venue"><em>arXiv preprint</em>, 2025. <a href="https://arxiv.org/abs/2512.15567">&#128196; Paper</a> &nbsp;<a href="https://github.com/deepprinciple/lm-evaluation-harness/tree/main">&#128187; Code</a> &nbsp;<a href="https://huggingface.co/deep-principle/datasets">&#128202; Dataset</a> &nbsp;<a href="https://github.com/HowieHwong/sde-harness">&#129518; Oracle</a></div>
+  <div class="pub-venue"><em>arXiv preprint</em>, 2025. <a href="https://arxiv.org/abs/2512.15567">📄 Paper</a> &nbsp;<a href="https://github.com/deepprinciple/lm-evaluation-harness/tree/main">⚙️ Code</a> &nbsp;<a href="https://huggingface.co/deep-principle/datasets">🗂️ Dataset</a> &nbsp;<a href="https://github.com/HowieHwong/sde-harness">🧙 Oracle</a></div>
 </div>
 
 <div class="pub-entry">
   <div class="pub-title"><a href="https://arxiv.org/pdf/2502.09897">Artificial Intelligence in Spectroscopy: Advancing Chemistry from Prediction to Generation and Beyond</a></div>
   <div class="pub-authors"><strong>Kehan Guo</strong>, Yifan Shen, Gil A. Gonzalez-Montiel, Yue Huang, Yujun Zhou, Mihir Surve, Zhichun Guo, ...</div>
-  <div class="pub-venue"><em>IJCAI</em>, 2025. Survey Track. <a href="https://arxiv.org/pdf/2502.09897">[Paper]</a> <a href="https://github.com/MINE-Lab-ND/SpectrumML_Survey_Papers">[Code]</a></div>
+  <div class="pub-venue"><em>IJCAI</em>, 2025. Survey Track. <a href="https://arxiv.org/pdf/2502.09897">📄 Paper</a> &nbsp;<a href="https://github.com/MINE-Lab-ND/SpectrumML_Survey_Papers">⚙️ Code</a></div>
 </div>
 
 <div class="pub-entry">
   <div class="pub-title"><a href="https://arxiv.org/abs/2505.17312">AdaReasoner: Adaptive Reasoning Enables More Flexible Thinking</a></div>
   <div class="pub-authors">Xiangqi Wang, Yue Huang, Yanbo Wang, Xiaonan Luo, <strong>Kehan Guo</strong>, Yujun Zhou, Xiangliang Zhang</div>
-  <div class="pub-venue"><em>NeurIPS</em>, 2025. <strong>Spotlight.</strong> <a href="https://arxiv.org/abs/2505.17312">[Paper]</a> <a href="https://github.com/XiangqiWang77/officialadareasoner">[Code]</a></div>
+  <div class="pub-venue"><em>NeurIPS</em>, 2025. <strong>Spotlight.</strong> <a href="https://arxiv.org/abs/2505.17312">📄 Paper</a> &nbsp;<a href="https://github.com/XiangqiWang77/officialadareasoner">⚙️ Code</a></div>
 </div>
 
 <div class="pub-entry">
   <div class="pub-title"><a href="https://arxiv.org/abs/2509.16543">ChemOrch: Empowering LLMs with Chemical Intelligence via Synthetic Instructions</a></div>
   <div class="pub-authors">Yue Huang, Zhengzhe Jiang, Xiaonan Luo, <strong>Kehan Guo</strong>, Haomin Zhuang, Yujun Zhou, Zhengqing Yuan, Xiaoqi Sun, Jules Schleinitz, Yanbo Wang, Shuhao Zhang, Mihir Surve, Nitesh V. Chawla, Olaf Wiest, Xiangliang Zhang</div>
-  <div class="pub-venue"><em>NeurIPS</em>, 2025. <a href="https://arxiv.org/abs/2509.16543">[Paper]</a> <a href="https://github.com/HowieHwong/ChemOrch">[Code]</a></div>
+  <div class="pub-venue"><em>NeurIPS</em>, 2025. <a href="https://arxiv.org/abs/2509.16543">📄 Paper</a> &nbsp;<a href="https://github.com/HowieHwong/ChemOrch">⚙️ Code</a></div>
 </div>
 
 <div class="pub-entry">
   <div class="pub-title"><a href="https://arxiv.org/abs/2509.23095">Causally-Enhanced Reinforcement Policy Optimization</a></div>
   <div class="pub-authors">Xiangqi Wang, Yue Huang, Yujun Zhou, Xiaonan Luo, <strong>Kehan Guo</strong>, Xiangliang Zhang</div>
-  <div class="pub-venue"><em>arXiv preprint</em>, 2025. <a href="https://arxiv.org/abs/2509.23095">[Paper]</a> <a href="https://github.com/XiangqiWang77/causalrl">[Code]</a></div>
+  <div class="pub-venue"><em>arXiv preprint</em>, 2025. <a href="https://arxiv.org/abs/2509.23095">📄 Paper</a> &nbsp;<a href="https://github.com/XiangqiWang77/causalrl">⚙️ Code</a></div>
 </div>
 
 <div class="pub-entry">
   <div class="pub-title"><a href="https://arxiv.org/abs/2411.18797">SEUF: Is Unlearning One Expert Enough for Mixture-of-Experts LLMs?</a></div>
   <div class="pub-authors">Haomin Zhuang, Yizhuo Zhang, <strong>Kehan Guo</strong>, Jinghan Jia, Gang Liu, Sijia Liu, Xiangliang Zhang</div>
-  <div class="pub-venue"><em>ACL</em>, 2025. <a href="https://arxiv.org/abs/2411.18797">[Paper]</a></div>
+  <div class="pub-venue"><em>ACL</em>, 2025. <a href="https://arxiv.org/abs/2411.18797">📄 Paper</a></div>
 </div>
 
 <div class="pub-entry">
   <div class="pub-title"><a href="https://arxiv.org/abs/2502.13996">Beyond Single-Value Metrics: Evaluating and Enhancing LLM Unlearning with Cognitive Diagnosis</a></div>
   <div class="pub-authors">Yuang Lang, <strong>Kehan Guo</strong>, Yue Huang, Yujun Zhou, Haomin Zhuang, Tianyu Yang, Yuxuan Su, Xiangliang Zhang</div>
-  <div class="pub-venue"><em>ACL Findings</em>, 2025. <a href="https://arxiv.org/abs/2502.13996">[Paper]</a></div>
+  <div class="pub-venue"><em>ACL Findings</em>, 2025. <a href="https://arxiv.org/abs/2502.13996">📄 Paper</a></div>
 </div>
 
 <div class="pub-entry">
   <div class="pub-title"><a href="https://www.nature.com/articles/s42004-024-01397-x">Unveiling the Power of Language Models in Chemical Research Question Answering</a></div>
   <div class="pub-authors">Xiuying Chen, Tairan Wang, Taicheng Guo, <strong>Kehan Guo</strong>, Jingwei Zhou, Hualin Li, Ziqian Song, Xiang Gao, Xiangliang Zhang</div>
-  <div class="pub-venue"><em>Communications Chemistry</em>, 2025. <a href="https://www.nature.com/articles/s42004-024-01397-x">[Paper]</a> <a href="https://github.com/iriscxy/chemmatch">[Code]</a></div>
+  <div class="pub-venue"><em>Communications Chemistry</em>, 2025. <a href="https://www.nature.com/articles/s42004-024-01397-x">📄 Paper</a> &nbsp;<a href="https://github.com/iriscxy/chemmatch">⚙️ Code</a></div>
 </div>
 
 <div class="pub-entry">
   <div class="pub-title"><a href="https://arxiv.org/abs/2402.13148">Defending Jailbreak Prompts via In-Context Adversarial Game</a></div>
   <div class="pub-authors">Yujun Zhou, Yufei Han, Haomin Zhuang, <strong>Kehan Guo</strong>, Zhenwen Liang, Hongyan Bao, Xiangliang Zhang</div>
-  <div class="pub-venue"><em>EMNLP</em>, 2024. <a href="https://arxiv.org/abs/2402.13148">[Paper]</a> <a href="https://github.com/YujunZhou/In-Context-Adversarial-Game">[Code]</a></div>
+  <div class="pub-venue"><em>EMNLP</em>, 2024. <a href="https://arxiv.org/abs/2402.13148">📄 Paper</a> &nbsp;<a href="https://github.com/YujunZhou/In-Context-Adversarial-Game">⚙️ Code</a></div>
 </div>
 
 <div class="pub-entry">
   <div class="pub-title"><a href="https://scemqa.github.io/">SceMQA: A Scientific College Entrance Level Multimodal Question Answering Benchmark</a></div>
   <div class="pub-authors">Zhenwen Liang, <strong>Kehan Guo</strong>, Gang Liu, Taicheng Guo, Yujun Zhou, Tianyu Yang, Jiajun Jiao, Renjie Pi, Jipeng Zhang, ...</div>
-  <div class="pub-venue"><em>ACL</em>, 2024. <a href="https://scemqa.github.io/">[Paper]</a> <a href="https://github.com/SceMQA/SceMQA">[Code]</a></div>
+  <div class="pub-venue"><em>ACL</em>, 2024. <a href="https://scemqa.github.io/">📄 Paper</a> &nbsp;<a href="https://github.com/SceMQA/SceMQA">⚙️ Code</a></div>
 </div>
 
 <div class="pub-entry">
   <div class="pub-title"><a href="https://ojs.aaai.org/index.php/AAAI/article/view/28668">Uncertainty-Aware Yield Prediction with Multimodal Molecular Features</a></div>
   <div class="pub-authors">Jiayuan Chen, <strong>Kehan Guo</strong>, Zhen Liu, Olexandr Isayev, Xiangliang Zhang</div>
-  <div class="pub-venue"><em>AAAI</em>, 2024. <a href="https://ojs.aaai.org/index.php/AAAI/article/view/28668">[Paper]</a> <a href="https://github.com/jychen229/Multimodal-reaction-yield-prediction">[Code]</a></div>
+  <div class="pub-venue"><em>AAAI</em>, 2024. <a href="https://ojs.aaai.org/index.php/AAAI/article/view/28668">📄 Paper</a> &nbsp;<a href="https://github.com/jychen229/Multimodal-reaction-yield-prediction">⚙️ Code</a></div>
 </div>
 
 <div class="pub-entry">
   <div class="pub-title"><a href="https://arxiv.org/abs/2207.04869">Graph-based Molecular Representation Learning</a></div>
   <div class="pub-authors">Zhichun Guo, <strong>Kehan Guo</strong>, Bozhao Nan, Yijun Tian, Roshni G. Iyer, Yihong Ma, Olaf Wiest, Xiangliang Zhang, Wei Wang, ...</div>
-  <div class="pub-venue"><em>IJCAI</em>, 2023. <a href="https://arxiv.org/abs/2207.04869">[Paper]</a></div>
+  <div class="pub-venue"><em>IJCAI</em>, 2023. <a href="https://arxiv.org/abs/2207.04869">📄 Paper</a></div>
 </div>
 
 
