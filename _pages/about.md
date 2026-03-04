@@ -27,19 +27,14 @@ My work focuses on the hard problems that arise when LLMs must *act*, not just *
 
 ## Research
 
-I work on four interconnected problems at the frontier of LLM capability:
-
-**1. RL Post-Training and Reward Design.**
-Policy gradient methods for LLMs struggle with sparse, delayed, or multi-objective reward signals. I develop principled reward-shaping frameworks that make RLHF-style training more stable and sample-efficient &mdash; training at 7B&ndash;70B scale on 64-GPU clusters with DeepSpeed ZeRO-3. Ongoing work establishes a formal equivalence between optimal-transport coupling in flow matching and KL-regularized RL, unifying reward-aligned generation with policy optimization.
+**1. RL Post-Training and Inference-Time Reasoning.**
+I develop methods that improve LLM behavior through reinforcement learning &mdash; at both training time and inference time. This includes principled reward-shaping frameworks for stable policy optimization at 7B&ndash;70B scale ([CEPO](https://arxiv.org/abs/2509.23095)), adaptive inference-time reasoning that dynamically selects computation depth to reduce cost by 35% with no accuracy loss ([AdaReasoner](https://arxiv.org/abs/2505.17312), NeurIPS 2025 Spotlight), and ongoing work unifying reward-aligned generation with KL-regularized RL via optimal-transport coupling.
 
 **2. Agentic Reasoning and Structured Tool Use.**
-Free-form chain-of-thought hallucinates on tasks requiring precise procedural knowledge. I build multi-agent architectures with explicit Router&ndash;Planner&ndash;Executor&ndash;Verifier pipelines where each tool call is verified before downstream steps proceed. This design dramatically improves reliability on expert-level, multi-step reasoning &mdash; and generalizes to any domain where tool errors cascade. Our orchestration framework (NeurIPS 2025) integrates 74+ structured tools; a follow-on system (6,500+ LOC, deployed) adds knowledge-graph grounding and self-evolving memory.
+I build multi-agent architectures with explicit Router&ndash;Planner&ndash;Executor&ndash;Verifier pipelines where each tool call is verified before downstream steps proceed. Our orchestration framework ([ChemOrch](https://arxiv.org/abs/2509.16543), NeurIPS 2025) integrates 74+ structured tools and dramatically improves reliability on expert-level, multi-step reasoning. A follow-on system adds knowledge-graph grounding and self-evolving memory.
 
-**3. Adaptive Inference-Time Computation.**
-Not every query deserves the same compute budget. *AdaReasoner* (NeurIPS 2025 Spotlight) dynamically selects reasoning depth at inference time, reducing cost by 35% with no accuracy loss. This connects to the broader question of how to allocate test-time compute optimally &mdash; a first-order concern for deploying reasoning models at scale.
-
-**4. Rigorous Evaluation of Frontier Models.**
-Reliable progress requires reliable measurement. I have led or co-led benchmark projects that identified fundamental capability gaps in frontier models: *ChemLLMBench* (NeurIPS 2023, 300+ citations) revealed silent failure modes where models produce confident but incorrect outputs; *MolPuzzle* (NeurIPS 2024 Spotlight) exposed a multimodal perception gap (GPT-4o: 1.4% on expert tasks). These benchmarks established reference points now used across the research community.
+**3. Rigorous Evaluation of Frontier Models.**
+I have led or co-led benchmark projects that identified fundamental capability gaps: [ChemLLMBench](https://github.com/ChemFoundationModels/ChemLLMBench) (NeurIPS 2023, 300+ citations) revealed silent failure modes in LLMs; [MolPuzzle](https://kehanguo2.github.io/Molpuzzle.io/) (NeurIPS 2024 Spotlight) exposed a multimodal perception gap (GPT-4o: 1.4% on expert tasks). These benchmarks are now community standards.
 
 ## News
 
@@ -76,6 +71,12 @@ Reliable progress requires reliable measurement. I have led or co-led benchmark 
   <div class="pub-title"><a href="https://arxiv.org/abs/2509.16543">ChemOrch: Empowering LLMs with Chemical Intelligence via Synthetic Instructions</a></div>
   <div class="pub-authors">Yue Huang, Zhengzhe Jiang, Xiaonan Luo, <strong>Kehan Guo</strong>, Haomin Zhuang, Yujun Zhou, Zhengqing Yuan, Xiaoqi Sun, Jules Schleinitz, Yanbo Wang, Shuhao Zhang, Mihir Surve, Nitesh V. Chawla, Olaf Wiest, Xiangliang Zhang</div>
   <div class="pub-venue"><em>NeurIPS</em>, 2025. <a href="https://arxiv.org/abs/2509.16543">[Paper]</a></div>
+</div>
+
+<div class="pub-entry">
+  <div class="pub-title"><a href="https://arxiv.org/abs/2509.23095">Causally-Enhanced Reinforcement Policy Optimization</a></div>
+  <div class="pub-authors">Xiangqi Wang, Yue Huang, Yujun Zhou, Xiaonan Luo, <strong>Kehan Guo</strong>, Xiangliang Zhang</div>
+  <div class="pub-venue"><em>arXiv preprint</em>, 2025. <a href="https://arxiv.org/abs/2509.23095">[Paper]</a></div>
 </div>
 
 <div class="pub-entry">
