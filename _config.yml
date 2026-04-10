@@ -25,7 +25,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Kehan Guo"
-  avatar           : "images/snow.jpg"
+  avatar           : "images/profile26.jpeg"
   avatar_hover     : "images/oreo.jpg"
   bio              : "Ph.D. Candidate, Notre Dame | RL Post-Training, Agentic Reasoning, Inference-Time Compute, Generative Models"
   location         : "South Bend, IN, USA"
