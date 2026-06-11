@@ -1,9 +1,0 @@
-current directory: /Users/kehanguo/Documents/Obsidian Vault/KehanGuo/vendor/bundle/ruby/3.1.0/gems/http_parser.rb-0.8.1/ext/ruby_http_parser
-/usr/local/opt/ruby@3.1/bin/ruby extconf.rb
-creating Makefile
-
-current directory: /Users/kehanguo/Documents/Obsidian Vault/KehanGuo/vendor/bundle/ruby/3.1.0/gems/http_parser.rb-0.8.1/ext/ruby_http_parser
-make DESTDIR\= sitearchdir\=./.gem.20260220-14843-a9s7mx sitelibdir\=./.gem.20260220-14843-a9s7mx clean
-current directory: /Users/kehanguo/Documents/Obsidian Vault/KehanGuo/vendor/bundle/ruby/3.1.0/gems/http_parser.rb-0.8.1/ext/ruby_http_parser
-make DESTDIR\= sitearchdir\=./.gem.20260220-14843-a9s7mx sitelibdir\=./.gem.20260220-14843-a9s7mx
-make failedNo such file or directory - make

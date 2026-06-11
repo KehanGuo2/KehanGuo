@@ -1,0 +1,242 @@
+:root {
+  --bg: #FCFCFA;
+  --text: #1A1A1A;
+  --secondary: #6B6B6B;
+  --accent: #1A5FB4;
+  --rule: #E4E2DA;
+  --serif: Charter, "Bitstream Charter", "Sitka Text", Cambria, Georgia, serif;
+}
+
+::selection {
+  background: #EAE4D3;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--serif);
+  font-size: 16px;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+main {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 52px 24px 96px;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+}
+
+/* Header */
+header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 36px;
+}
+
+h1 {
+  font-size: 2.1rem;
+  font-weight: 700;
+  margin: 0 0 4px;
+}
+
+.role {
+  margin: 0 0 10px;
+  color: var(--secondary);
+}
+
+.contact-links {
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+/* Portrait — hovering reveals Oreo */
+.portrait-wrap {
+  flex-shrink: 0;
+  text-align: center;
+}
+
+.portrait-box {
+  position: relative;
+  width: 124px;
+  height: 124px;
+}
+
+.portrait-box img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.portrait-box .me {
+  transition: opacity 0.3s ease;
+}
+
+.portrait-box:hover .me {
+  opacity: 0;
+}
+
+.portrait-hint {
+  margin: 6px 0 0;
+  font-size: 0.78rem;
+  color: var(--secondary);
+  font-style: italic;
+}
+
+/* Sections */
+section {
+  margin-bottom: 42px;
+}
+
+h2 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin: 0 0 14px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid var(--rule);
+}
+
+p {
+  margin: 0 0 14px;
+}
+
+section > p:last-child {
+  margin-bottom: 0;
+}
+
+/* News — fixed date column so wrapped lines stay aligned */
+.news-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.news-list li {
+  display: grid;
+  grid-template-columns: 82px 1fr;
+  column-gap: 14px;
+  margin-bottom: 9px;
+}
+
+.news-date {
+  color: var(--secondary);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+/* Publications */
+.pub-note {
+  color: var(--secondary);
+  font-size: 0.95rem;
+}
+
+.group-label {
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--secondary);
+  margin: 26px 0 12px;
+}
+
+.pub {
+  margin-bottom: 18px;
+}
+
+.pub-title {
+  font-weight: 700;
+}
+
+.pub-authors {
+  color: var(--secondary);
+  font-size: 0.92rem;
+}
+
+.pub-authors strong {
+  color: var(--text);
+  font-weight: 700;
+}
+
+.pub-venue {
+  font-size: 0.92rem;
+  color: var(--secondary);
+}
+
+.pub-venue strong {
+  color: var(--text);
+}
+
+/* Lists */
+.plain-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.plain-list li {
+  margin-bottom: 7px;
+}
+
+/* Placeholders — visible scaffolding to fill in, remove class when done */
+.placeholder {
+  background: #F6EDD4;
+  color: #6B5A1E;
+  border-radius: 3px;
+  padding: 0 4px;
+  font-size: 0.93em;
+}
+
+/* Footer */
+footer {
+  margin-top: 56px;
+  color: var(--secondary);
+  font-size: 0.9rem;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  body {
+    font-size: 15.5px;
+  }
+
+  main {
+    padding: 32px 18px 72px;
+  }
+
+  .portrait-wrap {
+    display: none;
+  }
+
+  .news-list li {
+    grid-template-columns: 1fr;
+    row-gap: 0;
+    margin-bottom: 12px;
+  }
+
+  .news-date {
+    font-size: 0.88rem;
+  }
+}
