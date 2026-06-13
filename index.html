@@ -51,7 +51,7 @@
 <section id="about">
   <p>I am a Ph.D. candidate in Computer Science at the <a href="https://www.nd.edu/">University of Notre Dame</a>, advised by <a href="https://sites.nd.edu/xiangliang-zhang/">Prof. Xiangliang Zhang</a>. I work on RL post-training for agentic systems, asking one question in two settings: when we optimize a model against a proxy — a reward model, a verifier, a frozen environment — where does the optimization pressure actually go?</p>
 
-  <p>On the generative side, Reward Transport (under review) shows that the noise–data coupling in flow matching is a free interface for property alignment. On the agentic side, I study how verifiers, tools, and corpora shape — and are exploited by — the policies trained against them. Scientific reasoning is my testbed: I created <a href="https://github.com/ChemFoundationModels/ChemLLMBench">ChemLLMBench</a> (NeurIPS 2023) and <a href="https://kehanguo2.github.io/Molpuzzle.io/">MolPuzzle</a> (NeurIPS 2024, Spotlight), both community standards.</p>
+  <p>On the generative side, <a href="https://github.com/KehanGuo2/reward-transport">Reward Transport</a> (under review) shows that the noise–data coupling in flow matching is a free interface for property alignment. On the agentic side, I study how verifiers, tools, and corpora shape — and are exploited by — the policies trained against them. Scientific reasoning is my testbed: I created <a href="https://github.com/ChemFoundationModels/ChemLLMBench">ChemLLMBench</a> (NeurIPS 2023) and <a href="https://kehanguo2.github.io/Molpuzzle.io/">MolPuzzle</a> (NeurIPS 2024, Spotlight), both community standards.</p>
 
   <p>I also collaborate broadly within my lab on RL optimization (<a href="https://arxiv.org/abs/2509.23095">CEPO</a>), adaptive inference-time reasoning (<a href="https://arxiv.org/abs/2505.17312">AdaReasoner</a>, NeurIPS 2025 Spotlight), and agent tooling (<a href="https://arxiv.org/abs/2509.16543">ChemOrch</a>, NeurIPS 2025).</p>
 
@@ -60,7 +60,7 @@
 
 <section id="research">
   <h2>Research</h2>
-  <p><strong>Reward and coupling as interfaces.</strong> Alignment signal can enter a training system through overlooked interfaces. Reward Transport repurposes the OT coupling in flow matching for zero-cost property control, and characterizes exactly when this interface exists (paper under review).</p>
+  <p><strong>Reward and coupling as interfaces.</strong> Alignment signal can enter a training system through overlooked interfaces. <a href="https://github.com/KehanGuo2/reward-transport">Reward Transport</a> repurposes the OT coupling in flow matching for zero-cost property control, and characterizes exactly when this interface exists (under review).</p>
   <p><strong>The environment side of agentic RL.</strong> Agentic RL replaces the reward function with a reward system — verifiers, tools, attribution schemes, a frozen world. I study which designs hold up under optimization pressure, where pressure relocates when one gap closes, and how policies trained on a frozen corpus decay as the live world drifts.</p>
   <p><strong>Scientific agents and rigorous evaluation.</strong> Benchmarks and live evaluation harnesses — <a href="https://github.com/ChemFoundationModels/ChemLLMBench">ChemLLMBench</a>, <a href="https://kehanguo2.github.io/Molpuzzle.io/">MolPuzzle</a>, and ChemElucid-Live (under review) — that measure how models acquire, verify, and act on information: the apparatus the first two threads run on. MolPuzzle's headline finding: GPT-4o scores 1.4% on expert structure-elucidation tasks.</p>
 </section>
@@ -70,6 +70,7 @@
   <ul class="news-list">
     <li><span class="news-date">2026.06</span><span>Started as a research intern at Apple, working on RL post-training for large language models.</span></li>
     <li><span class="news-date">2026.05</span><span>Tutorial accepted at KDD 2026: From VAEs to Diffusion and LLMs — Modern Generative Models for Molecular Discovery.</span></li>
+    <li><span class="news-date">2026.04</span><span>Research Scientist Intern at ByteDance (San Jose), Apr–Jun 2026.</span></li>
     <li><span class="news-date">2026.04</span><span>Two papers accepted at ICML 2026: <a href="https://openreview.net/forum?id=2rHDObXYYH">ProbeLLM</a> and <a href="https://openreview.net/forum?id=Rbeke9PVvD">Capability-Oriented Training Induced Alignment Risk</a>.</span></li>
     <li><span class="news-date">2026.04</span><span><a href="https://openreview.net/forum?id=txNi2nNLKG">PolicyLLM</a> accepted at ACL 2026 (Findings).</span></li>
     <li><span class="news-date">2026.03</span><span>Passed Ph.D. candidacy exam.</span></li>
@@ -83,9 +84,13 @@
 
 <section id="publications">
   <h2>Selected Publications</h2>
-  <p class="pub-note">* denotes equal contribution. Full list on <a href="https://scholar.google.com/citations?user=t8iRCLUAAAAJ&amp;hl=en">Google Scholar</a>.</p>
+  <p class="pub-note">A selection; <strong>*</strong> denotes equal contribution. Full list on <a href="https://scholar.google.com/citations?user=t8iRCLUAAAAJ&amp;hl=en">Google Scholar</a>.</p>
 
-  <p class="group-label">First-author and co-first-author</p>
+  <div class="pub">
+    <div class="pub-title"><a href="https://github.com/KehanGuo2/reward-transport">Reward Transport: Property Control in Flow Matching via Noise-Space Alignment</a></div>
+    <div class="pub-authors"><strong>Kehan Guo</strong>, Yili Shen, Yujun Zhou, Yue Huang, Chujie Gao, Shiyi Du, Xiangliang Zhang</div>
+    <div class="pub-venue"><em>Under review</em>, 2026. <a href="https://github.com/KehanGuo2/reward-transport">[Code]</a></div>
+  </div>
 
   <div class="pub">
     <div class="pub-title"><a href="https://kehanguo2.github.io/Molpuzzle.io/">Can LLMs Solve Molecule Puzzles? A Multimodal Benchmark for Molecular Structure Elucidation</a></div>
@@ -94,24 +99,10 @@
   </div>
 
   <div class="pub">
-    <div class="pub-title"><a href="https://github.com/ChemFoundationModels/ChemLLMBench">What can Large Language Models do in chemistry? A comprehensive benchmark on eight tasks</a></div>
-    <div class="pub-authors">Taicheng Guo*, <strong>Kehan Guo</strong>*, Bozhao Nan, Zhenwen Liang, Zhichun Guo, Nitesh V. Chawla, Olaf Wiest, Xiangliang Zhang</div>
-    <div class="pub-venue"><em>NeurIPS</em>, 2023. <a href="https://github.com/ChemFoundationModels/ChemLLMBench">[Paper]</a> <a href="https://github.com/ChemFoundationModels/ChemLLMBench">[Code]</a></div>
+    <div class="pub-title"><a href="https://arxiv.org/abs/2606.13174">Getting Better at Working With You: Compiling User Corrections into Runtime Enforcement for Coding Agents</a></div>
+    <div class="pub-authors">Yujun Zhou, <strong>Kehan Guo</strong>, Haomin Zhuang, Xiangqi Wang, Yue Huang, Zhenwen Liang, Pin-Yu Chen, Tian Gao, Nuno Moniz, Nitesh V. Chawla, Xiangliang Zhang</div>
+    <div class="pub-venue"><em>arXiv preprint</em>, 2026. <a href="https://arxiv.org/abs/2606.13174">[Paper]</a> <a href="https://github.com/YujunZhou/TRACE_exp">[Code]</a></div>
   </div>
-
-  <div class="pub">
-    <div class="pub-title"><a href="https://arxiv.org/abs/2512.15567">Evaluating Large Language Models in Scientific Discovery</a></div>
-    <div class="pub-authors">Zhangde Song*, Jieyu Lu*, Yuanqi Du, Botao Yu, Thomas M. Pruyn, Yue Huang, <strong>Kehan Guo</strong>*, and others</div>
-    <div class="pub-venue"><em>arXiv preprint</em>, 2025. <a href="https://arxiv.org/abs/2512.15567">[Paper]</a> <a href="https://github.com/deepprinciple/lm-evaluation-harness/tree/main">[Code]</a> <a href="https://huggingface.co/deep-principle/datasets">[Dataset]</a> <a href="https://github.com/HowieHwong/sde-harness">[Oracle]</a></div>
-  </div>
-
-  <div class="pub">
-    <div class="pub-title"><a href="https://arxiv.org/pdf/2502.09897">Artificial Intelligence in Spectroscopy: Advancing Chemistry from Prediction to Generation and Beyond</a></div>
-    <div class="pub-authors"><strong>Kehan Guo</strong>, Yifan Shen, Gil A. Gonzalez-Montiel, Yue Huang, Yujun Zhou, Mihir Surve, Zhichun Guo, ...</div>
-    <div class="pub-venue"><em>IJCAI</em>, 2025. Survey Track. <a href="https://arxiv.org/pdf/2502.09897">[Paper]</a> <a href="https://github.com/MINE-Lab-ND/SpectrumML_Survey_Papers">[Code]</a></div>
-  </div>
-
-  <p class="group-label">Collaborations</p>
 
   <div class="pub">
     <div class="pub-title"><a href="https://arxiv.org/abs/2505.17312">AdaReasoner: Adaptive Reasoning Enables More Flexible Thinking</a></div>
@@ -132,53 +123,24 @@
   </div>
 
   <div class="pub">
-    <div class="pub-title"><a href="https://arxiv.org/abs/2411.18797">SEUF: Is Unlearning One Expert Enough for Mixture-of-Experts LLMs?</a></div>
-    <div class="pub-authors">Haomin Zhuang, Yizhuo Zhang, <strong>Kehan Guo</strong>, Jinghan Jia, Gang Liu, Sijia Liu, Xiangliang Zhang</div>
-    <div class="pub-venue"><em>ACL</em>, 2025. <a href="https://arxiv.org/abs/2411.18797">[Paper]</a></div>
+    <div class="pub-title"><a href="https://github.com/ChemFoundationModels/ChemLLMBench">What can Large Language Models do in chemistry? A comprehensive benchmark on eight tasks</a></div>
+    <div class="pub-authors">Taicheng Guo*, <strong>Kehan Guo</strong>*, Bozhao Nan, Zhenwen Liang, Zhichun Guo, Nitesh V. Chawla, Olaf Wiest, Xiangliang Zhang</div>
+    <div class="pub-venue"><em>NeurIPS</em>, 2023. <a href="https://github.com/ChemFoundationModels/ChemLLMBench">[Paper]</a> <a href="https://github.com/ChemFoundationModels/ChemLLMBench">[Code]</a></div>
   </div>
 
   <div class="pub">
-    <div class="pub-title"><a href="https://arxiv.org/abs/2502.13996">Beyond Single-Value Metrics: Evaluating and Enhancing LLM Unlearning with Cognitive Diagnosis</a></div>
-    <div class="pub-authors">Yuang Lang, <strong>Kehan Guo</strong>, Yue Huang, Yujun Zhou, Haomin Zhuang, Tianyu Yang, Yuxuan Su, Xiangliang Zhang</div>
-    <div class="pub-venue"><em>ACL Findings</em>, 2025. <a href="https://arxiv.org/abs/2502.13996">[Paper]</a></div>
+    <div class="pub-title"><a href="https://arxiv.org/abs/2512.15567">Evaluating Large Language Models in Scientific Discovery</a></div>
+    <div class="pub-authors">Zhangde Song*, Jieyu Lu*, Yuanqi Du, Botao Yu, Thomas M. Pruyn, Yue Huang, <strong>Kehan Guo</strong>*, and others</div>
+    <div class="pub-venue"><em>arXiv preprint</em>, 2025. <a href="https://arxiv.org/abs/2512.15567">[Paper]</a> <a href="https://github.com/deepprinciple/lm-evaluation-harness/tree/main">[Code]</a> <a href="https://huggingface.co/deep-principle/datasets">[Dataset]</a> <a href="https://github.com/HowieHwong/sde-harness">[Oracle]</a></div>
   </div>
 
-  <div class="pub">
-    <div class="pub-title"><a href="https://www.nature.com/articles/s42004-024-01397-x">Unveiling the Power of Language Models in Chemical Research Question Answering</a></div>
-    <div class="pub-authors">Xiuying Chen, Tairan Wang, Taicheng Guo, <strong>Kehan Guo</strong>, Jingwei Zhou, Hualin Li, Ziqian Song, Xiang Gao, Xiangliang Zhang</div>
-    <div class="pub-venue"><em>Communications Chemistry</em>, 2025. <a href="https://www.nature.com/articles/s42004-024-01397-x">[Paper]</a> <a href="https://github.com/iriscxy/chemmatch">[Code]</a></div>
-  </div>
-
-  <div class="pub">
-    <div class="pub-title"><a href="https://arxiv.org/abs/2402.13148">Defending Jailbreak Prompts via In-Context Adversarial Game</a></div>
-    <div class="pub-authors">Yujun Zhou, Yufei Han, Haomin Zhuang, <strong>Kehan Guo</strong>, Zhenwen Liang, Hongyan Bao, Xiangliang Zhang</div>
-    <div class="pub-venue"><em>EMNLP</em>, 2024. <a href="https://arxiv.org/abs/2402.13148">[Paper]</a> <a href="https://github.com/YujunZhou/In-Context-Adversarial-Game">[Code]</a></div>
-  </div>
-
-  <div class="pub">
-    <div class="pub-title"><a href="https://scemqa.github.io/">SceMQA: A Scientific College Entrance Level Multimodal Question Answering Benchmark</a></div>
-    <div class="pub-authors">Zhenwen Liang, <strong>Kehan Guo</strong>, Gang Liu, Taicheng Guo, Yujun Zhou, Tianyu Yang, Jiajun Jiao, Renjie Pi, Jipeng Zhang, ...</div>
-    <div class="pub-venue"><em>ACL</em>, 2024. <a href="https://scemqa.github.io/">[Paper]</a> <a href="https://github.com/SceMQA/SceMQA">[Code]</a></div>
-  </div>
-
-  <div class="pub">
-    <div class="pub-title"><a href="https://ojs.aaai.org/index.php/AAAI/article/view/28668">Uncertainty-Aware Yield Prediction with Multimodal Molecular Features</a></div>
-    <div class="pub-authors">Jiayuan Chen, <strong>Kehan Guo</strong>, Zhen Liu, Olexandr Isayev, Xiangliang Zhang</div>
-    <div class="pub-venue"><em>AAAI</em>, 2024. <a href="https://ojs.aaai.org/index.php/AAAI/article/view/28668">[Paper]</a> <a href="https://github.com/jychen229/Multimodal-reaction-yield-prediction">[Code]</a></div>
-  </div>
-
-  <div class="pub">
-    <div class="pub-title"><a href="https://arxiv.org/abs/2207.04869">Graph-based Molecular Representation Learning</a></div>
-    <div class="pub-authors">Zhichun Guo, <strong>Kehan Guo</strong>, Bozhao Nan, Yijun Tian, Roshni G. Iyer, Yihong Ma, Olaf Wiest, Xiangliang Zhang, Wei Wang, ...</div>
-    <div class="pub-venue"><em>IJCAI</em>, 2023. <a href="https://arxiv.org/abs/2207.04869">[Paper]</a></div>
-  </div>
 </section>
 
 <section id="experience">
   <h2>Experience</h2>
   <ul class="plain-list">
     <li>Apple — Research Intern, Summer 2026, Cupertino</li>
-    <li>ByteDance (Business Integrity) — Research Scientist Intern, Spring 2026, San Jose</li>
+    <li>ByteDance — Research Scientist Intern, Spring 2026, San Jose</li>
     <li>Amazon AWS AI (Deep Engine) — Applied Scientist Intern, Summer 2025, New York</li>
     <li>University of Notre Dame — Graduate Research Assistant, 2022–present</li>
   </ul>
@@ -212,7 +174,7 @@
 </section>
 
 <footer>
-  <p>© 2026 Kehan Guo · Hand-built: one HTML file, one stylesheet, no trackers.</p>
+  <p>Kehan Guo · <a href="mailto:kguo2@nd.edu">kguo2@nd.edu</a> · Last updated June 2026</p>
 </footer>
 
 </main>
