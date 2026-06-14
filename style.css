@@ -43,6 +43,25 @@ a:hover {
   text-decoration-thickness: 1px;
 }
 
+/* Affiliation brand marks (monochrome, mask-recolored) */
+.brand {
+  display: inline-block;
+  width: 0.95em;
+  height: 0.95em;
+  vertical-align: -0.12em;
+  margin-right: 0.18em;
+  background-color: var(--text);
+  -webkit-mask-position: center;
+  mask-position: center;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+.brand-apple { -webkit-mask-image: url(images/logos/apple.svg); mask-image: url(images/logos/apple.svg); }
+.brand-amazon { -webkit-mask-image: url(images/logos/amazon.svg); mask-image: url(images/logos/amazon.svg); }
+.brand-bytedance { -webkit-mask-image: url(images/logos/bytedance.svg); mask-image: url(images/logos/bytedance.svg); }
+
 /* Header */
 header {
   display: flex;
