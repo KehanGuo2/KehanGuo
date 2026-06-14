@@ -43,14 +43,13 @@ a:hover {
   text-decoration-thickness: 1px;
 }
 
-/* Affiliation brand marks (monochrome, mask-recolored) */
+/* Affiliation brand marks — brand colors for instant recognition */
 .brand {
   display: inline-block;
   width: 0.95em;
   height: 0.95em;
   vertical-align: -0.12em;
   margin-right: 0.18em;
-  background-color: var(--text);
   -webkit-mask-position: center;
   mask-position: center;
   -webkit-mask-size: contain;
@@ -58,9 +57,10 @@ a:hover {
   -webkit-mask-repeat: no-repeat;
   mask-repeat: no-repeat;
 }
-.brand-apple { -webkit-mask-image: url(images/logos/apple.svg); mask-image: url(images/logos/apple.svg); }
-.brand-amazon { -webkit-mask-image: url(images/logos/amazon.svg); mask-image: url(images/logos/amazon.svg); }
-.brand-bytedance { -webkit-mask-image: url(images/logos/bytedance.svg); mask-image: url(images/logos/bytedance.svg); }
+.brand-apple { background-color: #000000; -webkit-mask-image: url(images/logos/apple.svg); mask-image: url(images/logos/apple.svg); }
+.brand-amazon { background-color: #FF9900; -webkit-mask-image: url(images/logos/amazon.svg); mask-image: url(images/logos/amazon.svg); }
+.brand-bytedance { background-color: #3C8CFF; -webkit-mask-image: url(images/logos/bytedance.svg); mask-image: url(images/logos/bytedance.svg); }
+.brand-img { height: 0.98em; width: auto; vertical-align: -0.15em; margin-right: 0.16em; }
 
 /* Header */
 header {
