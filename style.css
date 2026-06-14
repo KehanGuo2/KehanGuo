@@ -226,7 +226,24 @@ footer p {
     padding: 32px 18px 72px;
   }
 
-  .portrait-wrap {
+  /* Show the photo on mobile; hover doesn't fire on touch, so the
+     profile image stays on top and the Oreo hint is hidden. */
+  header {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    gap: 18px;
+  }
+
+  .portrait-box {
+    width: 96px;
+    height: 96px;
+  }
+
+  .portrait-box:hover .me {
+    opacity: 1;
+  }
+
+  .portrait-hint {
     display: none;
   }
 
