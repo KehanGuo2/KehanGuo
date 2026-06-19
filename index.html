@@ -3,26 +3,26 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Kehan Guo</title>
-<meta name="description" content="Kehan Guo, Ph.D. candidate in computer science at the University of Notre Dame, working on reinforcement learning post-training, agentic systems, and scientific reasoning.">
-<meta name="keywords" content="Kehan Guo, reinforcement learning, RL post-training, agentic systems, LLM agents, scientific reasoning, flow matching, LLM evaluation">
+<title>Kehan Guo | LLM Post-Training, Agents, and Verifiable Evaluation</title>
+<meta name="description" content="Kehan Guo, Ph.D. candidate at the University of Notre Dame, working on RL post-training, reward and verifier design for reliable LLM agents, and verifiable evaluation through scientific reasoning.">
+<meta name="keywords" content="Kehan Guo, RL post-training, reward design, verifier design, LLM agents, tool use, LLM evaluation, scientific reasoning, chemistry, flow matching">
 <meta name="author" content="Kehan Guo">
 <link rel="canonical" href="https://kehanguo2.github.io/KehanGuo/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Kehan Guo">
-<meta property="og:title" content="Kehan Guo">
-<meta property="og:description" content="Ph.D. candidate in computer science at the University of Notre Dame, working on reinforcement learning post-training, agentic systems, and scientific reasoning.">
+<meta property="og:title" content="Kehan Guo | LLM Post-Training, Agents, and Verifiable Evaluation">
+<meta property="og:description" content="Ph.D. candidate working on RL post-training, reward and verifier design for reliable LLM agents, and verifiable evaluation through scientific reasoning.">
 <meta property="og:url" content="https://kehanguo2.github.io/KehanGuo/">
 <meta property="og:image" content="https://kehanguo2.github.io/KehanGuo/images/profile26.jpeg">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Kehan Guo">
-<meta name="twitter:description" content="Ph.D. candidate in computer science at the University of Notre Dame, working on reinforcement learning post-training, agentic systems, and scientific reasoning.">
+<meta name="twitter:title" content="Kehan Guo | LLM Post-Training, Agents, and Verifiable Evaluation">
+<meta name="twitter:description" content="Ph.D. candidate working on RL post-training, reward and verifier design for reliable LLM agents, and verifiable evaluation through scientific reasoning.">
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
 <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
 <link rel="icon" href="favicon.ico" sizes="any">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
-<link rel="stylesheet" href="style.css?v=20260614b">
+<link rel="stylesheet" href="style.css?v=20260619a">
 </head>
 <body>
 <main>
@@ -30,7 +30,7 @@
 <header>
   <div class="header-text">
     <h1>Kehan Guo</h1>
-    <p class="role">Ph.D. candidate, University of Notre Dame</p>
+    <p class="role">LLM Post-Training, Agents, and Verifiable Evaluation</p>
     <p class="contact-links">
       <a href="mailto:kguo2@nd.edu">Email</a> ·
       <a href="https://scholar.google.com/citations?user=t8iRCLUAAAAJ&amp;hl=en">Google Scholar</a> ·
@@ -50,32 +50,44 @@
 </header>
 
 <section id="about">
-  <p>I am a Ph.D. candidate in Computer Science at the <img class="brand-img" src="images/Notre_Dame.png" alt="" aria-hidden="true"><a href="https://www.nd.edu/">University of Notre Dame</a>, advised by <a href="https://sites.nd.edu/xiangliang-zhang/">Prof. Xiangliang Zhang</a>. This summer I am a research intern at <span class="brand brand-apple" aria-hidden="true"></span>Apple, working on reinforcement-learning post-training for large language models; previously I conducted research at <span class="brand brand-amazon" aria-hidden="true"></span>Amazon AWS AI and <span class="brand brand-bytedance" aria-hidden="true"></span>ByteDance.</p>
+  <p>I am a Ph.D. candidate in Computer Science at the <img class="brand-img" src="images/Notre_Dame.png" alt="" aria-hidden="true"><a href="https://www.nd.edu/">University of Notre Dame</a>, advised by <a href="https://sites.nd.edu/xiangliang-zhang/">Prof. Xiangliang Zhang</a>. I am currently a research intern at <span class="brand brand-apple" aria-hidden="true"></span>Apple, working on reinforcement-learning post-training for large language models, following research internships at <span class="brand brand-amazon" aria-hidden="true"></span>Amazon AWS AI and <span class="brand brand-bytedance" aria-hidden="true"></span>ByteDance.</p>
 
-  <p>I build <strong>reliable LLM agents</strong>, and design the rewards that train them. One question drives the work: when we optimize a model against a proxy (a reward model, a verifier, or a frozen environment), where does the optimization pressure actually go? I pursue it on three fronts. <strong>Reward-aligned generation</strong>, where the noise-data coupling in flow matching is a free interface for property control. <strong>Agentic systems</strong> grounded in real evidence, and the verifiers, tools, and corpora that shape what they can and can't do. And <strong>rigorous evaluation</strong>, using scientific reasoning, chemistry especially, as a testbed where ground truth is verifiable and failure is unforgiving.</p>
+  <p>I build <strong>reliable LLM agents</strong> and design the feedback that trains and evaluates them. My research asks what models actually learn when optimized against imperfect proxies: do they acquire the intended capability, exploit the evaluator, or overfit the environment? I work on <strong>reward and verifier design</strong> for post-training, <strong>tool-using agents grounded in external evidence</strong>, and <strong>evaluations that expose failures</strong> under real constraints. Scientific reasoning, chemistry especially, is a central testbed because the evidence is concrete and the outcomes are checkable.</p>
+
+  <p>More broadly, I study interfaces for steering generative models, including how noise-data coupling in flow matching can encode property control without an inference-time reward model.</p>
 </section>
 
-<section id="news">
-  <h2>News</h2>
-  <ul class="news-list">
-    <li><span class="news-date">2026.06</span><span>Started as a research intern at Apple, working on RL post-training for large language models.</span></li>
-    <li><span class="news-date">2026.05</span><span>Co-organizing the <a href="https://kdd26-relscifm.github.io/">Workshop on Reliable Scientific Foundation Models (RelSciFM)</a> at KDD 2026.</span></li>
-    <li><span class="news-date">2026.05</span><span>Tutorial accepted at KDD 2026: From VAEs to Diffusion and LLMs, Modern Generative Models for Molecular Discovery.</span></li>
-    <li><span class="news-date">2026.04</span><span>Research Scientist Intern at ByteDance (San Jose), Apr–Jun 2026.</span></li>
-    <li><span class="news-date">2026.04</span><span>Two papers accepted at ICML 2026: <a href="https://openreview.net/forum?id=2rHDObXYYH">ProbeLLM</a> and <a href="https://openreview.net/forum?id=Rbeke9PVvD">Capability-Oriented Training Induced Alignment Risk</a>.</span></li>
-    <li><span class="news-date">2026.04</span><span><a href="https://openreview.net/forum?id=txNi2nNLKG">PolicyLLM</a> accepted at ACL 2026 (Findings).</span></li>
-    <li><span class="news-date">2026.03</span><span>Passed Ph.D. candidacy exam.</span></li>
-    <li><span class="news-date">2026.01</span><span>TrustGen accepted at ICLR 2026.</span></li>
-    <li><span class="news-date">2025.12</span><span>New preprint (main contributor): <a href="https://arxiv.org/abs/2512.15567">Evaluating Large Language Models in Scientific Discovery</a>.</span></li>
-    <li><span class="news-date">2025.09</span><span>Two papers at NeurIPS 2025: <a href="https://arxiv.org/abs/2505.17312">AdaReasoner</a> (Spotlight) and <a href="https://arxiv.org/abs/2509.16543">ChemOrch</a>.</span></li>
-    <li><span class="news-date">2025.08</span><span>Completed Applied Scientist internship, Amazon AWS AI, NYC.</span></li>
-    <li><span class="news-date">2024.09</span><span><a href="https://kehanguo2.github.io/Molpuzzle.io/">MolPuzzle</a> accepted at NeurIPS 2024 D&amp;B (Spotlight).</span></li>
-  </ul>
+<section id="featured">
+  <h2>Featured Work</h2>
+  <p class="pub-note">Three projects along one arc: steering models &rarr; constraining agents &rarr; measuring real capability.</p>
+
+  <div class="feat">
+    <span class="feat-tag">Steering models</span>
+    <div class="feat-title"><a href="https://github.com/KehanGuo2/reward-transport">Reward Transport</a></div>
+    <div class="feat-desc">Uses noise-data coupling as a control interface in flow matching, enabling molecular-property steering without an inference-time oracle, reward model, gradient, or additional forward pass.</div>
+    <div class="feat-meta"><strong>Kehan Guo</strong> et al. &middot; Under review, 2026 &middot; <a href="https://github.com/KehanGuo2/reward-transport">[Code]</a></div>
+  </div>
+
+  <div class="feat">
+    <span class="feat-tag">Constraining agents</span>
+    <div class="feat-title"><a href="https://arxiv.org/abs/2606.13174">TRACE</a></div>
+    <div class="feat-desc">Compiles natural-language user corrections into runtime checks for coding agents, cutting out-of-distribution preference violations on ClawArena from 100% to 2%.</div>
+    <div class="feat-meta">Yujun Zhou, <strong>Kehan Guo</strong> et al. &middot; arXiv, 2026 &middot; <a href="https://arxiv.org/abs/2606.13174">[Paper]</a> <a href="https://github.com/YujunZhou/TRACE_exp">[Code]</a></div>
+  </div>
+
+  <div class="feat">
+    <span class="feat-tag">Measuring real capability</span>
+    <div class="feat-title"><a href="https://kehanguo2.github.io/Molpuzzle.io/">MolPuzzle</a></div>
+    <div class="feat-desc">A multimodal benchmark for molecular structure elucidation that exposes a large gap between language models and human experts on verifiable scientific reasoning (1.4% best-model vs. 66.7% human exact-match).</div>
+    <div class="feat-meta"><strong>Kehan Guo</strong> et al. &middot; NeurIPS 2024 &middot; Spotlight &middot; <a href="https://kehanguo2.github.io/Molpuzzle.io/">[Paper]</a> <a href="https://github.com/KehanGuo2/MolPuzzle">[Code]</a></div>
+  </div>
 </section>
 
 <section id="publications">
   <h2>Selected Publications</h2>
   <p class="pub-note">A selection; <strong>*</strong> denotes equal contribution. Full list on <a href="https://scholar.google.com/citations?user=t8iRCLUAAAAJ&amp;hl=en">Google Scholar</a>.</p>
+
+  <div class="group-label">Lead &amp; Co-First Author</div>
 
   <div class="pub">
     <div class="pub-title"><a href="https://github.com/KehanGuo2/reward-transport">Reward Transport: Property Control in Flow Matching via Noise-Space Alignment</a></div>
@@ -88,6 +100,26 @@
     <div class="pub-authors"><strong>Kehan Guo</strong>, Bozhao Nan, Yujun Zhou, Taicheng Guo, Zhichun Guo, Mihir Surve, Zhenwen Liang, Nitesh V. Chawla, Olaf Wiest, Xiangliang Zhang</div>
     <div class="pub-venue"><em>NeurIPS</em>, 2024. <strong>Spotlight.</strong> <a href="https://kehanguo2.github.io/Molpuzzle.io/">[Paper]</a> <a href="https://github.com/KehanGuo2/MolPuzzle">[Code]</a></div>
   </div>
+
+  <div class="pub">
+    <div class="pub-title"><a href="https://github.com/ChemFoundationModels/ChemLLMBench">What Can Large Language Models Do in Chemistry? A Comprehensive Benchmark on Eight Tasks</a></div>
+    <div class="pub-authors">Taicheng Guo*, <strong>Kehan Guo</strong>*, Bozhao Nan, Zhenwen Liang, Zhichun Guo, Nitesh V. Chawla, Olaf Wiest, Xiangliang Zhang</div>
+    <div class="pub-venue"><em>NeurIPS</em>, 2023. <a href="https://github.com/ChemFoundationModels/ChemLLMBench">[Paper]</a> <a href="https://github.com/ChemFoundationModels/ChemLLMBench">[Code]</a></div>
+  </div>
+
+  <div class="pub">
+    <div class="pub-title">ChemElucid-Live: Live Evaluation of Tool-Using Scientific Agents</div>
+    <div class="pub-authors"><strong>Kehan Guo</strong>, et al.</div>
+    <div class="pub-venue"><em>Under review</em>, 2026.</div>
+  </div>
+
+  <div class="pub">
+    <div class="pub-title"><a href="https://arxiv.org/abs/2512.15567">Evaluating Large Language Models in Scientific Discovery</a></div>
+    <div class="pub-authors">Zhangde Song*, Jieyu Lu*, Yuanqi Du, Botao Yu, Thomas M. Pruyn, Yue Huang, <strong>Kehan Guo</strong>*, and others</div>
+    <div class="pub-venue"><em>arXiv preprint</em>, 2025. <a href="https://arxiv.org/abs/2512.15567">[Paper]</a> <a href="https://github.com/deepprinciple/lm-evaluation-harness/tree/main">[Code]</a> <a href="https://huggingface.co/deep-principle/datasets">[Dataset]</a> <a href="https://github.com/HowieHwong/sde-harness">[Oracle]</a></div>
+  </div>
+
+  <div class="group-label">Selected Collaborations</div>
 
   <div class="pub">
     <div class="pub-title"><a href="https://arxiv.org/abs/2606.13174">Getting Better at Working With You: Compiling User Corrections into Runtime Enforcement for Coding Agents</a></div>
@@ -113,27 +145,49 @@
     <div class="pub-venue"><em>arXiv preprint</em>, 2025. <a href="https://arxiv.org/abs/2509.23095">[Paper]</a> <a href="https://github.com/XiangqiWang77/causalrl">[Code]</a></div>
   </div>
 
-  <div class="pub">
-    <div class="pub-title"><a href="https://github.com/ChemFoundationModels/ChemLLMBench">What can Large Language Models do in chemistry? A comprehensive benchmark on eight tasks</a></div>
-    <div class="pub-authors">Taicheng Guo*, <strong>Kehan Guo</strong>*, Bozhao Nan, Zhenwen Liang, Zhichun Guo, Nitesh V. Chawla, Olaf Wiest, Xiangliang Zhang</div>
-    <div class="pub-venue"><em>NeurIPS</em>, 2023. <a href="https://github.com/ChemFoundationModels/ChemLLMBench">[Paper]</a> <a href="https://github.com/ChemFoundationModels/ChemLLMBench">[Code]</a></div>
-  </div>
+</section>
 
-  <div class="pub">
-    <div class="pub-title"><a href="https://arxiv.org/abs/2512.15567">Evaluating Large Language Models in Scientific Discovery</a></div>
-    <div class="pub-authors">Zhangde Song*, Jieyu Lu*, Yuanqi Du, Botao Yu, Thomas M. Pruyn, Yue Huang, <strong>Kehan Guo</strong>*, and others</div>
-    <div class="pub-venue"><em>arXiv preprint</em>, 2025. <a href="https://arxiv.org/abs/2512.15567">[Paper]</a> <a href="https://github.com/deepprinciple/lm-evaluation-harness/tree/main">[Code]</a> <a href="https://huggingface.co/deep-principle/datasets">[Dataset]</a> <a href="https://github.com/HowieHwong/sde-harness">[Oracle]</a></div>
-  </div>
-
+<section id="news">
+  <h2>News</h2>
+  <ul class="news-list">
+    <li><span class="news-date">2026.06</span><span>Started as a research intern at Apple, working on RL post-training for large language models.</span></li>
+    <li><span class="news-date">2026.05</span><span>At KDD 2026: co-organizing the <a href="https://kdd26-relscifm.github.io/">Workshop on Reliable Scientific Foundation Models (RelSciFM)</a> and presenting a tutorial on modern generative models for molecular discovery.</span></li>
+    <li><span class="news-date">2025.12</span><span>New preprint (main contributor): <a href="https://arxiv.org/abs/2512.15567">Evaluating Large Language Models in Scientific Discovery</a>.</span></li>
+    <li><span class="news-date">2025.09</span><span>Two papers at NeurIPS 2025: <a href="https://arxiv.org/abs/2505.17312">AdaReasoner</a> (Spotlight) and <a href="https://arxiv.org/abs/2509.16543">ChemOrch</a>.</span></li>
+    <li><span class="news-date">2024.09</span><span><a href="https://kehanguo2.github.io/Molpuzzle.io/">MolPuzzle</a> accepted at NeurIPS 2024 D&amp;B (Spotlight).</span></li>
+  </ul>
+  <details class="more-news">
+    <summary>More news</summary>
+    <ul class="news-list">
+      <li><span class="news-date">2026.04</span><span>Two papers accepted at ICML 2026: <a href="https://openreview.net/forum?id=2rHDObXYYH">ProbeLLM</a> and <a href="https://openreview.net/forum?id=Rbeke9PVvD">Capability-Oriented Training Induced Alignment Risk</a>.</span></li>
+      <li><span class="news-date">2026.04</span><span>Research Scientist Intern at ByteDance (San Jose), Apr–Jun 2026.</span></li>
+      <li><span class="news-date">2026.04</span><span><a href="https://openreview.net/forum?id=txNi2nNLKG">PolicyLLM</a> accepted at ACL 2026 (Findings).</span></li>
+      <li><span class="news-date">2026.03</span><span>Passed Ph.D. candidacy exam.</span></li>
+      <li><span class="news-date">2026.01</span><span>TrustGen accepted at ICLR 2026.</span></li>
+      <li><span class="news-date">2025.08</span><span>Completed Applied Scientist internship, Amazon AWS AI, NYC.</span></li>
+    </ul>
+  </details>
 </section>
 
 <section id="experience">
   <h2>Experience</h2>
-  <ul class="plain-list">
-    <li>Apple, Research Intern (Summer 2026, Cupertino)</li>
-    <li>ByteDance, Research Scientist Intern (Spring 2026, San Jose)</li>
-    <li>Amazon AWS AI, Applied Scientist Intern (Summer 2025, New York)</li>
-    <li>University of Notre Dame, Graduate Research Assistant (2022–present)</li>
+  <ul class="exp-list">
+    <li>
+      <div class="exp-head"><span class="exp-org"><span class="brand brand-apple" aria-hidden="true"></span><strong>Apple</strong>, Research Intern</span><span class="exp-meta">Summer 2026 · Cupertino</span></div>
+      <div class="exp-desc">RL post-training for large language models, with a focus on reward design and verifiable evaluation.</div>
+    </li>
+    <li>
+      <div class="exp-head"><span class="exp-org"><span class="brand brand-bytedance" aria-hidden="true"></span><strong>ByteDance</strong>, Research Scientist Intern</span><span class="exp-meta">Spring 2026 · San Jose</span></div>
+      <div class="exp-desc">Tool-using LLM agents and feedback-driven skill evolution for complex information-seeking tasks.</div>
+    </li>
+    <li>
+      <div class="exp-head"><span class="exp-org"><span class="brand brand-amazon" aria-hidden="true"></span><strong>Amazon AWS AI</strong>, Applied Scientist Intern</span><span class="exp-meta">Summer 2025 · New York</span></div>
+      <div class="exp-desc">Reward shaping and reinforcement-learning post-training for long-horizon reasoning.</div>
+    </li>
+    <li>
+      <div class="exp-head"><span class="exp-org"><img class="brand-img" src="images/Notre_Dame.png" alt="" aria-hidden="true"><strong>University of Notre Dame</strong>, Graduate Research Assistant</span><span class="exp-meta">2022–present</span></div>
+      <div class="exp-desc">Reward and verifier design, evidence-grounded agents, and verifiable scientific reasoning in chemistry.</div>
+    </li>
   </ul>
 </section>
 
